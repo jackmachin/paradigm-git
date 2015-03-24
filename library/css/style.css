@@ -1374,6 +1374,20 @@ FOOTER STYLES
 .page-id-242 h2, .page-id-242 h3, .page-id-242 h4, .category-ingenious h2, .category-ingenious h3, .category-ingenious h4, .category-target-ingenious h2, .category-target-ingenious h3, .category-target-ingenious h4, .tag-ingenious h2, .tag-ingenious h3, .tag-ingenious h4 {
   color: #004F71; }
 
+/* Intelliflo
+-------------------------------------------------------------- */
+.page-id-18313 a, .page-id-18313 a:visited, .tag-intelliflo a, .tag-intelliflo a:visited {
+  color: #004F71; }
+  .page-id-18313 a:hover, .page-id-18313 a:focus, .page-id-18313 a:visited:hover, .page-id-18313 a:visited:focus, .tag-intelliflo a:hover, .tag-intelliflo a:focus, .tag-intelliflo a:visited:hover, .tag-intelliflo a:visited:focus {
+    color: #002f43; }
+.page-id-18313 h1, .tag-intelliflo h1 {
+  text-align: center;
+  background-color: #004F71;
+  color: #fff;
+  border-radius: 1em; }
+.page-id-18313 h2, .page-id-18313 h3, .page-id-18313 h4, .tag-intelliflo h2, .tag-intelliflo h3, .tag-intelliflo h4 {
+  color: #004F71; }
+
 /* J.P. Morgan
 -------------------------------------------------------------- */
 .page-id-243 a, .page-id-243 a:visited, .category-j-p-morgan a, .category-j-p-morgan a:visited, .tag-jp-morgan a, .tag-jp-morgan a:visited {
