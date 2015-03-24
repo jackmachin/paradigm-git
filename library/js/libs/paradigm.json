@@ -1,0 +1,66 @@
+{
+ "name": "flare",
+ "children": [
+  {
+   "name": "Partners LLP",
+   "children": [
+    {
+     "name": "Partners",
+     "children": [
+      {"name": "Paul Hogarth", "size": 5 , "ext": "x204"},
+      {"name": "Anthony Morrow", "size": 4 , "ext": "x209"},
+      {"name": "Noel Stubley", "size": 4 , "ext": "x205"}
+     ]
+    },
+    {
+     "name": "Amin",
+     "children": [
+      {"name": "Claire MacNeill", "size": 3 , "ext": "x201"},
+      {"name": "Emma Ryan", "size": 3 , "ext": "x206"},
+      {"name": "Katie Cummins", "size": 3 , "ext": "x236"},
+      {"name": "Reception", "size": 1 , "ext": "x208"}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "LLP Compliance/Helpdesk",
+   "children": [
+      {"name": "David Ryder", "size": 4 , "ext": "x202"},
+      {"name": "Jen Wood", "size": 3 , "ext": "x212"},
+      {"name": "Matthew Blackburn", "size": 3 , "ext": "x209"},
+      {"name": "Paula Turner", "size": 3 , "ext": "x229"},
+      {"name": "Stuart Shelton", "size": 3 , "ext": "x257"}
+   ]
+  },
+  {
+   "name": "Accounts",
+   "children": [
+      {"name": "Chris Romain", "size": 3 , "ext": "x237"},
+      {"name": "Chris Hall", "size": 3 , "ext": "x227"},
+      {"name": "Chloe Davies", "size": 3 , "ext": "x218"}
+   ]
+  },
+  {
+   "name": "IT",
+   "children": [
+      {"name": "Robin Tomlinson", "size": 3 , "ext": "x214"},
+      {"name": "Jack Machin", "size": 2 , "ext": "x220"}
+   ]
+  },
+  {
+   "name": "Wrap Team",
+   "children": [
+      {"name": "Paul Hughes", "size": 4 , "ext": "x207"},
+      {"name": "Clare Beswick", "size": 3 , "ext": "x270"},
+      {"name": "Ryan Seaton", "size": 3 , "ext": "x216"}
+   ]
+  },
+  {
+   "name": "Marketing",
+   "children": [
+      {"name": "Heather Myers", "size": 3 , "ext": "x219"}
+   ]
+  }
+ ]
+}

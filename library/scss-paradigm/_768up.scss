@@ -1,0 +1,327 @@
+/******************************************************************
+Site Name: Paradigm
+Author: Jack Machin
+
+Stylesheet: Tablet & Small Desktop Stylesheet
+
+Here's where you can start getting into the good stuff.
+This size will work on iPads, other tablets, and desktops.
+So you can start working with more styles, background images,
+and other resources. You'll also notice the grid starts to
+come into play. Have fun!
+
+******************************************************************/
+
+
+/*********************
+GENERAL STYLES
+*********************/
+
+body {}
+
+/*.page-template-page-technical-php, .page-template-page-target-php, .archive.category-regulatory-updates, .archive.category-compliance-updates, .archive.category-file-review-updates, .archive.category-technical-updates {background:url('/wordpress/wp-content/themes/paradigm/library/images/bg-technical.jpg') center top no-repeat, url(/wordpress/wp-content/themes/paradigm/library/images/main_bg.jpg) left top repeat-x;}*/
+.page-template-page-mortgages-php {background:url('/wordpress/wp-content/themes/paradigm/library/images/bg-mortgage.jpg') center top no-repeat, url(/wordpress/wp-content/themes/paradigm/library/images/main_bg.jpg) left top repeat-x;}
+.page-template-page-savings-php {background:url('/wordpress/wp-content/themes/paradigm/library/images/bg-savings.jpg') center top no-repeat, url(/wordpress/wp-content/themes/paradigm/library/images/main_bg.jpg) left top repeat-x;}
+.page-id-99 {background:url('/wordpress/wp-content/themes/paradigm/library/images/bg-compliance.jpg') center top no-repeat, url(/wordpress/wp-content/themes/paradigm/library/images/main_bg.jpg) left top repeat-x;}
+.page-id-49, .parent-pageid-49 {background:url('/wordpress/wp-content/themes/paradigm/library/images/bg-academy.jpg') center top no-repeat, url(/wordpress/wp-content/themes/paradigm/library/images/main_bg.jpg) left top repeat-x;}
+.page-id-90 {background:url('/wordpress/wp-content/themes/paradigm/library/images/bg-safeguard.jpg') center top no-repeat, url(/wordpress/wp-content/themes/paradigm/library/images/main_bg.jpg) left top repeat-x;}
+.page-id-92 {background:url('/wordpress/wp-content/themes/paradigm/library/images/bg-develop.jpg') center top no-repeat, url(/wordpress/wp-content/themes/paradigm/library/images/main_bg.jpg) left top repeat-x;}
+.page-id-117 {background:url('/wordpress/wp-content/themes/paradigm/library/images/bg-research.jpg') center top no-repeat, url(/wordpress/wp-content/themes/paradigm/library/images/main_bg.jpg) left top repeat-x;}
+.page-id-132 {background:url('/wordpress/wp-content/themes/paradigm/library/images/bg-pi.jpg') center top no-repeat, url(/wordpress/wp-content/themes/paradigm/library/images/main_bg.jpg) left top repeat-x;}
+.page-id-134 {background:url('/wordpress/wp-content/themes/paradigm/library/images/bg-hr.jpg') center top no-repeat, url(/wordpress/wp-content/themes/paradigm/library/images/main_bg.jpg) left top repeat-x;}
+.page-id-138, .parent-pageid-138 {background:url('/wordpress/wp-content/themes/paradigm/library/images/bg-ind.jpg') center top no-repeat, url(/wordpress/wp-content/themes/paradigm/library/images/main_bg.jpg) left top repeat-x;}
+.page-id-140, .parent-pageid-140 {background:url('/wordpress/wp-content/themes/paradigm/library/images/bg-con.jpg') center top no-repeat, url(/wordpress/wp-content/themes/paradigm/library/images/main_bg.jpg) left top repeat-x;}
+.page-id-142 {background:url('/wordpress/wp-content/themes/paradigm/library/images/bg-jfb.jpg') center top no-repeat, url(/wordpress/wp-content/themes/paradigm/library/images/main_bg.jpg) left top repeat-x;}
+.page-id-144, .parent-pageid-144 {background:url('/wordpress/wp-content/themes/paradigm/library/images/bg-platform.jpg') center top no-repeat, url(/wordpress/wp-content/themes/paradigm/library/images/main_bg.jpg) left top repeat-x;}
+.page-id-146 {background:url('/wordpress/wp-content/themes/paradigm/library/images/bg-back.jpg') center top no-repeat, url(/wordpress/wp-content/themes/paradigm/library/images/main_bg.jpg) left top repeat-x;}
+.page-template-page-learning-php, .tax-custom_cat , .single-learning {background:url('/wordpress/wp-content/themes/paradigm/library/images/bg-learning.jpg') center top no-repeat, url(/wordpress/wp-content/themes/paradigm/library/images/main_bg.jpg) left top repeat-x;}
+
+/*********************
+LAYOUT & GRID STYLES
+*********************/
+
+.wrap {
+	max-width: 1140px;
+}
+
+/*********************
+HEADER STYLES
+*********************/
+
+.header {}
+
+	.logo {img {width:418px}}
+
+#inner-header h2 {text-align:left;}
+
+/*********************
+NAVIGATION STYLES
+*********************/
+
+.nav {
+	margin-bottom: 30px;
+	width:150px;
+	margin-top: 78px;
+
+	li {
+		float: left;
+		position: relative;
+		margin-bottom: 5px;
+
+		a {
+			font-size: 14px;
+			line-height:14px;
+			font-weight: normal;
+			color: $paradigm-red;
+			width: 150px;
+			display:block;
+
+			/*
+			you can use hover styles here even though this size
+			has the possibility of being a mobile device.
+			*/
+			&:hover, &:focus {
+
+			}
+		}
+
+		&:first-child {}
+		&:last-child {}
+
+	/*
+		plan your menus and drop-downs wisely.
+		*/
+		ul.sub-menu, ul.sub-menu-0,
+		ul.children {
+			display: block;
+
+			li {
+
+				a {
+					padding-left: 5px;
+					color: $menu !important;
+					font-size:10px;
+					line-height:10px;
+
+					&:hover,
+					&:focus {}
+
+					&:link {}
+				}
+
+				&:first-child {}
+
+				&:last-child {
+
+					a {
+						border-bottom: 0;
+					}
+				}
+
+				/*
+				if you need to go deeper, go nuts
+				just remember deeper menus suck
+				for usability. k, bai.
+				*/
+				ul {}
+			}
+
+			/* highlight sub-menu current page */
+			.current-menu-item,
+			.current_page_item,
+			.current-page-ancestor{
+				a {}
+				}
+		}
+
+		/* showing sub-menus */
+		&:hover ul {
+			top: auto;
+			display: block;
+		}
+
+	} /* end .menu ul li */
+
+	/* highlight current page */
+	li.current-menu-item,
+	li.current_page_item,
+	li.current-page-ancestor {
+		a {}
+	}  /* end current highlighters */
+
+
+} /* end .nav */
+
+.main { li { a {line-height:35px;} } }
+
+
+/*********************
+SIDEBARS & ASIDES
+*********************/
+
+.sidebar {
+	margin-top: 0.2em;
+	background: url('/wordpress/wp-content/themes/paradigm/library/images/nav-default.png') no-repeat;
+}
+
+	.widgettitle {
+		border-bottom: 2px solid #9F9F9F;
+		margin-bottom: 0;
+	}
+
+	.widget {
+		padding: 0 10px;
+		margin: 2.2em 0;
+
+
+		ul {
+			li {
+				margin-bottom: 0.75em;
+
+				&:first-child {}
+				&:last-child {}
+				a {}
+				/* deep nesting */
+
+				ul {
+					padding: 0;
+					margin: 0;
+					list-style: none;
+				}
+			}
+		}
+	}
+
+
+	/* links widget */
+	.widget_links {}
+	.widget_links ul {}
+	.widget_links ul li {}
+	.widget_links ul li a {}
+
+	/* meta widget */
+	.widget_meta {}
+	.widget_meta ul {}
+	.widget_meta ul li {}
+	.widget_meta ul li a {}
+
+	/* pages widget */
+	.widget_pages {}
+	.widget_pages ul {}
+	.widget_pages ul li {}
+	.widget_pages ul li a {}
+
+	/* recent-posts widget */
+	.widget_recent_entries {}
+	.widget_recent_entries ul {}
+	.widget_recent_entries ul li {}
+	.widget_recent_entries ul li a {}
+
+	/* archives widget */
+	.widget_archive {}
+	.widget_archive ul {}
+	.widget_archive ul li {}
+	.widget_archive ul li a {}
+	.widget_archive select {}
+	.widget_archive option {}
+
+	/* tag-cloud widget */
+	.widget_links {}
+	.widget_links li:after {}
+	.widget_links li:before {}
+	.widget_tag_cloud {}
+	.widget_tag_cloud a {}
+	.widget_tag_cloud a:after {}
+	.widget_tag_cloud a:before {}
+
+	/* calendar widget */
+	.widget_calendar {}
+	#calendar_wrap {}
+	#calendar_wrap th {}
+	#calendar_wrap td {}
+	#wp-calendar tr td {}
+	#wp-calendar caption {}
+	#wp-calendar a {}
+	#wp-calendar #today {}
+	#wp-calendar #prev {}
+	#wp-calendar #next {}
+	#wp-calendar #next a {}
+	#wp-calendar #prev a {}
+
+	/* category widget */
+	.widget_categories {}
+	.widget_categories ul {}
+	.widget_categories ul li {}
+	.widget_categories ul ul.children {}
+	.widget_categories a {}
+	.widget_categories select{}
+	.widget_categories select#cat {}
+	.widget_categories select.postform {}
+	.widget_categories option {}
+	.widget_categories .level-0 {}
+	.widget_categories .level-1 {}
+	.widget_categories .level-2 {}
+	.widget_categories .level-3 {}
+
+	/* recent-comments widget */
+	.recentcomments {}
+	#recentcomments {}
+	#recentcomments li {}
+	#recentcomments li a {}
+	.widget_recent_comments {}
+
+	/* search widget */
+	#searchform {}
+	.widget_search {}
+	.screen-reader-text {}
+
+	.widget_wp_ultimate_search_widget {margin:0;}
+
+
+	/* text widget */
+	.textwidget {}
+	.widget_text {}
+	.textwidget p {}
+
+/*********************
+RSS Widget
+*********************/
+
+.widget_rss {
+	width:140px;
+	padding: 0 !important;
+	font-size: 10px;
+
+	a, a:visited  {color: $link-color;
+
+			&:hover, &:focus {
+		color: $link-hover;
+	}
+	}
+}
+
+/*********************
+FOOTER STYLES
+*********************/
+
+/*
+you'll probably need to do quite a bit
+of overriding here if you styled them for
+mobile. Make sure to double check these!
+*/
+.footer-links {
+	ul {
+		li {
+			a {
+				&:hover {}
+			}
+			/*
+			be careful with the depth of your menus.
+			it's very rare to have multi-depth menus in
+			the footer.
+			*/
+			ul {}
+		}
+	}
+} /* end .footer-links */
+

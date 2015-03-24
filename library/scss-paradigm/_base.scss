@@ -1,0 +1,1584 @@
+/******************************************************************
+Site Name: Paradigm
+Author: Jack Machin
+
+Stylesheet: Base Mobile Stylesheet
+
+Be light and don't over style since everything here will be
+loaded by mobile devices. You want to keep it as minimal as
+possible. This is called at the top of the main stylsheet
+and will be used across all viewports.
+
+******************************************************************/
+
+/*********************
+GENERAL STYLES
+*********************/
+
+body {
+	font-family: $sans-serif;
+	font-size: 100%;
+	line-height: 1.5;
+	color: #565656;
+	background: url(/wordpress/wp-content/themes/paradigm/library/images/main_bg.jpg) left top repeat-x;
+}
+
+/********************
+WORDPRESS BODY CLASSES
+style a page via class
+********************/
+
+.rtl {}                           /* for sites that are read right to left (i.e. hebrew) */
+.home {}                          /* home page */
+.blog {}                          /* blog template page */
+.archive {}                       /* archive page */
+.date {}                          /* date archive page */
+	.date-paged-1 {}                /* replace the number to the corresponding page number */
+.search {}                        /* search page */
+	.search-results {}              /* search result page */
+	.search-no-results {}           /* no results search page */
+	.search-paged-1 {}              /* individual paged search (i.e. body.search-paged-3) */
+.error404 {}                      /* 404 page */
+.single {}                        /* single post page */
+	.postid-1 {}                    /* individual post page by id (i.e. body.postid-73) */
+	.single-paged-1 {}              /* individual paged single (i.e. body.single-paged-3) */
+.attachment {}                    /* attatchment page */
+	.attachmentid-1 {}              /* individual attatchment page (i.e. body.attachmentid-763) */
+	.attachment-mime-type {}        /* style mime type pages */
+.author {}                        /* author page */
+	.author-nicename {}             /* user nicename (i.e. body.author-samueladams) */
+	.author-paged-1 {}              /* paged author archives (i.e. body.author-paged-4) for page 4 */
+.category {}                      /* category page */
+	.category-1 {}                  /* individual category page (i.e. body.category-6) */
+	.category-paged-1 {}            /* replace the number to the corresponding page number */
+.tag {}                           /* tag page */
+	.tag-slug {}                    /* individual tag page (i.e. body.tag-news) */
+	.tag-paged-1 {}                 /* replace the number to the corresponding page number */
+.page-template {}                 /* custom page template page */
+	.page-template-page-php {}      /* individual page template (i.e. body.page-template-contact-php */
+	.page-paged-1 {}                /* replace the number to the corresponding page number */
+	.page-parent {}                 /* parent page template */
+	.page-child {}                  /* child page template */
+	.parent-pageid-1 {}             /* replace the number to the corresponding page number */
+.logged-in {}                     /* if user is logged in */
+.paged {}                         /* paged items like search results or archives */
+	.paged-1 {}                     /* individual paged (i.e. body.paged-3) */
+
+/*********************
+LAYOUT & GRID STYLES
+*********************/
+
+.wrap {
+	width: 96%;
+	margin: 0 auto;
+}
+
+/*********************
+LINK STYLES
+*********************/
+
+a, a:visited {
+	color: $link-color;
+	text-decoration:none;
+
+	/* on hover */
+	&:hover, &:focus {
+		color: $link-hover;
+		text-decoration:underline;
+	}
+
+	/* on click */
+	&:active {
+
+	}
+
+	/* mobile tap color */
+	&:link {
+		/*
+		this highlights links on iPhones/iPads.
+		so it basically works like the :hover selector
+		for mobile devices.
+		*/
+		-webkit-tap-highlight-color : rgba( 0, 0, 0, 0.3 );
+	}
+}
+
+ a.callout {
+    height: 50px;
+    background-color: #bc1739;
+    color: #fff;
+    margin-bottom: 10px;
+    line-height: 50px;
+    font-size: 24px;
+    text-align:center;
+}
+
+  a.callout:hover {
+    background-color: #93122d;
+    color: #000;
+}
+
+
+/******************************************************************
+H1, H2, H3, H4, H5 STYLES
+******************************************************************/
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+	font-family: $itc;
+	text-rendering: optimizelegibility;
+	font-weight: normal;
+	color: $paradigm-red;
+	/*
+	if you're going to use webfonts, be sure to check your weights
+	http://css-tricks.com/watch-your-font-weight/
+	*/
+
+	/* removing text decoration from all headline links */
+	a {
+		text-decoration: none;
+	}
+}
+
+h1, .h1 {
+	font-size: 36px;
+}
+
+h2, .h2 {
+	font-size: 24px;
+}
+
+h3, .h3 {
+	font-size:18px;
+}
+
+h4, .h4 {
+	font-size:16px;
+}
+
+h5, .h5 {
+	font-size:14px;
+}
+
+h6, .h6 {
+	font-size:12px;
+}
+
+/*********************
+HEADER STYLES
+*********************/
+
+.header {margin-top:30px;}
+
+	.logo {
+		a {text-decoration:none;}
+		img {width:320px;}
+	}
+
+#inner-header {
+	h2 {color:#bc1739; text-align:center;}
+	a {text-decoration:none;}
+	}
+
+
+/*********************
+NAVIGATION STYLES
+*********************/
+
+/*
+all navs have a .nav class applied via
+the wp_menu function; this is so we can
+easily write one group of styles for
+the navs on the site so our css is cleaner
+and more scalable.
+*/
+
+.nav {
+
+	font-family: $itc;
+
+
+	li {
+
+		a {
+			line-height:35px;
+			color: $link-color !important;
+			font-size:13px;
+			font-weight: bold;
+
+			/*
+			remember this is for mobile ONLY, so there's no need
+			to even declare hover styles here, you can do it in
+			the style.scss file where it's relevant. We want to
+			keep this file as small as possible!
+			*/
+			&:hover, &:focus {
+			color: $link-hover !important;
+			}
+		}
+
+		&:first-child {}
+
+		&:last-child {}
+
+		/*
+		so you really have to rethink your dropdowns for mobile.
+		you don't want to have it expand too much because the
+		screen is so small. How you manage your menu should
+		depend on the project. Here's some great info on it:
+		http://www.alistapart.com/articles/organizing-mobile/
+		*/
+		ul.sub-menu,
+		ul.children {
+
+			display: none;
+
+			li {
+
+				a {
+					padding-left: 30px;
+
+					&:hover,
+					&:focus {}
+
+					&:link {}
+
+				}
+
+				&:first-child {}
+
+				&:last-child {}
+
+			}
+
+		}
+
+	} /* end .menu li */
+
+	/* highlight current page */
+	li.current-menu-item,
+	li.current_page_item,
+	li.current-page-ancestor {
+
+		a {}
+
+	}  /* end current highlighters */
+
+} /* end .nav */
+
+
+/*********************
+POSTS & CONTENT STYLES
+*********************/
+
+#content {
+	margin-top: 1.5em;
+}
+
+		.hentry {
+
+			header {}
+
+			footer {}
+
+		} /* end .hentry */
+
+		.single-title,
+		.page-title {}
+
+		.single-title {}
+
+		.page-title {}
+
+		.archive-title { }
+
+		/* want to style individual post classes? Booya! */
+		.post-id {}         /* post by id (i.e. post-3) */
+		.post {}            /* general post style */
+		.page {}            /* general article on a page style */
+		.attachment {}      /* general style on an attatchment */
+		.sticky {}          /* sticky post style */
+		.hentry {}          /* hentry class */
+		.category-slug {}   /* style by category (i.e. category-videos) */
+		.tag-slug {}        /* style by tag (i.e. tag-news) */
+
+		/* post meta */
+		.byline {
+			color: #999;
+      font-size:12px;
+
+			time {}
+		}
+
+		/* entry content */
+		.entry-content {
+
+			p {
+				font-size: 14px;
+				line-height: 1.4em;
+				margin-bottom: 20px;
+			}
+
+
+			ul, ol, table, dl {}
+
+			ul, ol {
+				margin-bottom: 20px;
+				padding-left: 20px;
+				line-height: 1.3em;
+				font-size: 14px;
+
+				li {}
+
+			}
+
+			ul { list-style: disc;
+
+				li {}
+
+			}
+
+			ol { list-style: decimal;
+
+				li {}
+
+			}
+
+			ol.alpha {list-style-type:lower-alpha;}
+
+			blockquote {
+        margin: 0 0 1.5em 0.75em;
+        padding: 0 0 0 0.75em;
+        border-left: 3px solid $paradigm-red;
+        font-style: italic;
+
+				&:before {}
+
+			}
+
+      cite {font-weight:bold;}
+
+			dl {}
+
+			dt {}
+
+			dd {
+				margin-left: 0;
+				font-size: 0.9em;
+				color: #787878;
+				margin-bottom: 1.5em;
+			}
+
+			img {
+				max-width: 100%;
+				height: auto;
+			}
+
+			/*
+			image alignment on a screen this size may be
+			a bit difficult. It's set to start aligning
+			and floating images at the next breakpoint,
+			but it's up to you. Feel free to change it up.
+			*/
+			.alignleft, img.alignleft {}
+			.alignright, img.alignright {}
+			.aligncenter, img.aligncenter {}
+
+			video, object {
+				max-width: 100%;
+			}
+
+			pre {
+				background: #eee;
+				border: 1px solid #cecece;
+				padding: 10px;
+			}
+
+    table {
+				width: 100%;
+				border: 1px solid $gray;
+				margin-bottom: 1.5em;
+
+				caption {
+					margin: 0 0 7px;
+					font-size: 0.75em;
+					color: $gray;
+					text-transform: uppercase;
+					letter-spacing: 1px;
+				}
+			}
+
+			tr {
+				border-bottom: 1px solid $gray;
+
+				&:nth-child(even) {
+					background-color: $light-gray;
+				}
+			}
+
+			td {
+				padding: 7px;
+				border-right: 1px solid $gray;
+
+				&:last-child {
+					border-right: 0;
+				}
+			}
+
+			th {
+				background-color: $paradigm-red;
+        color: #fff;
+        font-size:14px;
+
+				&:last-child {
+					border-right: 0;
+				}
+			}
+
+		} /* end .entry-content */
+
+		.wp-caption {
+			max-width: 100%;
+			background: #eee;
+			padding: 5px;
+
+			/* images inside wp-caption */
+			img {
+				max-width: 100%;
+				margin-bottom: 0;
+				width: 100%;
+			}
+
+			p.wp-caption-text {
+				font-size: 0.85em;
+				margin: 4px 0 7px;
+				text-align: center;
+			}
+
+		} /* end .wp-caption */
+
+		/* image gallery styles */
+		.gallery {
+
+			dl {
+
+				a {}
+
+				img {}
+
+			}
+
+			dt {}
+
+			dd {}
+
+		} /* end .gallery */
+
+		/* gallery caption styles */
+		.gallery-caption {}
+
+		.size-full {}
+		.size-large {}
+		.size-medium {}
+		.size-thumbnail {}
+
+/******************************************************************
+PAGE NAVI STYLES
+******************************************************************/
+
+.pagination,
+.wp-prev-next {
+	margin: 1.1em 0 2.2em;
+}
+	.pagination{
+        text-align: center;
+        ul {
+            display: inline-block;
+            white-space: nowrap;
+            padding:0;
+            clear: both;
+            margin: 1px;
+            li {
+                padding: 0;
+                margin: 0;
+                float: left;
+                display: inline;
+                overflow: hidden;
+                a, span {
+                    margin: 0;
+                    text-decoration: none;
+                    padding: 0;
+                    line-height: 1em;
+                    font-size: 1em;
+                    font-weight: normal;
+                    padding: .5em;
+                    min-width: 1em;
+                    display: block;
+                }
+                span.current{
+                	font-weight: bold;
+                }
+                a:hover, a:focus {
+
+                }
+            }
+        }
+    } /* end .bones_page_navi */
+
+	/* fallback previous & next links */
+	.wp-prev-next {
+
+		ul {}
+
+		.prev-link {
+			float: left;
+		}
+
+		.next-link {
+			float: right;
+		}
+
+	} /* end .wp-prev-next */
+
+/******************************************************************
+COMMENT STYLES
+******************************************************************/
+
+/* h3 comment title */
+#comments {
+
+	/* number of comments span */
+	span {}
+
+}
+
+.comment-nav {
+
+	ul {
+
+		li {}
+
+	}
+}
+
+
+.commentlist {
+
+	li {
+		position: relative;
+		clear: both;
+		overflow: hidden;
+		list-style-type: none;
+		margin-bottom: 1.5em;
+		padding: 0.7335em 10px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+		ul.children {
+			margin: 0;
+
+			li {}
+
+			/* variations */
+			.comment {}
+			.alt {}
+			.odd {}
+			.even {}
+			.depth-1 {}           /* change number for different depth */
+			.byuser {}
+			.bypostauthor {}
+			.comment-author-admin {}
+
+		} /* end .commentlist li ul.children */
+	}
+
+	li[class*=depth-] {
+		margin-top: 1.1em;
+	}
+
+	li.depth-1 {
+		margin-left: 0;
+		margin-top: 0;
+	}
+
+	li:not(.depth-1) {
+		margin-right: -10px;
+		margin-left: -10px;
+		margin-top: 0;
+		padding-bottom: 0;
+	}
+
+	li.depth-2 {}
+	li.depth-3 {}
+	li.depth-4 {}
+	li.depth-5 {}
+
+	/* general comment classes */
+	.alt {}
+	.odd {
+		background: #eee;
+	}
+	.even {
+		background: #fefefe;
+	}
+	.parent {}
+	.comment {}
+	.children {}
+	.pingback {}
+	.bypostauthor {}
+	.comment-author {}
+	.comment-author-admin {}
+	.thread-alt {}
+	.thread-odd {}
+	.thread-even {}
+
+	/* vcard */
+	.vcard {
+		margin-left: 50px;
+
+		cite.fn {
+			font-weight: 700;
+			font-style: normal;
+
+			a.url {}
+
+		}
+
+		time {
+			float: right;
+
+			a {
+				color: #999;
+				text-decoration: none;
+
+				&:hover {
+					text-decoration: underline;
+				}
+
+			}
+
+		}
+
+		img.photo {}
+
+		img.avatar {
+			position: absolute;
+			left: 10px;
+			padding: 2px;
+			border: 1px solid #cecece;
+			background: #fff;
+		}
+
+	} /* end .commentlist .vcard */
+
+
+	/* comment meta */
+	.comment-meta {
+
+		a {}
+
+	}
+
+	.commentmetadata {
+
+		a {}
+
+	}
+
+	/* comment content */
+	.comment_content {
+		margin-left: 50px;
+
+		p {
+			margin: 0.7335em 0 1.5em;
+			font-size: 1em;
+			line-height: 1.5em;
+		}
+
+	} /* end .commentlist .comment_content */
+
+	/* comment reply link */
+	.comment-reply-link {
+		text-decoration: none;
+		float: right;
+		background: #4598bb;
+		padding: 3px 5px;
+		color: #fff;
+		opacity: 0.65;
+		margin-bottom: 10px;
+		font-weight: 700;
+		font-size: 0.9em;
+
+		&:hover,
+		&:focus {
+			opacity: 1;
+		}
+
+	} /* end .commentlist .comment-reply-link */
+
+} /* end .commentlist */
+
+/******************************************************************
+COMMENT FORM STYLES
+******************************************************************/
+
+.respond-form {
+	margin: 1.5em 10px;
+	padding-bottom: 2.2em;
+
+	form {
+		margin: 0.75em 0;
+
+		li {
+			list-style-type: none;
+			clear: both;
+			margin-bottom: 0.7335em;
+
+			label,
+			small {
+				display: none;
+			}
+		}
+
+		input[type=text],
+		input[type=email],
+		input[type=url],
+		textarea {
+			padding: 3px 6px;
+			background: #efefef;
+			border: 2px solid #cecece;
+			line-height: 1.5em;
+
+			&:focus {
+				background: #fff;
+			}
+
+			/* form validation */
+			&:invalid {
+				outline: none;
+				border-color: #fbc2c4;
+				background-color: #f6e7eb;
+				-webkit-box-shadow: none;
+				   -moz-box-shadow: none;
+				    -ms-box-shadow: none;
+						box-shadow: none;
+			}
+		}
+
+		input[type=text],
+		input[type=email],
+		input[type=url] {
+			max-width: 400px;
+			min-width: 250px;
+		}
+
+		textarea {
+			resize: none;
+			width: 97.3%;
+			height: 150px;
+		}
+
+	}
+}
+
+	/* comment submit button */
+	#submit {}
+
+	/* comment form title */
+	#comment-form-title {
+		margin: 0 0 1.1em;
+	}
+
+	/* cancel comment reply link */
+	#cancel-comment-reply {
+		a {}
+	}
+
+	/* logged in comments */
+	.comments-logged-in-as {}
+
+	/* allowed tags */
+	#allowed_tags {
+		margin: 1.5em 10px 0.7335em 0;
+	}
+
+	/* no comments */
+	.nocomments {
+		margin: 0 20px 1.1em;
+	}
+
+/*********************
+SIDEBARS & ASIDES
+*********************/
+
+.sidebar {}
+
+	.widgettitle {color:$paradigm-red !important;}
+
+	.widget {
+
+		ul {
+
+			li {
+
+				&:first-child {}
+
+				&:last-child {}
+
+				a {}
+
+				/* deep nesting */
+				ul {}
+
+			}
+
+		}
+
+	}
+
+/*********************
+FOOTER STYLES
+*********************/
+
+.footer {
+	clear: both;
+	border-top: 1px solid #e7e3e3;
+	padding: 20px 0;
+	margin-top: 20px;
+}
+
+	/*
+	if you checked out the link above:
+	http://www.alistapart.com/articles/organizing-mobile/
+	you'll want to style the footer nav
+	a bit more in-depth. Remember to keep
+	it simple because you'll have to
+	override these styles for the desktop
+	view.
+	*/
+	.footer-links {
+
+		ul {
+			margin: 0;
+			padding: 0;
+			margin-bottom: 10px;
+
+			li {
+				display: inline-block;
+				margin-right: 10px;
+				font-size: 11px;
+			}
+
+			li a {
+				color: #9F9F9F !important;
+			}
+
+		}
+
+	} /* end .footer-links */
+
+
+	.copyright {
+		color: #9F9F9F;
+		font-size: 11px;
+	}
+
+/* Aegon
+-------------------------------------------------------------- */
+
+.page-id-168, .category-aegon, .post-4610,  .category-target-aegon, .tag-aegon {
+	a, a:visited {color: #0077C8; &:hover, &:focus {color: darken(#0077C8, 9%);} }
+	h1 {
+		background-color: #0077C8;
+		background-image: linear-gradient(to right, #0077C8, #0AB9EB);
+		border-radius: 1em;
+		text-align: center;
+		color: #FFF;
+		background-image: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#0077C8), to(#0AB9EB));
+		background-image: -webkit-linear-gradient(left, #0077C8, #0AB9EB);
+		background-image: -moz-linear-gradient(left, #0077C8, #0AB9EB);
+		background-image: -ms-linear-gradient(left, #0077C8, #0AB9EB);
+		background-image: -o-linear-gradient(left, #0077C8, #0AB9EB);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#0077c8', EndColorStr='#0AB9EB',GradientType=1) /* IE6-9 */;
+		}
+	h2, h3, h4, h5 {color: #0077C8;}
+	}
+
+/* Ageas Page 233
+-------------------------------------------------------------- */
+
+.page-id-233, .category-ageas, .tag-ageas {
+	h1 {
+	text-align:center;
+	}
+	}
+
+/* Aviva
+-------------------------------------------------------------- */
+
+.page-id-234, .category-aviva, .category-target-aviva, .tag-aviva {
+	a, a:visited {color: #004fb6; &:hover, &:focus {color: darken(#004fb6, 9%);} }
+	h1 {
+		background-image: linear-gradient(to right, #FFE866, #FFD900); border-radius: 1em;
+		background-image: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#FFE866), to(#FFD900));
+		background-image: -webkit-linear-gradient(left, #FFE866, #FFD900);
+		background-image: -moz-linear-gradient(left, #FFE866, #FFD900);
+		background-image: -ms-linear-gradient(left, #FFE866, #FFD900);
+		background-image: -o-linear-gradient(left, #FFE866, #FFD900);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFE866', EndColorStr='#FFD900',GradientType=1) /* IE6-9 */;
+		color: #004fb6;
+		text-align:center;
+		}
+	h2, h3, h4 {color: #004fb6;}
+	}
+
+/* AXA (Wealth & Life Invest)
+-------------------------------------------------------------- */
+
+.page-id-235, .page-id-11095, .category-target-axa, .category-5, .category-axa-wealth, .tag-axa  {
+	a, a:visited {color: #0b3881;  &:hover, &:focus {color: darken(#0b3881, 9%);} }
+	h1 {
+		color: #fff;
+		border-radius: 1em;
+		background-color: #003881;
+		background-image: linear-gradient(to right, #003881, #2e5391);
+		background-image: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#003881), to(#2e5391));
+		background-image: -webkit-linear-gradient(left, #003881, #2e5391);
+		background-image: -moz-linear-gradient(left, #003881, #2e5391);
+		background-image: -ms-linear-gradient(left, #003881, #2e5391);
+		background-image: -o-linear-gradient(left, #003881, #2e5391);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#003881', EndColorStr='#2e5391',GradientType=1) /* IE6-9 */;
+		zoom: 1;
+		text-align:center;
+		}
+	h2, h3, h4 {color: #0b3881;}
+	}
+
+/* Blackrock
+-------------------------------------------------------------- */
+
+.page-id-236, .category-blackrock, .tag-blackrock-2 {
+	a, a:visited {color:#424B54; &:hover, &:focus {color: #c03;} }
+	h1 {
+		background-color:#000;
+		color:#fff;
+		border-radius:1em;
+		text-align:center;
+	}
+	h2, h3, h4 {color:#000;}
+	}
+
+
+/* Blackfinch
+-------------------------------------------------------------- */
+
+.page-id-16598, .tag-blackfinch {
+	a, a:visited {color:#000; &:hover, &:focus {color: #000;} }
+	h1 {
+		background-color:#000;
+		color:#fff;
+		border-radius:1em;
+		text-align:center;
+	}
+	h2, h3, h4 {color:#424B54;}
+	.aj-collapse {color:#424B54;}
+	.blackrock {background-color:#424B54;}
+	}
+
+/* BNY Mellon
+-------------------------------------------------------------- */
+
+.page-id-11289, .category-bny-mellon, .tag-bny {
+	a, a:visited {color:#FFA100; &:hover, &:focus {color: darken(#FFA100, 9%);} }
+	h1 {
+		background-color:#FFA100;
+		color:#fff;
+		border-radius:1em;
+		text-align:center;
+	}
+	h2, h3, h4 {color:#FFA100;}
+	}
+
+/* Bright Grey
+-------------------------------------------------------------- */
+
+.page-id-237, .category-bright-grey, .category-target-bright-grey, .tag-bright-grey  {
+	a, a:visited {color:#ea0e8c; &:hover, &:focus {color: darken(#ea0e8c, 9%);} }
+	h1 {color: #575756  ;background-color:#EA0082 ; text-align:center; border-radius:1em;}
+	h2, h3, h4 {color:#EA0082;}
+	}
+
+/* Cater Allen Private Bank
+-------------------------------------------------------------- */
+
+.page-id-238, .category-cater-allen-private-bank, .tag-cater-allen  {
+	a, a:visited {color: #047; &:hover, &:focus {color: darken(#047, 9%);} }
+	h1 {color: #fff; background-color:#047; border-radius:1em; text-align:center;}
+	h2, h3, h4, h5 {color:#047;}
+	}
+
+/* Fidelity
+-------------------------------------------------------------- */
+
+.page-id-239, .category-fidelity, .category-target-fidelity, .tag-fidelity {
+	a, a:visited {color: #007CC1; &:hover, &:focus {color: darken(#007CC1, 9%);} }
+	h1 {color: #fff; background-color:#007CC1;border-radius:1em; text-align:center;}
+	h2, h3, h4 {color: #007CC1;}
+	}
+
+/* FriendsLife
+-------------------------------------------------------------- */
+
+.page-id-240, .category-friendslife, .tag-friends-life  {
+	a, a:visited {color: #137AC1; &:hover, &:focus {color: darken(#137AC1, 9%);} }
+	h1 {color: #fff; background-color:#137AC1; border-radius:1em; text-align:center;}
+	h2, h3, h4 {color: #137AC1;}
+	}
+
+/* Henderson Global Investors Page
+-------------------------------------------------------------- */
+
+.page-id-241, .category-henderson, .tag-henderson {
+	a, a:visited {color:#951a26; &:hover, &:focus {color: darken(#951a26, 9%);} }
+	h1 {color: #fff; background-color:#778892; border-radius:1em; text-align:center;}
+	h2, h3, h4 {color: #951a26;}
+	}
+
+/* Ingenious Investments
+-------------------------------------------------------------- */
+
+.page-id-242, .category-ingenious, .category-target-ingenious, .tag-ingenious {
+	a, a:visited {color: #004F71; &:hover, &:focus {color: darken(#004F71, 9%);} }
+	h1 {text-align:center; background-color:#004F71;color:#fff; border-radius:1em;}
+	h2, h3, h4 {color: #004F71;}
+	}
+
+/* J.P. Morgan
+-------------------------------------------------------------- */
+
+.page-id-243, .category-j-p-morgan, .tag-jp-morgan {
+	a, a:visited {color: #345091; &:hover, &:focus {color: darken(#345091, 9%);} }
+	h1 {color: #345091; background-color:#F0EAD8; border-radius:1em; text-align:center;}
+	h2, h3, h4 {color:#345091;}
+	}
+
+/* Just Retirement
+-------------------------------------------------------------- */
+
+.page-id-4174, .category-just-retirement, .category-target-just-retirement, .tag-just-retirement {
+	a, a:visited {color: #273188; &:hover, &:focus {color: darken(#273188, 9%);} }
+	h1 {color: #a49400; background-color:#273188; border-radius:1em; text-align:center}
+	h2, h3, h4 {color: #273188;}
+	}
+
+/* Legal & General
+-------------------------------------------------------------- */
+
+.page-id-244, .category-legal-general, .category-target-legal-general, tag-legal-general {
+	a, a:visited {color: #006688; &:hover, &:focus {color: darken(#006688, 9%);} }
+	h1 {color: #fff; background-color:#006688; border-radius:1em; text-align:center;}
+	h2, h3, h4 {color: #006688;}
+	}
+
+/* Legal & General Investments
+-------------------------------------------------------------- */
+
+.page-id-245, .category-legal-general-investments, .category-target-legal-general-investments, .tag-legal-general-investments {
+	a, a:visited {color: #068;  &:hover, &:focus {color: darken(#006688, 9%);} }
+	h1 {color: #fff; background-color:#068; border-radius:1em; text-align:center;}
+	h2, h3, h4 {color: #068;}
+	}
+
+/* M&G
+-------------------------------------------------------------- */
+
+.page-id-246, .category-mg, .tag-mg, .tag-mg-2 {
+	a, a:visited {color: #a2ad00; &:hover, &:focus {color: darken(#a2ad00, 9%);} }
+	h1 {color: #fff; background-color:#a2ad00; border-radius:1em; text-align:center;}
+	h2, h3, h4 {color: #a2ad00;}
+	}
+
+/* Metlife
+-------------------------------------------------------------- */
+
+.page-id-247, .category-metlife, .tag-metlife-2  {
+	a, a:visited {color: #007cc2; &:hover, &:focus {color: darken(#007cc2, 9%);} }
+	h1 {color: #007cc2; border-radius:1em;text-align:center;}
+	h2, h3, h4 {color: #007cc2;}
+	}
+
+/* OBSR
+-------------------------------------------------------------- */
+
+.page-id-248 {
+	h1 {text-align:center;}
+	}
+
+/* Octopus
+-------------------------------------------------------------- */
+
+.page-id-249, .category-octopus, .tag-octopus {
+	a, a:visited {color: #336699;  &:hover, &:focus {color: darken(#336699, 9%);} }
+	h1 {color: #fff; background-color:#336699; border-radius:1em; text-align:center;}
+	h2, h3, h4 {color: #336699;}
+	}
+
+/* Partnership
+-------------------------------------------------------------- */
+
+.page-id-250, .category-partnership, .category-partnership-newsletter, .category-target-partnership, .tag-partnership, .category-partnership-december-14 {
+	a {color: #6eb43f; &:hover, &:focus , &:visited {color: darken(#6eb43f, 9%);} }
+	h1 {color: #fff; background-color:#6eb43f; border-radius:1em; text-align:center;}
+	h2, h3, h4 {color: #6eb43f;}
+	}
+
+	.category-partnership-newsletter {
+    h1 {color: #fff; background-color:#6eb43f; border-radius:1em; text-align:center;}
+	}
+
+  h1.partnership-title {
+    background-color: #fff;
+    color: #6eb43f;
+    text-align: left;
+  }
+
+/* Prudential
+-------------------------------------------------------------- */
+
+.page-id-251, .category-prudential, .category-target-prudential , .tag-prudential {
+	a, a:visited {color: #CC0000; &:hover, &:focus {color: darken(#CC0000, 9%);} }
+	h1 {color: #fff; background-color:#CC0000; border-radius:1em; text-align:center;}
+	h2, h3, h4 {color:#CC0000;}
+	}
+
+/* Quilter
+-------------------------------------------------------------- */
+
+.page-id-252, .category-quilter, .tag-quilter {
+	a, a:visited {color: #079DB8; &:hover, &:focus {color: darken(#079DB8, 9%);} }
+	h1 {color: #fff; background-color:#079DB8; border-radius:1em; text-align:center;}
+	h2, h3, h4 {color:#079DB8;}
+	}
+
+/* Santander
+-------------------------------------------------------------- */
+
+.page-id-11209, .category-santander, .category-target-santander, .tag-santander {
+	a, a:visited {color: #ff0000; &:hover, &:focus {color: darken(#ff0000, 9%);} }
+	h1 {color: #ff0000; text-align:center;}
+	h2, h3, h4 {color: #ff0000;}
+	}
+
+/* Schroders
+-------------------------------------------------------------- */
+
+.page-id-253, .tag-schroders {
+	a, a:visited {color: #003772; &:hover, &:focus {color: darken(#003772, 9%);} }
+	h1 {color: #fff; background-color:#003772;border-radius:1em; text-align:center;}
+	h2, h3, h4 {color: #003772;}
+	}
+
+/* Scottish Life (ROYAL LONDON)
+-------------------------------------------------------------- */
+
+.page-id-11297, .tag-scottish-life, .tag-royal-london {
+	a, a:visited {color: #421853; &:hover, &:focus {color: darken(#421853, 9%);} }
+	h1 {color: #fff; background-color:#421853;  border-radius:1em; text-align:center;}
+	h2, h3, h4 {color:#421853;}
+	}
+
+/* Scottish Provident
+-------------------------------------------------------------- */
+
+.page-id-254, .category-scottish-provident, .category-target-scottish-provident, .tag-scottish-provident  {
+	a, a:visited {color: #001D68; &:hover, &:focus {color: darken(#001D68, 9%);} }
+	h1 {color: #fff; background-color:#001D68;  border-radius:1em; text-align:center;}
+	h2, h3, h4 {color: #001D68;}
+	}
+
+
+/* Scottish Widows
+-------------------------------------------------------------- */
+
+.page-id-255, .category-scottish-widows, .category-target-scottish-widows, .tag-scottish-widows {
+	a, a:visited {color: #cf002d; &:hover, &:focus {color: darken(#cf002d, 9%);} }
+	h1 {color: #fff; background-color:#cf002d; border-radius:1em; text-align:center;}
+	h2, h3, h4 {color: #cf002d;}
+	}
+
+/* Selectapension
+-------------------------------------------------------------- */
+
+.page-id-260, .tag-selectapension {
+	a, a:visited {color: #529FC5; &:hover, &:focus {color: darken(#529FC5, 9%);} }
+	h1 {color: #fff; background-color:#529FC5; border-radius:1em; text-align:center;}
+	h2, h3, h4 {color: #529FC5;}
+	}
+
+/* Skandia
+-------------------------------------------------------------- */
+
+.page-id-261, .category-skandia, .tag-skandia {
+	a, a:visited {color: #008066; &:hover, &:focus {color: darken(#008066, 9%);} }
+	h1 {color: #fff; background-color:#008066; border-radius:1em; text-align:center;}
+	.skandia {background-color:#e6e6e6;}
+	h2, h3, h4 {color: #008066}
+	}
+
+/* Smith & Williamson
+-------------------------------------------------------------- */
+
+.page-id-262, .tag-smith-williamson {
+	a, a:visited {color: #880C00; &:hover, &:focus {color: darken(#880C00, 9%);} }
+	h1 {color: #fff; background-color:#880C00;border-radius:1em; text-align:center;}
+	h2, h3, h4 {color:#880C00;}
+	}
+
+/* Suffolk Life
+-------------------------------------------------------------- */
+
+.page-id-263, .tag-suffolk-life {
+	a, a:visited {color: #1BBCF3; &:hover, &:focus {color: darken(#1BBCF3, 9%);} }
+	h1 {
+		color: #fff;
+		background-color:#1BBCF3;
+		border-radius:1em;
+		background-image: linear-gradient(to top, #1BBCF3, #1083B0);
+		background-image: -webkit-gradient(linear, 100% 0%, 0% 0%, from(#1BBCF3), to( #1083B0));
+		background-image: -webkit-linear-gradient(top, #1BBCF3, #1083B0);
+		background-image: -moz-linear-gradient(top, #1BBCF3, #1083B0);
+		background-image: -ms-linear-gradient(top, #1BBCF3, #1083B0);
+		background-image: -o-linear-gradient(top, #1BBCF3, #1083B0);
+		text-align:center;}
+	h2, h3, h4 {color:#1BBCF3;}
+	}
+
+/* Threadneedle
+-------------------------------------------------------------- */
+
+.page-id-264, .category-threadneedle, .category-target-threadneedle, .tag-threadneedle {
+	a, a:visited {color: #000; &:hover, &:focus {color: darken(#000, 9%);} }
+	h1 {color: #000; background-color:#debb03; border-radius:1em; text-align:center;}
+	.threadneedle {background-color:#e6e6e6;}
+	h2, h3, h4 {color: #000;}
+	}
+
+/* Zurich
+-------------------------------------------------------------- */
+
+.page-id-265, .category-zurich, .post-4607, .category-target-zurich, .tag-zurich {
+	a, a:visited {color: #003399; &:hover, &:focus {color: darken(#003399, 9%);} }
+	h1 {color: #fff; background-color:#003399; border-radius:1em; text-align:center;}
+	h2, h3, h4 {color:#003399;}
+	}
+
+/* Target August
+-------------------------------------------------------------- */
+
+#targetbar {background-color:#d2232a; height:30px; color:#fff; font-size:20px; line-height:30px; text-align:right;margin-top:-6px;}
+.targetcontents {
+
+  h2,
+  h3 {
+    margin-left: 5%;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    border-bottom: 2px solid;
+  }
+	}
+
+.partnershipcontents {
+	background-color:#9da606;
+	ul {margin-left:5%;}
+	a {color: #fff; &:hover, &:focus, &:visited {color: darken(#fff, 9%) !important;} }
+	h2, h3 {color:#fff;margin-left: 5%; padding-top: 5px; margin-bottom: 5px;}
+	}
+
+
+.type-target {
+  background-color: #eee;
+  margin-bottom: 1.5em;
+  padding: 1em;
+
+  .entry-content td {
+    background-color: #fff;
+  }
+}
+.category-target {h1 {text-align:center;}}
+
+table#targettable {
+	td {width:80%;vertical-align:top;}
+	th {width:20%;}
+	}
+
+/* Member */
+
+.tile {background: url(/wordpress/wp-content/themes/paradigm/library/images/tile.png) no-repeat; min-height: 260px;margin-bottom:1em;color:#fff;
+	p {margin:1em;}
+	h2 {text-align:center; color:#fff;}
+}
+
+ul.member-list {
+	list-style:none !important;
+
+	li {
+		color: #fff;
+		line-height: 26px;
+		font-size: 18px;
+			a {
+				color:#fff;
+				line-height: 26px;
+				font-size: 18px;
+
+				&:hover, &:focus {
+				color: darken(#fff, 9%);
+				}
+		}
+		}
+	}
+
+ul.manual-list {
+		list-style:none !important;
+
+	li a {
+		color:#fff;
+		line-height: 24px;
+		font-size: 12px;
+
+		&:hover, &:focus {
+		color: darken(#fff, 9%);
+		}
+	}
+	}
+.a-2 {margin:0 !important;}
+#sg_jquery_scroller_widget-2, #sg_jquery_scroller_widget-3  {	padding:0;	width:140px;	}
+
+/* Widget related styles */
+.sgjvs_widget_title {
+    /* Add your custom css here  for title */	font-size:11px;
+}
+.sgjvs_widget_title a {
+    /* Add your custom css here  for title */	color:#bc1739 !important;
+}
+.soliloquy-control-nav {display:none;}
+
+.good {
+	background-color: #68B64F;
+	padding: 1em;
+	color: #fff;
+	h3 {color: #fff;}
+	border-radius: 1em;
+	margin-bottom: 1em;
+
+	}
+.bad {
+	background-color: #cc5959;
+	padding: 1em;
+	color: #fff;
+	border-radius: 1em;
+
+	h3 {color: #fff;}
+	}
+
+#search-2 {padding:0; margin:0;}
+
+ul.columns {
+  -moz-column-count: 3;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 20px;
+    column-count: 3;
+    column-gap: 20px;
+	}
+
+  ul.twocolumns {
+  -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+	}
+
+.type-target { h1 {text-align:center;}}
+
+.custom-post-type-title {margin-top: 2em;}
+
+	/* Style as you want, this only makes it hold its shape and shit*/
+    #SelectContainer
+    {
+        float:left;
+        width:100%;
+    }
+
+        #SelectContainer .HeaderContainer
+        {
+            float:left;
+            width:50%;
+        }
+
+            #SelectContainer .HeaderContainer .HeaderButton
+            {
+                float:left;
+                padding:7px 5px;
+				width:100%;
+            }
+            /* Solitary float left*/
+            #SelectContainer .HeaderContainer a
+            {
+                float:left;
+				width:100%;
+            }
+            /* The style applied when selected, Hence the name*/
+            #SelectContainer .HeaderContainer .HeaderButtonSelected
+            {
+                background-color:#faa61a;
+                color:#fff
+            }
+
+        #SelectContainer .TextBodyContainer  { }
+            /* Bad Code Here */
+            #SelectContainer .TextBodyContainer div
+            {
+                display:none;
+                padding:5px;
+                float:left;
+                width:100%;
+            }
+        /* Show first text area using css, better than doing through JS*/
+        #SelectContainer .TextBodyContainer #Body_A
+            {
+                display:block;
+            }
+
+ ul.cets_embedRSS {a.post {font-weight: bold;}}
+
+ a.box {
+height: 50px;
+background-color: #bc1739;
+color: #000;
+margin-bottom: 10px;
+line-height: 14px;
+font-size: 12px;
+padding-top: .5em;
+padding-left: .5em;
+}
+
+ a.box:hover, a.box:focus {
+  background-color: #93122d;
+  color: #fff;
+}
+
+#sidebar-top {}
+
+.top-widget {border: 1px solid #bc1739;}
+
+.top-widget-title {
+  background-color: #bc1739;
+  color:#fff;
+  margin:0;
+  padding-left:.25em;
+}
+
+#field_19_1 {
+  background-color: #bc1739;
+  border-radius: 1em;
+  height:30px;
+
+  label {
+color: #fff;
+margin-left: .5em;
+padding: 6px 0 6px 0;
+font-size: 16px;
+  }
+}
+
+#input_19_1 {
+  border-color: #bc1739;
+  height: 30px;
+  font-size: 16px;
+}
+
+body .gform_wrapper div.gform_body ul.gform_fields li.gfield.gfield_html ul,
+body .gform_wrapper form div.gform_body ul.gform_fields li.gfield.gfield_html ul {
+	list-style-type: disc !important;
+	margin: 1em 0 1em 1.5em;
+	padding-left: 20px;
+}
+
+/*Implied Cookie Consent*/
+
+#icc_message {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	min-height: 28px;
+	line-height: 28px;
+}
+
+.icc_dismiss_button {
+	font-size: 160%;
+	vertical-align: middle;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+.icc_delete_button {
+	cursor: pointer;
+}
+
+/* Box shadow */
+
+.shadow {
+  -webkit-box-shadow: 0px 0px 10px 5px rgba(153,153,153,1);
+  -moz-box-shadow: 0px 0px 10px 5px rgba(153,153,153,1);
+  box-shadow: 0px 0px 10px 5px rgba(153,153,153,1);
+  }
+
+  .aj-collapse { cursor: pointer; }
+.aj-hidden { display: none; visibility: hidden; }
+.aj-visible { display: block; visibility: visible; }
+
+.g-1 {
+  margin: 0 auto !important;
+  }
+.g-2 {
+  width: 468px;
+  margin: 0 auto !important;
+}
+
+.post-table {
+ font-size: 14px;
+
+  th, td {
+    text-align: center;
+  }
+}
+
+.feature-box {
+  background-color: #d2232a;
+  padding: 1.5em;
+  color: #fff;
+  border-radius: 4px;
+
+  a, a:visited {
+    color: #fff;
+
+
+    &:hover, &:focus {
+      color: darken(#fff, 9%);
+    }
+  }
+}
+
+  .ui-tabs  .ui-tabs-nav li {
+    width:24%;
+  }
+
+  .ui-widget-content a.map-link {
+    color: #bc1739;
+  }
