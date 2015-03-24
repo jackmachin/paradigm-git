@@ -12,10 +12,8 @@ For more info, check out the codex:
 http://codex.wordpress.org/Creating_Admin_Themes
 
 ******************************************************************/
-/* line 17, ../scss-paradigm/login.scss */
 body.login {
-  background: #fff;
-}
+  background: #fff; }
 
 /* the form box */
 /*
@@ -23,7 +21,6 @@ This is the Wordpress logo in the admin area.
 You'll have to load your own images and mess
 with the width and height.
 */
-/* line 27, ../scss-paradigm/login.scss */
 .login h1 a {
   background: url(../images/login-logo.png) no-repeat top center;
   /* make sure to replace this! */
@@ -32,15 +29,11 @@ with the width and height.
   text-indent: -9999px;
   overflow: hidden;
   padding-bottom: 15px;
-  display: block;
-}
+  display: block; }
 
-/* line 36, ../scss-paradigm/login.scss */
 .login #nav a, .login #backtoblog a {
-  color: #bc1739 !important;
-}
+  color: #bc1739 !important; }
 
-/* line 37, ../scss-paradigm/login.scss */
 form {
   margin-left: 8px;
   padding: 26px 24px 46px;
@@ -48,10 +41,8 @@ form {
   background: white;
   border: 1px solid #E5E5E5;
   border-radius: 3px;
-  box-shadow: none;
-}
+  box-shadow: none; }
 
-/* line 47, ../scss-paradigm/login.scss */
 body form .input {
   font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",sans-serif;
   font-weight: 200;
@@ -64,14 +55,12 @@ body form .input {
   border: 1px solid #E5E5E5;
   background: #FBFBFB;
   outline: none;
-  box-shadow: inset 1px 1px 2px rgba(200, 200, 200, 0.2);
-}
+  box-shadow: inset 1px 1px 2px rgba(200, 200, 200, 0.2); }
 
 /*
 You'll have to override some of the default styles
 but since we're referencing the id, it should be easy.
 */
-/* line 66, ../scss-paradigm/login.scss */
 #wp-submit {
   background-color: #bc1739;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#bc1739), to(#93122d));
@@ -86,7 +75,6 @@ but since we're referencing the id, it should be easy.
   box-shadow: inset 0 1px 0 rgba(120, 200, 230, 0.5);
   color: #fff;
   text-decoration: none;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
-}
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); }
 
 /* login button*/
