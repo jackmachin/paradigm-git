@@ -1000,6 +1000,34 @@ FOOTER STYLES
 	h2, h3, h4 {color:#FFA100;}
 	}
 
+/* Brand FT
+-------------------------------------------------------------- */
+
+.tag-brand-ft {
+	a,
+    a:visited {
+        color: #2262ac;
+
+        &:hover,
+        &:focus {
+            color: darken(#2262ac, 9%);
+        }
+    }
+
+    h1 {
+        text-align:center;
+        background-color:#496394;
+        color:#fff;
+        border-radius:1em;
+    }
+
+    h2,
+    h3,
+    h4 {
+        color: #2262ac;
+    }
+}
+
 /* Bright Grey
 -------------------------------------------------------------- */
 

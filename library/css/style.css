@@ -1290,6 +1290,20 @@ FOOTER STYLES
 .page-id-11289 h2, .page-id-11289 h3, .page-id-11289 h4, .category-bny-mellon h2, .category-bny-mellon h3, .category-bny-mellon h4, .tag-bny h2, .tag-bny h3, .tag-bny h4 {
   color: #FFA100; }
 
+/* Brand FT
+-------------------------------------------------------------- */
+.tag-brand-ft a, .tag-brand-ft a:visited {
+  color: #2262ac; }
+  .tag-brand-ft a:hover, .tag-brand-ft a:focus, .tag-brand-ft a:visited:hover, .tag-brand-ft a:visited:focus {
+    color: #1a4c86; }
+.tag-brand-ft h1 {
+  text-align: center;
+  background-color: #496394;
+  color: #fff;
+  border-radius: 1em; }
+.tag-brand-ft h2, .tag-brand-ft h3, .tag-brand-ft h4 {
+  color: #2262ac; }
+
 /* Bright Grey
 -------------------------------------------------------------- */
 .page-id-237 a, .page-id-237 a:visited, .category-bright-grey a, .category-bright-grey a:visited, .category-target-bright-grey a, .category-target-bright-grey a:visited, .tag-bright-grey a, .tag-bright-grey a:visited {
