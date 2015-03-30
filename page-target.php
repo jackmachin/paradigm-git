@@ -3,7 +3,6 @@
 Template Name: Target Template
 */
 
-
 ?>
 
 <?php get_header(); ?>
@@ -62,36 +61,36 @@ Template Name: Target Template
                             // Gets every "category" (term) in this taxonomy to get the respective posts
                             $terms = get_terms( 'target_cat', $args );
 
-                                foreach( $terms as $term ) : ?>
+                            foreach( $terms as $term ) : ?>
 
-                                    <h2><a href="http://paradigmgroup.eu/issue/<?php echo $term->slug ?>"><?php echo $term->name ?></a></h2>
-                                    <?php
-                                        //list terms in a given taxonomy using wp_list_categories (also useful as a widget if using a PHP Code plugin)
-                                        $taxonomy     = 'target_cat';
-                                        $orderby      = 'slug';
-                                        $show_count   = 0;      // 1 for yes, 0 for no
-                                        $pad_counts   = 0;      // 1 for yes, 0 for no
-                                        $hierarchical = 1;      // 1 for yes, 0 for no
-                                        $title        = '';
-                                        $child= $term->term_id;
+                                <h2><a href="http://paradigmgroup.eu/issue/<?php echo $term->slug ?>"><?php echo $term->name ?></a></h2>
+                                <?php
+                                    //list terms in a given taxonomy using wp_list_categories (also useful as a widget if using a PHP Code plugin)
+                                    $taxonomy     = 'target_cat';
+                                    $orderby      = 'slug';
+                                    $show_count   = 0;      // 1 for yes, 0 for no
+                                    $pad_counts   = 0;      // 1 for yes, 0 for no
+                                    $hierarchical = 1;      // 1 for yes, 0 for no
+                                    $title        = '';
+                                    $child= $term->term_id;
 
-                                        $args = array(
-                                          'taxonomy'     => $taxonomy,
-                                          'orderby'      => $orderby,
-                                         'order'              => 'DESC',
-                                          'show_count'   => $show_count,
-                                          'pad_counts'   => $pad_counts,
-                                          'hierarchical' => $hierarchical,
-                                          'title_li'     => $title,
-                                          'hide_empty'         => true,
-                                          'child_of' => $child
-                                        );
-                                    ?>
+                                    $args = array(
+                                        'taxonomy'     => $taxonomy,
+                                        'orderby'      => $orderby,
+                                        'order'              => 'DESC',
+                                        'show_count'   => $show_count,
+                                        'pad_counts'   => $pad_counts,
+                                        'hierarchical' => $hierarchical,
+                                        'title_li'     => $title,
+                                        'hide_empty'         => true,
+                                        'child_of' => $child
+                                    );
+                                ?>
 
-                                        <ul class="columns">
-                                            <?php wp_list_categories( $args ); ?>
-                                        </ul>
-                                    <?php endforeach;?>
+                                    <ul class="columns">
+                                        <?php wp_list_categories( $args ); ?>
+                                    </ul>
+                            <?php endforeach;?>
 
                         </section> <!-- end article section -->
 
