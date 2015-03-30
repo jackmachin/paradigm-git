@@ -1691,19 +1691,17 @@ h1.partnership-title {
 
 /* Threadneedle
 -------------------------------------------------------------- */
-.page-id-264 a, .page-id-264 a:visited, .category-threadneedle a, .category-threadneedle a:visited, .category-target-threadneedle a, .category-target-threadneedle a:visited, .tag-threadneedle a, .tag-threadneedle a:visited {
-  color: #000; }
-  .page-id-264 a:hover, .page-id-264 a:focus, .page-id-264 a:visited:hover, .page-id-264 a:visited:focus, .category-threadneedle a:hover, .category-threadneedle a:focus, .category-threadneedle a:visited:hover, .category-threadneedle a:visited:focus, .category-target-threadneedle a:hover, .category-target-threadneedle a:focus, .category-target-threadneedle a:visited:hover, .category-target-threadneedle a:visited:focus, .tag-threadneedle a:hover, .tag-threadneedle a:focus, .tag-threadneedle a:visited:hover, .tag-threadneedle a:visited:focus {
-    color: black; }
-.page-id-264 h1, .category-threadneedle h1, .category-target-threadneedle h1, .tag-threadneedle h1 {
+.page-id-264 a, .page-id-264 a:visited, .category-threadneedle a, .category-threadneedle a:visited, .tag-threadneedle a, .tag-threadneedle a:visited {
+  color: #003D6D; }
+  .page-id-264 a:hover, .page-id-264 a:focus, .page-id-264 a:visited:hover, .page-id-264 a:visited:focus, .category-threadneedle a:hover, .category-threadneedle a:focus, .category-threadneedle a:visited:hover, .category-threadneedle a:visited:focus, .tag-threadneedle a:hover, .tag-threadneedle a:focus, .tag-threadneedle a:visited:hover, .tag-threadneedle a:visited:focus {
+    color: #00233f; }
+.page-id-264 h1, .category-threadneedle h1, .tag-threadneedle h1 {
   color: #000;
-  background-color: #debb03;
+  background-color: #003D6D;
   border-radius: 1em;
   text-align: center; }
-.page-id-264 .threadneedle, .category-threadneedle .threadneedle, .category-target-threadneedle .threadneedle, .tag-threadneedle .threadneedle {
-  background-color: #e6e6e6; }
-.page-id-264 h2, .page-id-264 h3, .page-id-264 h4, .category-threadneedle h2, .category-threadneedle h3, .category-threadneedle h4, .category-target-threadneedle h2, .category-target-threadneedle h3, .category-target-threadneedle h4, .tag-threadneedle h2, .tag-threadneedle h3, .tag-threadneedle h4 {
-  color: #000; }
+.page-id-264 h2, .page-id-264 h3, .page-id-264 h4, .category-threadneedle h2, .category-threadneedle h3, .category-threadneedle h4, .tag-threadneedle h2, .tag-threadneedle h3, .tag-threadneedle h4 {
+  color: #003D6D; }
 
 /* Zurich
 -------------------------------------------------------------- */

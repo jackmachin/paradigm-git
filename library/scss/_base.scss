@@ -1313,12 +1313,33 @@ FOOTER STYLES
 /* Threadneedle
 -------------------------------------------------------------- */
 
-.page-id-264, .category-threadneedle, .category-target-threadneedle, .tag-threadneedle {
-	a, a:visited {color: #000; &:hover, &:focus {color: darken(#000, 9%);} }
-	h1 {color: #000; background-color:#debb03; border-radius:1em; text-align:center;}
-	.threadneedle {background-color:#e6e6e6;}
-	h2, h3, h4 {color: #000;}
-	}
+.page-id-264,
+.category-threadneedle,
+.tag-threadneedle {
+
+    a,
+    a:visited {
+        color: #003D6D;
+
+        &:hover,
+        &:focus {
+            color: darken(#003D6D, 9%);
+        }
+    }
+
+    h1 {
+        color: #000;
+        background-color:#003D6D;
+        border-radius:1em;
+        text-align:center;
+    }
+
+    h2,
+    h3,
+    h4 {
+        color: #003D6D;
+    }
+}
 
 /* Zurich
 -------------------------------------------------------------- */
