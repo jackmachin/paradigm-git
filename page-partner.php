@@ -16,15 +16,7 @@ Template Name: Strategic Partner Template
 
                     <?php if (have_posts()) : while (have_posts()) : the_post();  ?>
 
-                    <?php
-                      $tag = get_field ('tag');
-                      $classes = array(
-                        'clearfix',
-                        $tag,
-                        );
-                    ?>
-
-                        <article id="post-<?php the_ID(); ?>" <?php post_class( $classes ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
+                        <article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
                             <header class="article-header">
 
