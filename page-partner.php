@@ -41,7 +41,7 @@ yoast_breadcrumb('<p id="breadcrumbs">','</p>');
 
 	<?php while( have_rows('main_content') ): the_row();?>
 
-    <h2><a class="aj-collapse clearfix" rel="<?php the_sub_field ('section_id') ;?>"><?php  the_sub_field ('section_title') ; ?></a></h2>
+    <h2><a class="aj-collapse" rel="<?php the_sub_field ('section_id') ;?>"><?php  the_sub_field ('section_title') ; ?></a></h2>
 
     <div class="aj-hidden clearfix" id="<?php  the_sub_field ('section_id') ;?>"><?php  the_sub_field ('section_content') ; ?></div>
 
