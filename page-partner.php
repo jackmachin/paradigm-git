@@ -38,7 +38,9 @@ Template Name: Strategic Partner Template
 
                                     <h2><a class="aj-collapse" rel="<?php the_sub_field ('section_id') ;?>"><?php  the_sub_field ('section_title') ; ?></a></h2>
 
-                                    <div class="aj-hidden clearfix" id="<?php  the_sub_field ('section_id') ;?>"><?php  the_sub_field ('section_content') ; ?></div>
+                                    <div class="aj-hidden clearfix" id="<?php  the_sub_field ('section_id') ;?>">
+                                        <?php  the_sub_field ('section_content') ; ?>
+                                    </div>
 
                                 <?php endwhile; ?>
 
