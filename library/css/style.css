@@ -1696,7 +1696,7 @@ h1.partnership-title {
   .page-id-264 a:hover, .page-id-264 a:focus, .page-id-264 a:visited:hover, .page-id-264 a:visited:focus, .category-threadneedle a:hover, .category-threadneedle a:focus, .category-threadneedle a:visited:hover, .category-threadneedle a:visited:focus, .tag-threadneedle a:hover, .tag-threadneedle a:focus, .tag-threadneedle a:visited:hover, .tag-threadneedle a:visited:focus {
     color: #00233f; }
 .page-id-264 h1, .category-threadneedle h1, .tag-threadneedle h1 {
-  color: #000;
+  color: #fff;
   background-color: #003D6D;
   border-radius: 1em;
   text-align: center; }
