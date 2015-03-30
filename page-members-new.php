@@ -6,43 +6,38 @@ Template Name: New Member Template
 
 <?php get_header(); ?>
 
-			<div id="content">
+    <div id="content">
 
-				<div id="inner-content" class="wrap clearfix">
+        <div id="inner-content" class="wrap clearfix">
 
-					<?php get_sidebar( 'members' ); ?>
+            <?php get_sidebar( 'members' ); ?>
 
-						<div id="main" class="ninecol clearfix" role="main">
+                <div id="main" class="ninecol clearfix" role="main">
 
-							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+                    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-							<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
+                    <article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
-								<header class="article-header">
+                        <header class="article-header">
 
-                 <h1 class="h2"><?php the_title ();?></h1>
+                            <h1 class="h2"><?php the_title ();?></h1>
 
-								</header> <!-- end article header -->
+                        </header> <!-- end article header -->
 
-								<section class="entry-content clearfix" itemprop="articleBody">
-									<?php the_content(); ?>
-								</section> <!-- end article section -->
+                        <section class="entry-content clearfix" itemprop="articleBody">
+                            <?php the_content(); ?>
+                        </section> <!-- end article section -->
 
-								<footer class="article-footer">
+                    </article> <!-- end article -->
 
-								</footer> <!-- end article footer -->
+                <?php endwhile; else : ?>
 
-							</article> <!-- end article -->
+                <?php endif; ?>
 
-							<?php endwhile; else : ?>
+            </div> <!-- end #main -->
 
-							<?php endif; ?>
+        </div> <!-- end #inner-content -->
 
-						</div> <!-- end #main -->
-
-
-				</div> <!-- end #inner-content -->
-
-			</div> <!-- end #content -->
+    </div> <!-- end #content -->
 
 <?php get_footer(); ?>
