@@ -1,9 +1,9 @@
-				<div id="sidebar-right" class="threecol last clearfix" role="complementary">
+<div id="sidebar-right" class="threecol last clearfix" role="complementary">
 
-					<?php if ( is_active_sidebar( 'sidebar-right' ) ) : ?>
+    <?php if ( is_active_sidebar( 'sidebar-right' ) ) : ?>
 
-						<?php dynamic_sidebar( 'sidebar-right' ); ?>
+        <?php dynamic_sidebar( 'sidebar-right' ); ?>
 
-					<?php endif; ?>
+    <?php endif; ?>
 
-				</div>
+</div>
