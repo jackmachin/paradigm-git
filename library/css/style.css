@@ -880,6 +880,8 @@ POSTS & CONTENT STYLES
     font-size: 14px;
     line-height: 1.4em;
     margin-bottom: 20px; }
+  .entry-content .small-print {
+    font-size: 10px; }
   .entry-content ul, .entry-content ol {
     margin-bottom: 20px;
     padding-left: 20px;
@@ -2005,9 +2007,6 @@ body .gform_wrapper div.gform_body ul.gform_fields li.gfield.gfield_html ul, bod
 
 .ui-widget-content a.map-link {
   color: #bc1739; }
-
-.small-print {
-  font-size: 10px; }
 
 /*
 LARGER MOBILE DEVICES
