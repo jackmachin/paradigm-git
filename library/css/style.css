@@ -1180,11 +1180,11 @@ FOOTER STYLES
 
 /* Aegon
 -------------------------------------------------------------- */
-.page-id-168 a, .page-id-168 a:visited, .category-aegon a, .category-aegon a:visited, .post-4610 a, .post-4610 a:visited, .category-target-aegon a, .category-target-aegon a:visited, .tag-aegon a, .tag-aegon a:visited {
+.page-id-168 a, .page-id-168 a:visited, .category-aegon a, .category-aegon a:visited, .tag-aegon a, .tag-aegon a:visited {
   color: #0077C8; }
-  .page-id-168 a:hover, .page-id-168 a:focus, .page-id-168 a:visited:hover, .page-id-168 a:visited:focus, .category-aegon a:hover, .category-aegon a:focus, .category-aegon a:visited:hover, .category-aegon a:visited:focus, .post-4610 a:hover, .post-4610 a:focus, .post-4610 a:visited:hover, .post-4610 a:visited:focus, .category-target-aegon a:hover, .category-target-aegon a:focus, .category-target-aegon a:visited:hover, .category-target-aegon a:visited:focus, .tag-aegon a:hover, .tag-aegon a:focus, .tag-aegon a:visited:hover, .tag-aegon a:visited:focus {
+  .page-id-168 a:hover, .page-id-168 a:focus, .page-id-168 a:visited:hover, .page-id-168 a:visited:focus, .category-aegon a:hover, .category-aegon a:focus, .category-aegon a:visited:hover, .category-aegon a:visited:focus, .tag-aegon a:hover, .tag-aegon a:focus, .tag-aegon a:visited:hover, .tag-aegon a:visited:focus {
     color: #005c9a; }
-.page-id-168 h1, .category-aegon h1, .post-4610 h1, .category-target-aegon h1, .tag-aegon h1 {
+.page-id-168 h1, .category-aegon h1, .tag-aegon h1 {
   background-color: #0077C8;
   background-image: linear-gradient(to right, #0077C8, #0AB9EB);
   border-radius: 1em;
@@ -1196,7 +1196,7 @@ FOOTER STYLES
   background-image: -ms-linear-gradient(left, #0077C8, #0AB9EB);
   background-image: -o-linear-gradient(left, #0077C8, #0AB9EB);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#0077c8', EndColorStr='#0AB9EB',GradientType=1) /* IE6-9 */; }
-.page-id-168 h2, .page-id-168 h3, .page-id-168 h4, .page-id-168 h5, .category-aegon h2, .category-aegon h3, .category-aegon h4, .category-aegon h5, .post-4610 h2, .post-4610 h3, .post-4610 h4, .post-4610 h5, .category-target-aegon h2, .category-target-aegon h3, .category-target-aegon h4, .category-target-aegon h5, .tag-aegon h2, .tag-aegon h3, .tag-aegon h4, .tag-aegon h5 {
+.page-id-168 h2, .page-id-168 h3, .page-id-168 h4, .page-id-168 h5, .category-aegon h2, .category-aegon h3, .category-aegon h4, .category-aegon h5, .tag-aegon h2, .tag-aegon h3, .tag-aegon h4, .tag-aegon h5 {
   color: #0077C8; }
 
 /* Ageas Page 233
@@ -1206,13 +1206,13 @@ FOOTER STYLES
 
 /* Aviva
 -------------------------------------------------------------- */
-.page-id-234 a, .page-id-234 a:visited, .category-aviva a, .category-aviva a:visited, .category-target-aviva a, .category-target-aviva a:visited, .tag-aviva a, .tag-aviva a:visited {
+.page-id-234 a, .page-id-234 a:visited, .category-aviva a, .category-aviva a:visited, .tag-aviva a, .tag-aviva a:visited {
   color: #004fb6; }
-  .page-id-234 a:hover, .page-id-234 a:focus, .page-id-234 a:visited:hover, .page-id-234 a:visited:focus, .category-aviva a:hover, .category-aviva a:focus, .category-aviva a:visited:hover, .category-aviva a:visited:focus, .category-target-aviva a:hover, .category-target-aviva a:focus, .category-target-aviva a:visited:hover, .category-target-aviva a:visited:focus, .tag-aviva a:hover, .tag-aviva a:focus, .tag-aviva a:visited:hover, .tag-aviva a:visited:focus {
+  .page-id-234 a:hover, .page-id-234 a:focus, .page-id-234 a:visited:hover, .page-id-234 a:visited:focus, .category-aviva a:hover, .category-aviva a:focus, .category-aviva a:visited:hover, .category-aviva a:visited:focus, .tag-aviva a:hover, .tag-aviva a:focus, .tag-aviva a:visited:hover, .tag-aviva a:visited:focus {
     color: #003b88; }
-.page-id-234 h1, .category-aviva h1, .category-target-aviva h1, .tag-aviva h1 {
-  background-image: linear-gradient(to right, #FFE866, #FFD900);
+.page-id-234 h1, .category-aviva h1, .tag-aviva h1 {
   border-radius: 1em;
+  background-image: linear-gradient(to right, #FFE866, #FFD900);
   background-image: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#FFE866), to(#FFD900));
   background-image: -webkit-linear-gradient(left, #FFE866, #FFD900);
   background-image: -moz-linear-gradient(left, #FFE866, #FFD900);
@@ -1221,16 +1221,16 @@ FOOTER STYLES
   filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFE866', EndColorStr='#FFD900',GradientType=1) /* IE6-9 */;
   color: #004fb6;
   text-align: center; }
-.page-id-234 h2, .page-id-234 h3, .page-id-234 h4, .category-aviva h2, .category-aviva h3, .category-aviva h4, .category-target-aviva h2, .category-target-aviva h3, .category-target-aviva h4, .tag-aviva h2, .tag-aviva h3, .tag-aviva h4 {
+.page-id-234 h2, .page-id-234 h3, .page-id-234 h4, .category-aviva h2, .category-aviva h3, .category-aviva h4, .tag-aviva h2, .tag-aviva h3, .tag-aviva h4 {
   color: #004fb6; }
 
 /* AXA (Wealth & Life Invest)
 -------------------------------------------------------------- */
-.page-id-235 a, .page-id-235 a:visited, .page-id-11095 a, .page-id-11095 a:visited, .category-target-axa a, .category-target-axa a:visited, .category-5 a, .category-5 a:visited, .category-axa-wealth a, .category-axa-wealth a:visited, .tag-axa a, .tag-axa a:visited {
+.page-id-235 a, .page-id-235 a:visited, .page-id-11095 a, .page-id-11095 a:visited, .category-5 a, .category-5 a:visited, .category-axa-wealth a, .category-axa-wealth a:visited, .tag-axa a, .tag-axa a:visited {
   color: #0b3881; }
-  .page-id-235 a:hover, .page-id-235 a:focus, .page-id-235 a:visited:hover, .page-id-235 a:visited:focus, .page-id-11095 a:hover, .page-id-11095 a:focus, .page-id-11095 a:visited:hover, .page-id-11095 a:visited:focus, .category-target-axa a:hover, .category-target-axa a:focus, .category-target-axa a:visited:hover, .category-target-axa a:visited:focus, .category-5 a:hover, .category-5 a:focus, .category-5 a:visited:hover, .category-5 a:visited:focus, .category-axa-wealth a:hover, .category-axa-wealth a:focus, .category-axa-wealth a:visited:hover, .category-axa-wealth a:visited:focus, .tag-axa a:hover, .tag-axa a:focus, .tag-axa a:visited:hover, .tag-axa a:visited:focus {
+  .page-id-235 a:hover, .page-id-235 a:focus, .page-id-235 a:visited:hover, .page-id-235 a:visited:focus, .page-id-11095 a:hover, .page-id-11095 a:focus, .page-id-11095 a:visited:hover, .page-id-11095 a:visited:focus, .category-5 a:hover, .category-5 a:focus, .category-5 a:visited:hover, .category-5 a:visited:focus, .category-axa-wealth a:hover, .category-axa-wealth a:focus, .category-axa-wealth a:visited:hover, .category-axa-wealth a:visited:focus, .tag-axa a:hover, .tag-axa a:focus, .tag-axa a:visited:hover, .tag-axa a:visited:focus {
     color: #072657; }
-.page-id-235 h1, .page-id-11095 h1, .category-target-axa h1, .category-5 h1, .category-axa-wealth h1, .tag-axa h1 {
+.page-id-235 h1, .page-id-11095 h1, .category-5 h1, .category-axa-wealth h1, .tag-axa h1 {
   color: #fff;
   border-radius: 1em;
   background-color: #003881;
@@ -1243,7 +1243,7 @@ FOOTER STYLES
   filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#003881', EndColorStr='#2e5391',GradientType=1) /* IE6-9 */;
   zoom: 1;
   text-align: center; }
-.page-id-235 h2, .page-id-235 h3, .page-id-235 h4, .page-id-11095 h2, .page-id-11095 h3, .page-id-11095 h4, .category-target-axa h2, .category-target-axa h3, .category-target-axa h4, .category-5 h2, .category-5 h3, .category-5 h4, .category-axa-wealth h2, .category-axa-wealth h3, .category-axa-wealth h4, .tag-axa h2, .tag-axa h3, .tag-axa h4 {
+.page-id-235 h2, .page-id-235 h3, .page-id-235 h4, .page-id-11095 h2, .page-id-11095 h3, .page-id-11095 h4, .category-5 h2, .category-5 h3, .category-5 h4, .category-axa-wealth h2, .category-axa-wealth h3, .category-axa-wealth h4, .tag-axa h2, .tag-axa h3, .tag-axa h4 {
   color: #0b3881; }
 
 /* Blackrock
@@ -1925,7 +1925,7 @@ a.box:hover, a.box:focus {
   height: 30px;
   font-size: 16px; }
 
-body .gform_wrapper div.gform_body ul.gform_fields li.gfield.gfield_html ul, body .gform_wrapper form div.gform_body ul.gform_fields li.gfield.gfield_html ul {
+.gform_wrapper div.gform_body ul.gform_fields li.gfield.gfield_html ul, .gform_wrapper form div.gform_body ul.gform_fields li.gfield.gfield_html ul {
   list-style-type: disc !important;
   margin: 1em 0 1em 1.5em;
   padding-left: 20px; }
