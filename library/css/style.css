@@ -1531,6 +1531,20 @@ h1.partnership-title {
   color: #6eb43f;
   text-align: left; }
 
+.partnershipcontents {
+  background-color: #6eb43f; }
+  .partnershipcontents ul {
+    margin-left: 5%; }
+  .partnershipcontents a {
+    color: #fff; }
+    .partnershipcontents a:hover, .partnershipcontents a:focus, .partnershipcontents a:visited {
+      color: #e8e8e8 !important; }
+  .partnershipcontents h2, .partnershipcontents h3 {
+    color: #fff;
+    margin-left: 5%;
+    padding-top: 5px;
+    margin-bottom: 5px; }
+
 /* Prudential
 -------------------------------------------------------------- */
 .page-id-251 a, .page-id-251 a:visited, .category-prudential a, .category-prudential a:visited, .category-target-prudential a, .category-target-prudential a:visited, .tag-prudential a, .tag-prudential a:visited {
@@ -1735,20 +1749,6 @@ h1.partnership-title {
   padding-top: 5px;
   margin-bottom: 5px;
   border-bottom: 2px solid; }
-
-.partnershipcontents {
-  background-color: #9da606; }
-  .partnershipcontents ul {
-    margin-left: 5%; }
-  .partnershipcontents a {
-    color: #fff; }
-    .partnershipcontents a:hover, .partnershipcontents a:focus, .partnershipcontents a:visited {
-      color: #e8e8e8 !important; }
-  .partnershipcontents h2, .partnershipcontents h3 {
-    color: #fff;
-    margin-left: 5%;
-    padding-top: 5px;
-    margin-bottom: 5px; }
 
 .type-target {
   background-color: #eee;

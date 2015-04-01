@@ -1202,6 +1202,13 @@ FOOTER STYLES
     text-align: left;
   }
 
+.partnershipcontents {
+	background-color:#6eb43f;
+	ul {margin-left:5%;}
+	a {color: #fff; &:hover, &:focus, &:visited {color: darken(#fff, 9%) !important;} }
+	h2, h3 {color:#fff;margin-left: 5%; padding-top: 5px; margin-bottom: 5px;}
+	}
+
 /* Prudential
 -------------------------------------------------------------- */
 
@@ -1366,15 +1373,7 @@ FOOTER STYLES
     margin-bottom: 5px;
     border-bottom: 2px solid;
   }
-	}
-
-.partnershipcontents {
-	background-color:#9da606;
-	ul {margin-left:5%;}
-	a {color: #fff; &:hover, &:focus, &:visited {color: darken(#fff, 9%) !important;} }
-	h2, h3 {color:#fff;margin-left: 5%; padding-top: 5px; margin-bottom: 5px;}
-	}
-
+}
 
 .type-target {
   background-color: #eee;
