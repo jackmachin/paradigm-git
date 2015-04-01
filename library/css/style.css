@@ -1528,6 +1528,9 @@ h1.partnership-title {
 .partnershipcontents {
   background-color: #6eb43f;
   padding: 1em; }
+  .partnershipcontents ul {
+    list-style-type: disc;
+    margin-left: 2em; }
   .partnershipcontents a {
     color: #fff; }
     .partnershipcontents a:hover, .partnershipcontents a:focus, .partnershipcontents a:visited {
