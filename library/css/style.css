@@ -1798,15 +1798,13 @@ ul.manual-list {
 
 /* Widget related styles */
 .sgjvs_widget_title {
-  /* Add your custom css here  for title */
   font-size: 11px; }
 
 .sgjvs_widget_title a {
-  /* Add your custom css here  for title */
   color: #bc1739 !important; }
 
 .soliloquy-control-nav {
-  display: none; }
+  visibility: hidden; }
 
 .good {
   background-color: #68B64F;

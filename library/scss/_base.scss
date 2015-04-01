@@ -1444,9 +1444,19 @@ h1.partnership-title {
 
 /* Member */
 
-.tile {background: url(/wordpress/wp-content/themes/paradigm/library/images/tile.png) no-repeat; min-height: 260px;margin-bottom:1em;color:#fff;
-	p {margin:1em;}
-	h2 {text-align:center; color:#fff;}
+.tile {
+    background: url(/wordpress/wp-content/themes/paradigm/library/images/tile.png) no-repeat;
+    min-height: 260px;
+    margin-bottom:1em;color:#fff;
+
+    p {
+        margin:1em;
+    }
+
+    h2 {
+        text-align:center;
+        color:#fff;
+    }
 }
 
 ul.member-list {
@@ -1469,29 +1479,40 @@ ul.member-list {
 	}
 
 ul.manual-list {
-		list-style:none !important;
+    list-style:none !important;
 
 	li a {
 		color:#fff;
 		line-height: 24px;
 		font-size: 12px;
 
-		&:hover, &:focus {
-		color: darken(#fff, 9%);
+		&:hover,
+        &:focus {
+		  color: darken(#fff, 9%);
 		}
 	}
-	}
+}
+
 .a-2 {margin:0 !important;}
-#sg_jquery_scroller_widget-2, #sg_jquery_scroller_widget-3  {	padding:0;	width:140px;	}
+
+#sg_jquery_scroller_widget-2,
+#sg_jquery_scroller_widget-3  {
+    padding:0;
+    width:140px;
+}
 
 /* Widget related styles */
 .sgjvs_widget_title {
-    /* Add your custom css here  for title */	font-size:11px;
+    font-size:11px;
 }
+
 .sgjvs_widget_title a {
-    /* Add your custom css here  for title */	color:#bc1739 !important;
+    color:#bc1739 !important;
 }
-.soliloquy-control-nav {display:none;}
+
+.soliloquy-control-nav {
+    visibility:hidden;
+}
 
 .good {
 	background-color: #68B64F;
