@@ -214,7 +214,7 @@
 							<div id="targetbar"><?php $category = get_the_category(); echo $category[0]->cat_name;?></div>
 					<?php }
 
-						elseif (is_category (306)) { ?>
+						elseif (is_category ( array (306, 348))) { ?>
 
 							<img style="padding-top:35px;" src="http://paradigmgroup.eu/wordpress/wp-content/files/2014/12/partnership-header.jpg" alt="Paradigm" >
 							<div id="targetbar"><?php $category = get_the_category(); echo $category[0]->cat_name;?></div>
