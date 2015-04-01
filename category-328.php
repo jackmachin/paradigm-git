@@ -5,7 +5,7 @@
 				<div id="inner-content" class="wrap clearfix">
 
 					<div class="intro twelvecol first">
-							<div id="description" class="ninecol first"><?php echo category_description( $category_id ); ?> </div>
+							<div id="description" class="ninecol entry-content first"><?php echo category_description( $category_id ); ?> </div>
 							<div class="threecol last" style="margin-bottom:2em;"><img src="http://paradigmgroup.eu/eshot/partnership/logo.jpg" class="twelvecol"></div>
                       <div class="threecol partnershipcontents last">
                           <h2>Contents</h2>
@@ -16,7 +16,6 @@
                             </ul>
                       </div>
 							</div>
-					</div>
 						<div id="main" class="twelvecol clearfix first" role="main">
 
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
