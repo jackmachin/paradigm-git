@@ -1520,12 +1520,6 @@ FOOTER STYLES
 .page-id-250 h2, .page-id-250 h3, .page-id-250 h4, .category-partnership h2, .category-partnership h3, .category-partnership h4, .category-partnership-newsletter h2, .category-partnership-newsletter h3, .category-partnership-newsletter h4, .category-target-partnership h2, .category-target-partnership h3, .category-target-partnership h4, .tag-partnership h2, .tag-partnership h3, .tag-partnership h4, .category-partnership-december-14 h2, .category-partnership-december-14 h3, .category-partnership-december-14 h4, .category-328 h2, .category-328 h3, .category-328 h4 {
   color: #6eb43f; }
 
-.category-partnership-newsletter h1 {
-  color: #fff;
-  background-color: #6eb43f;
-  border-radius: 1em;
-  text-align: center; }
-
 h1.partnership-title {
   background-color: #fff;
   color: #6eb43f;
@@ -1534,8 +1528,6 @@ h1.partnership-title {
 .partnershipcontents {
   background-color: #6eb43f;
   padding: 1em; }
-  .partnershipcontents ul {
-    margin-left: 5%; }
   .partnershipcontents a {
     color: #fff; }
     .partnershipcontents a:hover, .partnershipcontents a:focus, .partnershipcontents a:visited {
@@ -1754,14 +1746,13 @@ h1.partnership-title {
   padding: 1em; }
   .type-target .entry-content td {
     background-color: #fff; }
+  .type-target h1 {
+    text-align: center; }
 
-.category-target h1 {
-  text-align: center; }
-
-table#targettable td {
+#targettable td {
   width: 80%;
   vertical-align: top; }
-table#targettable th {
+#targettable th {
   width: 20%; }
 
 /* Member */
@@ -1853,9 +1844,6 @@ ul.twocolumns {
   -webkit-column-gap: 20px;
   column-count: 2;
   column-gap: 20px; }
-
-.type-target h1 {
-  text-align: center; }
 
 .custom-post-type-title {
   margin-top: 2em; }

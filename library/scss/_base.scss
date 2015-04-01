@@ -1187,28 +1187,43 @@ FOOTER STYLES
 -------------------------------------------------------------- */
 
 .page-id-250, .category-partnership, .category-partnership-newsletter, .category-target-partnership, .tag-partnership, .category-partnership-december-14, .category-328 {
-	a {color: #6eb43f; &:hover, &:focus , &:visited {color: darken(#6eb43f, 9%);} }
-	h1 {color: #fff; background-color:#6eb43f; border-radius:1em; text-align:center;}
-	h2, h3, h4 {color: #6eb43f;}
-	}
 
-	.category-partnership-newsletter {
-    h1 {color: #fff; background-color:#6eb43f; border-radius:1em; text-align:center;}
-	}
+    a {
+        color: #6eb43f;
 
-  h1.partnership-title {
+        &:hover,
+        &:focus ,
+        &:visited {
+            color: darken(#6eb43f, 9%);
+        }
+    }
+
+    h1 {
+        color: #fff;
+        background-color:#6eb43f;
+        border-radius:1em;
+        text-align:center;
+    }
+
+    h2,
+    h3,
+    h4 {
+        color: #6eb43f;
+    }
+
+}
+
+h1.partnership-title {
     background-color: #fff;
     color: #6eb43f;
     text-align: left;
-  }
+}
 
 .partnershipcontents {
 	background-color:#6eb43f;
     padding: 1em;
 
-	ul {
-        margin-left:5%;
-    }
+	ul {}
 
     a {
         color: #fff;
@@ -1380,33 +1395,52 @@ FOOTER STYLES
 /* Target August
 -------------------------------------------------------------- */
 
-#targetbar {background-color:#d2232a; height:30px; color:#fff; font-size:20px; line-height:30px; text-align:right;margin-top:-6px;}
+#targetbar {
+    background-color:#d2232a;
+    height:30px;
+    color:#fff;
+    font-size:20px;
+    line-height:30px;
+    text-align:right;
+    margin-top:-6px;
+}
+
 .targetcontents {
 
-  h2,
-  h3 {
-    margin-left: 5%;
-    padding-top: 5px;
-    margin-bottom: 5px;
-    border-bottom: 2px solid;
-  }
+    h2,
+    h3 {
+        margin-left: 5%;
+        padding-top: 5px;
+        margin-bottom: 5px;
+        border-bottom: 2px solid;
+    }
 }
 
 .type-target {
-  background-color: #eee;
-  margin-bottom: 1.5em;
-  padding: 1em;
+    background-color: #eee;
+    margin-bottom: 1.5em;
+    padding: 1em;
 
-  .entry-content td {
-    background-color: #fff;
-  }
+    .entry-content td {
+        background-color: #fff;
+    }
+
+    h1 {
+        text-align:center;
+    }
 }
-.category-target {h1 {text-align:center;}}
 
-table#targettable {
-	td {width:80%;vertical-align:top;}
-	th {width:20%;}
-	}
+    #targettable {
+
+        td {
+            width:80%;
+            vertical-align:top;
+        }
+
+        th {
+            width:20%;
+        }
+}
 
 /* Member */
 
@@ -1497,7 +1531,7 @@ ul.columns {
     column-gap: 20px;
 	}
 
-.type-target { h1 {text-align:center;}}
+
 
 .custom-post-type-title {margin-top: 2em;}
 
@@ -1550,15 +1584,15 @@ ul.columns {
 
  ul.cets_embedRSS {a.post {font-weight: bold;}}
 
- a.box {
-height: 50px;
-background-color: #bc1739;
-color: #000;
-margin-bottom: 10px;
-line-height: 14px;
-font-size: 12px;
-padding-top: .5em;
-padding-left: .5em;
+a.box {
+    height: 50px;
+    background-color: #bc1739;
+    color: #000;
+    margin-bottom: 10px;
+    line-height: 14px;
+    font-size: 12px;
+    padding-top: .5em;
+    padding-left: .5em;
 }
 
  a.box:hover, a.box:focus {
@@ -1568,7 +1602,9 @@ padding-left: .5em;
 
 #sidebar-top {}
 
-.top-widget {border: 1px solid #bc1739;}
+.top-widget {
+    border: 1px solid #bc1739;
+}
 
 .top-widget-title {
   background-color: #bc1739;
