@@ -1186,7 +1186,7 @@ FOOTER STYLES
 /* Partnership
 -------------------------------------------------------------- */
 
-.page-id-250, .category-partnership, .category-partnership-newsletter, .category-target-partnership, .tag-partnership, .category-partnership-december-14 {
+.page-id-250, .category-partnership, .category-partnership-newsletter, .category-target-partnership, .tag-partnership, .category-partnership-december-14, .category-328 {
 	a {color: #6eb43f; &:hover, &:focus , &:visited {color: darken(#6eb43f, 9%);} }
 	h1 {color: #fff; background-color:#6eb43f; border-radius:1em; text-align:center;}
 	h2, h3, h4 {color: #6eb43f;}
@@ -1204,10 +1204,27 @@ FOOTER STYLES
 
 .partnershipcontents {
 	background-color:#6eb43f;
-	ul {margin-left:5%;}
-	a {color: #fff; &:hover, &:focus, &:visited {color: darken(#fff, 9%) !important;} }
-	h2, h3 {color:#fff;margin-left: 5%; padding-top: 5px; margin-bottom: 5px;}
-	}
+    padding: 1em;
+
+	ul {
+        margin-left:5%;
+    }
+
+    a {
+        color: #fff;
+
+        &:hover,
+        &:focus,
+        &:visited {
+            color: darken(#fff, 9%) !important;
+        }
+    }
+
+    h2,
+    h3 {
+        color:#fff;
+    }
+}
 
 /* Prudential
 -------------------------------------------------------------- */

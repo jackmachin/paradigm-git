@@ -1508,16 +1508,16 @@ FOOTER STYLES
 
 /* Partnership
 -------------------------------------------------------------- */
-.page-id-250 a, .category-partnership a, .category-partnership-newsletter a, .category-target-partnership a, .tag-partnership a, .category-partnership-december-14 a {
+.page-id-250 a, .category-partnership a, .category-partnership-newsletter a, .category-target-partnership a, .tag-partnership a, .category-partnership-december-14 a, .category-328 a {
   color: #6eb43f; }
-  .page-id-250 a:hover, .page-id-250 a:focus, .page-id-250 a:visited, .category-partnership a:hover, .category-partnership a:focus, .category-partnership a:visited, .category-partnership-newsletter a:hover, .category-partnership-newsletter a:focus, .category-partnership-newsletter a:visited, .category-target-partnership a:hover, .category-target-partnership a:focus, .category-target-partnership a:visited, .tag-partnership a:hover, .tag-partnership a:focus, .tag-partnership a:visited, .category-partnership-december-14 a:hover, .category-partnership-december-14 a:focus, .category-partnership-december-14 a:visited {
+  .page-id-250 a:hover, .page-id-250 a:focus, .page-id-250 a:visited, .category-partnership a:hover, .category-partnership a:focus, .category-partnership a:visited, .category-partnership-newsletter a:hover, .category-partnership-newsletter a:focus, .category-partnership-newsletter a:visited, .category-target-partnership a:hover, .category-target-partnership a:focus, .category-target-partnership a:visited, .tag-partnership a:hover, .tag-partnership a:focus, .tag-partnership a:visited, .category-partnership-december-14 a:hover, .category-partnership-december-14 a:focus, .category-partnership-december-14 a:visited, .category-328 a:hover, .category-328 a:focus, .category-328 a:visited {
     color: #599233; }
-.page-id-250 h1, .category-partnership h1, .category-partnership-newsletter h1, .category-target-partnership h1, .tag-partnership h1, .category-partnership-december-14 h1 {
+.page-id-250 h1, .category-partnership h1, .category-partnership-newsletter h1, .category-target-partnership h1, .tag-partnership h1, .category-partnership-december-14 h1, .category-328 h1 {
   color: #fff;
   background-color: #6eb43f;
   border-radius: 1em;
   text-align: center; }
-.page-id-250 h2, .page-id-250 h3, .page-id-250 h4, .category-partnership h2, .category-partnership h3, .category-partnership h4, .category-partnership-newsletter h2, .category-partnership-newsletter h3, .category-partnership-newsletter h4, .category-target-partnership h2, .category-target-partnership h3, .category-target-partnership h4, .tag-partnership h2, .tag-partnership h3, .tag-partnership h4, .category-partnership-december-14 h2, .category-partnership-december-14 h3, .category-partnership-december-14 h4 {
+.page-id-250 h2, .page-id-250 h3, .page-id-250 h4, .category-partnership h2, .category-partnership h3, .category-partnership h4, .category-partnership-newsletter h2, .category-partnership-newsletter h3, .category-partnership-newsletter h4, .category-target-partnership h2, .category-target-partnership h3, .category-target-partnership h4, .tag-partnership h2, .tag-partnership h3, .tag-partnership h4, .category-partnership-december-14 h2, .category-partnership-december-14 h3, .category-partnership-december-14 h4, .category-328 h2, .category-328 h3, .category-328 h4 {
   color: #6eb43f; }
 
 .category-partnership-newsletter h1 {
@@ -1532,7 +1532,8 @@ h1.partnership-title {
   text-align: left; }
 
 .partnershipcontents {
-  background-color: #6eb43f; }
+  background-color: #6eb43f;
+  padding: 1em; }
   .partnershipcontents ul {
     margin-left: 5%; }
   .partnershipcontents a {
@@ -1540,10 +1541,7 @@ h1.partnership-title {
     .partnershipcontents a:hover, .partnershipcontents a:focus, .partnershipcontents a:visited {
       color: #e8e8e8 !important; }
   .partnershipcontents h2, .partnershipcontents h3 {
-    color: #fff;
-    margin-left: 5%;
-    padding-top: 5px;
-    margin-bottom: 5px; }
+    color: #fff; }
 
 /* Prudential
 -------------------------------------------------------------- */
