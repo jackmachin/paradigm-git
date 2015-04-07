@@ -81,118 +81,78 @@
                         <?php } elseif (in_category ('Ingenious')) { ?>
 
                             <h4>Visit the <a href="/members-area/strategic-partners/ingenious-investments/">Ingenious Strategic Partner page</a></h4>
+                        <?php } elseif (has_tag ('Just Retirement')) { ?>
 
-								<?php }
+                            <h4>Visit the <a href="/members-area/strategic-partners/just-retirement/">Just Retirement Strategic Partner page</a></h4>
+                        <?php } elseif (in_category ('J.P. Morgan')) { ?>
 
-                elseif (has_tag ('Just Retirement')) { ?>
+                            <h4>Visit the <a href="/members-area/strategic-partners/j-p-morgan-asset-management/">J.P. Morgan Strategic Partner page</a></h4>
+                        <?php } elseif (in_category (16)) { ?>
 
-								<h4>Visit the <a href="/members-area/strategic-partners/just-retirement/">Just Retirement Strategic Partner page</a></h4>
+                            <h4>Visit the <a href="/members-area/strategic-partners/legal-general/">Legal &amp; General Strategic Partner page</a></h4>
+                        <?php } elseif (in_category ('Legal & General Investments')) { ?>
 
-                <?php }
+                            <h4>Visit the <a href="/members-area/strategic-partners/legal-general-investments/">Legal &amp; General Investments Strategic Partner page</a></h4>
 
-									elseif (in_category ('J.P. Morgan')) { ?>
+                        <?php } elseif (in_category ('M&G')) { ?>
 
-								<h4>Visit the <a href="/members-area/strategic-partners/j-p-morgan-asset-management/">J.P. Morgan Strategic Partner page</a></h4>
+                            <h4>Visit the <a href="/members-area/strategic-partners/mg-investments/">M&amp;G Strategic Partner page</a></h4>
 
-								<?php }
-									elseif (in_category (16)) { ?>
+                        <?php } elseif (has_tag ('MG')) { ?>
 
-								<h4>Visit the <a href="/members-area/strategic-partners/legal-general/">Legal &amp; General Strategic Partner page</a></h4>
+                            <h4>Visit the <a href="/members-area/strategic-partners/mg-investments/">M&amp;G Strategic Partner page</a></h4>
 
-								<?php }
-									elseif (in_category ('Legal & General Investments')) { ?>
+                        <?php } elseif (in_category ('MetLife')) { ?>
 
-								<h4>Visit the <a href="/members-area/strategic-partners/legal-general-investments/">Legal &amp; General Investments Strategic Partner page</a></h4>
+                            <h4>Visit the <a href="/members-area/strategic-partners/metlife/">Metlife Strategic Partner page</a></h4>
 
-								<?php }
-									elseif (in_category ('M&G')) { ?>
+                        <?php } elseif (in_category ('Octopus')) { ?>
 
-								<h4>Visit the <a href="/members-area/strategic-partners/mg-investments/">M&amp;G Strategic Partner page</a></h4>
+                            <h4>Visit the <a href="/members-area/strategic-partners/octopus/">Octopus Strategic Partner page</a></h4>
 
-                <?php }
-									elseif (has_tag ('MG')) { ?>
+                        <?php } elseif (has_tag ('Octopus')) { ?>
 
-								<h4>Visit the <a href="/members-area/strategic-partners/mg-investments/">M&amp;G Strategic Partner page</a></h4>
+                            <h4>Visit the <a href="/members-area/strategic-partners/octopus/">Octopus Strategic Partner page</a></h4>
 
-								<?php }
-									elseif (in_category ('MetLife')) { ?>
+				        <?php } elseif (has_tag ('Partnership')) { ?>
 
-								<h4>Visit the <a href="/members-area/strategic-partners/metlife/">Metlife Strategic Partner page</a></h4>
+                            <h4>Visit the <a href="/members-area/strategic-partners/partnership/">Partnership Strategic Partner page</a></h4>
+                        <?php } elseif (in_category ('Prudential')) { ?>
 
-								<?php }
-									elseif (in_category ('Octopus')) { ?>
+                            <h4>Visit the <a href="/members-area/strategic-partners/prudential/">Prudential Strategic Partner page</a></h4>
 
-								<h4>Visit the <a href="/members-area/strategic-partners/octopus/">Octopus Strategic Partner page</a></h4>
+						<?php } elseif (has_tag ('Prudential')) { ?>
 
-                <?php }
-									elseif (has_tag ('Octopus')) { ?>
+                            <h4>Visit the <a href="/members-area/strategic-partners/prudential/">Prudential Strategic Partner page</a></h4>
 
-								<h4>Visit the <a href="/members-area/strategic-partners/octopus/">Octopus Strategic Partner page</a></h4>
+                        <?php } elseif (has_tag ('Santander')) { ?>
 
-								<?php }
-									elseif (has_tag ('Partnership')) { ?>
+                            <h4>Visit the <a href="/members-area/strategic-partners/santander/">Santander Strategic Partner page</a></h4>
 
-								<h4>Visit the <a href="/members-area/strategic-partners/partnership/">Partnership Strategic Partner page</a></h4>
+                        <?php } elseif (in_category ('Scottish Widows')) { ?>
 
-								<?php }
-									elseif (in_category ('Prudential')) { ?>
+                            <h4>Visit the <a href="/members-area/strategic-partners/scottish-widows/">Scottish Widows Strategic Partner page</a></h4>
+                        <?php } elseif (in_category ('Scottish Provident')) { ?>
 
-								<h4>Visit the <a href="/members-area/strategic-partners/prudential/">Prudential Strategic Partner page</a></h4>
+                            <h4>Visit the <a href="/members-area/strategic-partners/scottish-provident/">Scottish Provident Strategic Partner page</a></h4>
+                        <?php } elseif (has_tag ('Scottish Life')) { ?>
 
-								<?php }
+                            <h4>Visit the <a href="/members-area/strategic-partners/royal-london/">Royal London Strategic Partner page</a></h4>
+                        <?php } elseif (has_tag ('Royal London')) { ?>
 
-                  elseif (has_tag ('Prudential')) { ?>
+                            <h4>Visit the <a href="/members-area/strategic-partners/royal-london/">Royal London Strategic Partner page</a></h4>
+                        <?php } elseif (has_tag ('Schroders')) { ?>
 
-								<h4>Visit the <a href="/members-area/strategic-partners/prudential/">Prudential Strategic Partner page</a></h4>
+                            <h4>Visit the <a href="/members-area/strategic-partners/schroders/">Schroders Strategic Partner page</a></h4>
 
-								<?php }
+                        <?php } elseif (has_tag ('Threadneedle')) { ?>
 
-                  elseif (has_tag ('Santander')) { ?>
+                            <h4>Visit the <a href="/members-area/strategic-partners/threadneedle/">Threadneedle Strategic Partner page</a></h4>
+                        <?php } elseif (has_tag ('Zurich')) { ?>
 
-								<h4>Visit the <a href="/members-area/strategic-partners/santander/">Santander Strategic Partner page</a></h4>
+                            <h4>Visit the <a href="/members-area/strategic-partners/zurich/">Zurich Strategic Partner page</a></h4>
 
-                <?php }
-
-									elseif (in_category ('Scottish Widows')) { ?>
-
-								<h4>Visit the <a href="/members-area/strategic-partners/scottish-widows/">Scottish Widows Strategic Partner page</a></h4>
-
-								<?php }
-
-									elseif (in_category ('Scottish Provident')) { ?>
-
-								<h4>Visit the <a href="/members-area/strategic-partners/scottish-provident/">Scottish Provident Strategic Partner page</a></h4>
-
-								<?php }
-
-                  elseif (has_tag ('Scottish Life')) { ?>
-
-								<h4>Visit the <a href="/members-area/strategic-partners/royal-london/">Royal London Strategic Partner page</a></h4>
-
-                <?php }
-
-                  elseif (has_tag ('Royal London')) { ?>
-
-								<h4>Visit the <a href="/members-area/strategic-partners/royal-london/">Royal London Strategic Partner page</a></h4>
-
-                <?php }
-
-                  elseif (has_tag ('Schroders')) { ?>
-
-								<h4>Visit the <a href="/members-area/strategic-partners/schroders/">Schroders Strategic Partner page</a></h4>
-
-                <?php }
-
-                  elseif (has_tag ('Threadneedle')) { ?>
-
-								<h4>Visit the <a href="/members-area/strategic-partners/threadneedle/">Threadneedle Strategic Partner page</a></h4>
-
-								<?php }
-									elseif (has_tag ('Zurich')) { ?>
-
-								<h4>Visit the <a href="/members-area/strategic-partners/zurich/">Zurich Strategic Partner page</a></h4>
-
-								<?php } ?>
+						<?php } ?>
 
 
                     </footer> <!-- end article footer -->
