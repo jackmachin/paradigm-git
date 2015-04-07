@@ -1235,8 +1235,10 @@ FOOTER STYLES
 -------------------------------------------------------------- */
 
 .page-id-248 {
-	h1 {text-align:center;}
-	}
+	h1 {
+        text-align:center;
+    }
+}
 
 /* Octopus
 -------------------------------------------------------------- */
@@ -1375,21 +1377,67 @@ h1.partnership-title {
 /* Selectapension
 -------------------------------------------------------------- */
 
-.page-id-260, .tag-selectapension {
-	a, a:visited {color: #529FC5; &:hover, &:focus {color: darken(#529FC5, 9%);} }
-	h1 {color: #fff; background-color:#529FC5; border-radius:1em; text-align:center;}
-	h2, h3, h4 {color: #529FC5;}
-	}
+.page-id-260,
+.tag-selectapension {
+
+    a,
+    a:visited {
+        color: #529FC5;
+
+        &:hover,
+        &:focus {
+            color: darken(#529FC5, 9%);
+        }
+    }
+
+    h1 {
+        color: #fff;
+        background-color:#529FC5;
+        border-radius:1em;
+        text-align:center;
+    }
+
+    h2,
+    h3,
+    h4 {
+        color: #529FC5;
+    }
+}
 
 /* Skandia
 -------------------------------------------------------------- */
 
-.page-id-261, .category-skandia, .tag-skandia {
-	a, a:visited {color: #008066; &:hover, &:focus {color: darken(#008066, 9%);} }
-	h1 {color: #fff; background-color:#008066; border-radius:1em; text-align:center;}
-	.skandia {background-color:#e6e6e6;}
-	h2, h3, h4 {color: #008066}
-	}
+.page-id-261,
+.category-skandia,
+.tag-skandia {
+
+    a,
+    a:visited {
+        color: #008066;
+
+        &:hover,
+        &:focus {
+            color: darken(#008066, 9%);
+        }
+    }
+
+    h1 {
+        color: #fff;
+        background-color:#008066;
+        border-radius:1em;
+        text-align:center;
+    }
+
+    .skandia {
+        background-color:#e6e6e6;
+    }
+
+    h2,
+    h3,
+    h4 {
+        color: #008066
+    }
+}
 
 /* Smith & Williamson
 -------------------------------------------------------------- */
@@ -1764,11 +1812,21 @@ a.box:focus {
   -webkit-box-shadow: 0px 0px 10px 5px rgba(153,153,153,1);
   -moz-box-shadow: 0px 0px 10px 5px rgba(153,153,153,1);
   box-shadow: 0px 0px 10px 5px rgba(153,153,153,1);
-  }
+}
 
-.aj-collapse { cursor: pointer; }
-.aj-hidden { display: none; visibility: hidden; }
-.aj-visible { display: block; visibility: visible; }
+.aj-collapse {
+    cursor: pointer;
+}
+
+.aj-hidden {
+    display: none;
+    visibility: hidden;
+}
+
+.aj-visible {
+    display: block;
+    visibility: visible;
+}
 
 .g-1 {
     margin: 0 auto !important;
@@ -1800,7 +1858,7 @@ a.box:focus {
 
         &:hover,
         &:focus {
-        color: darken(#fff, 9%);
+            color: darken(#fff, 9%);
         }
     }
 }
