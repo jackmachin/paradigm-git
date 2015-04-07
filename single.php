@@ -50,7 +50,7 @@
 
                             <h4>Visit the <a href="/members-area/strategic-partners/axa-wealth/">AXA Wealth Strategic Partner page</a></h4>
 
-                        <?php elseif  (has_tag ('AXA')) { ?>
+                        <?php } elseif  (has_tag ('AXA')) { ?>
 
                             <h4>Visit the <a href="/members-area/strategic-partners/axa-wealth/">AXA Wealth Strategic Partner page</a></h4>
 
