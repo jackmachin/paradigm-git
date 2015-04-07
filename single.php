@@ -1,41 +1,41 @@
 <?php get_header(); ?>
 
-			<div id="content">
+    <div id="content">
 
-				<div id="inner-content" class="wrap clearfix">
+        <div id="inner-content" class="wrap clearfix">
 
-						<?php if (in_category (array('Breaking News' , 'Scottish Widows', 'Henderson' )))
+            <?php if (in_category (array('Breaking News'))) {
 
-							{ get_sidebar('members'); }
+                get_sidebar('members');
 
-							elseif (in_category ('Regulatory Updates'))
+            } elseif (in_category ('Regulatory Updates')) {
 
-							{ get_sidebar('technical'); }
+                get_sidebar('technical');
 
-							else { get_sidebar(); }
-						?>
+            } else {
 
-					<div id="main" class="ninecol clearfix" role="main">
+                get_sidebar();
 
-						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+            } ?>
 
-							<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
+            <div id="main" class="ninecol clearfix" role="main">
 
-								<header class="article-header">
+                <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-									<h1 class="entry-title single-title h2" itemprop="headline"><?php the_title(); ?></h1>
+                    <article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
-								</header> <!-- end article header -->
+                    <header class="article-header">
 
-								<section class="entry-content clearfix" itemprop="articleBody">
-									<?php the_content(); ?>
-								</section> <!-- end article section -->
+                        <h1 class="entry-title single-title h2" itemprop="headline"><?php the_title(); ?></h1>
 
-								<footer class="article-footer">
+                    </header> <!-- end article header -->
 
-								</footer> <!-- end article footer -->
+                    <section class="entry-content clearfix" itemprop="articleBody">
+                        <?php the_content(); ?>
+                    </section> <!-- end article section -->
 
-								<?php if (in_category ('Aviva')) { ?>
+                    <footer class="article-footer">
+                        <?php if (in_category ('Aviva')) { ?>
 
 								<h4>Visit the <a href="/members-area/strategic-partners/aviva/">Aviva Strategic Partner page</a></h4>
 
@@ -215,11 +215,14 @@
 
 								<?php } ?>
 
-							</article> <!-- end article -->
 
-						<?php endwhile; ?>
+                    </footer> <!-- end article footer -->
 
-						<?php else : ?>
+                </article> <!-- end article -->
+
+            <?php endwhile; ?>
+
+            <?php else : ?>
 
 							<article id="post-not-found" class="hentry clearfix">
 									<header class="article-header">
