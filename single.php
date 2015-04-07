@@ -37,71 +37,50 @@
                     <footer class="article-footer">
                         <?php if (in_category ('Aviva')) { ?>
 
-								<h4>Visit the <a href="/members-area/strategic-partners/aviva/">Aviva Strategic Partner page</a></h4>
+                            <h4>Visit the <a href="/members-area/strategic-partners/aviva/">Aviva Strategic Partner page</a></h4>
 
-								<?php }
-									elseif (in_category ('Aegon')) { ?>
+                        <?php } elseif (in_category ('Aegon')) { ?>
 
-								<h4>Visit the <a href="/members-area/strategic-partners/aegon/">Aegon Strategic Partner page</a></h4>
+                            <h4>Visit the <a href="/members-area/strategic-partners/aegon/">Aegon Strategic Partner page</a></h4>
 
-								<?php }
-									elseif (in_category ('Ageas')) { ?>
+                        <?php } elseif (in_category ('Ageas')) { ?>
 
-								<h4>Visit the <a href="/members-area/strategic-partners/ageas-protect/">Ageas Protect Strategic Partner page</a></h4>
+                            <h4>Visit the <a href="/members-area/strategic-partners/ageas-protect/">Ageas Protect Strategic Partner page</a></h4>
+                        <?php } elseif (in_category ('AXA Wealth')) { ?>
 
-								<?php }
-									elseif (in_category ('AXA Wealth')) { ?>
+                            <h4>Visit the <a href="/members-area/strategic-partners/axa-wealth/">AXA Wealth Strategic Partner page</a></h4>
 
-								<h4>Visit the <a href="/members-area/strategic-partners/axa-wealth/">AXA Wealth Strategic Partner page</a></h4>
+                        <?php elseif  (has_tag ('AXA')) { ?>
 
+                            <h4>Visit the <a href="/members-area/strategic-partners/axa-wealth/">AXA Wealth Strategic Partner page</a></h4>
 
-                                <?php }
-									elseif  (has_tag ('AXA')) { ?>
+                        <?php } elseif (in_category ('BlackRock')) { ?>
 
-								<h4>Visit the <a href="/members-area/strategic-partners/axa-wealth/">AXA Wealth Strategic Partner page</a></h4>
+                            <h4>Visit the <a href="/members-area/strategic-partners/blackrock/">Blackrock Strategic Partner page</a></h4>
 
-								<?php }
-									elseif (in_category ('BlackRock')) { ?>
+                        <?php } elseif (has_tag ('bny')) { ?>
 
-								<h4>Visit the <a href="/members-area/strategic-partners/blackrock/">Blackrock Strategic Partner page</a></h4>
+                            <h4>Visit the <a href="/members-area/strategic-partners/bny-mellon">BNY Mellon Strategic Partner page</a></h4>
 
-								<?php }
+                        <?php } elseif (in_category ('Bright Grey')) { ?>
 
-                elseif (has_tag ('bny')) { ?>
+                            <h4>Visit the <a href="/members-area/strategic-partners/bright grey/">Bright Grey Strategic Partner page</a></h4>
+                        <?php } elseif (in_category ('Cater Allen Private Bank')) { ?>
 
-								<h4>Visit the <a href="/members-area/strategic-partners/bny-mellon">BNY Mellon Strategic Partner page</a></h4>
+                            <h4>Visit the <a href="/members-area/strategic-partners/cater-allen-private-bank/">Cater Allen Strategic Partner page</a></h4>
+                        <?php } elseif (in_category ('Fidelity')) { ?>
 
-								<?php }
+                            <h4>Visit the <a href="/members-area/strategic-partners/fidelity/">Fidelity Strategic Partner page</a></h4>
 
-									elseif (in_category ('Bright Grey')) { ?>
+                        <?php } elseif (in_category ('Friends Life')) { ?>
 
-								<h4>Visit the <a href="/members-area/strategic-partners/bright grey/">Bright Grey Strategic Partner page</a></h4>
+                            <h4>Visit the <a href="/members-area/strategic-partners/friends-life/">Friends Life Strategic Partner page</a></h4>
+                        <?php }	elseif (in_category ('Henderson')) { ?>
 
-								<?php }
+                            <h4>Visit the <a href="/members-area/strategic-partners/henderson-global-investors/">Henderson Strategic Partner page</a></h4>
+                        <?php } elseif (in_category ('Ingenious')) { ?>
 
-									elseif (in_category ('Cater Allen Private Bank')) { ?>
-
-								<h4>Visit the <a href="/members-area/strategic-partners/cater-allen-private-bank/">Cater Allen Strategic Partner page</a></h4>
-
-								<?php }
-									elseif (in_category ('Fidelity')) { ?>
-
-								<h4>Visit the <a href="/members-area/strategic-partners/fidelity/">Fidelity Strategic Partner page</a></h4>
-
-								<?php }
-									elseif (in_category ('Friends Life')) { ?>
-
-								<h4>Visit the <a href="/members-area/strategic-partners/friends-life/">Friends Life Strategic Partner page</a></h4>
-
-								<?php }
-									elseif (in_category ('Henderson')) { ?>
-
-								<h4>Visit the <a href="/members-area/strategic-partners/henderson-global-investors/">Henderson Strategic Partner page</a></h4>
-
-								<?php }
-									elseif (in_category ('Ingenious')) { ?>
-
-								<h4>Visit the <a href="/members-area/strategic-partners/ingenious-investments/">Ingenious Strategic Partner page</a></h4>
+                            <h4>Visit the <a href="/members-area/strategic-partners/ingenious-investments/">Ingenious Strategic Partner page</a></h4>
 
 								<?php }
 
