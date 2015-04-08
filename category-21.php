@@ -34,7 +34,7 @@
                                     <?php if (has_post_thumbnail()) { ?>
                                         <div class="twocol first">
                                             <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
-                                                <?php the_post_thumbnail(); ?>
+                                                <?php the_post_thumbnail('thumbnail'); ?>
                                             </a>
                                         </div>
 
