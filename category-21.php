@@ -1,20 +1,24 @@
 <?php get_header(); ?>
 
-			<div id="content">
+    <div id="content">
 
-				<div id="inner-content" class="wrap clearfix">
+        <div id="inner-content" class="wrap clearfix">
 
-						<?php   if ( current_user_can( 'see_menu' ) )
-						{ get_sidebar('members'); }
-						else { get_sidebar () ;}
-						?>
+            <?php   if ( current_user_can( 'see_menu' ) ){
 
-						<div id="main" class="ninecol clearfix" role="main">
+                get_sidebar('members');
 
-								<h1 class="archive-title">
-									Paradigm News
-								</h1>
-              <div class="ninecol first">
+            } else {
+
+                get_sidebar();
+
+            } ?>
+
+                <div id="main" class="ninecol clearfix" role="main">
+
+                    <h1 class="archive-title"><?php single_cat_title( '', true ); ?></h1>
+
+                    <div class="ninecol first">
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 							<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article">
