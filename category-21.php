@@ -25,15 +25,17 @@
 
 								<header class="article-header">
 
-                                    <?php if (has_post_thumbnail()) { ?>
-
+                                    <h2>
                                         <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
-                                            <?php the_post_thumbnail( 'thumbnail', array( 'class' => 'alignleft' ) ); ?>
+                                            <?php if (has_post_thumbnail()) {
+
+                                                the_post_thumbnail( 'thumbnail', array( 'class' => 'alignleft' ) );
+
+                                            }
+
+                                            the_title();
                                         </a>
-
-                                    <?php } ?>
-
-									<h3 class="h2"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
+                                    </h2>
 
 								</header> <!-- end article header -->
 
