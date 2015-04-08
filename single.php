@@ -30,9 +30,9 @@
 
                     </header> <!-- end article header -->
 
-                    <section class="entry-content clearfix" itemprop="articleBody">
+                    <div class="entry-content clearfix" itemprop="articleBody">
                         <?php the_content(); ?>
-                    </section> <!-- end article section -->
+                    </div> <!-- end article section -->
 
                     <footer class="article-footer">
                         <?php if (in_category ('Aviva')) { ?>
@@ -153,7 +153,6 @@
                             <h4>Visit the <a href="/members-area/strategic-partners/zurich/">Zurich Strategic Partner page</a></h4>
 
 						<?php } ?>
-
 
                     </footer> <!-- end article footer -->
 
