@@ -32,18 +32,14 @@
 								<div class="entry-content clearfix">
 
                                     <?php if (has_post_thumbnail()) { ?>
-                                        <div class="twocol first">
-                                            <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
-                                                <?php the_post_thumbnail('thumbnail'); ?>
-                                            </a>
-                                        </div>
 
-                                        <div class="ninecol last">
-                                            <?php the_excerpt(); ?>
-                                        </div>
-                                    <?php } else {
-                                        the_excerpt();
-                                    } ?>
+                                        <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
+                                            <?php the_post_thumbnail( 'thumbnail', array( 'class' => 'alignleft' ) ); ?>
+                                        </a>
+
+                                    <?php } ?>
+
+                                    <?php the_excerpt(); ?>
 
 								</div> <!-- end article section -->
 
