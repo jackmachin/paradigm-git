@@ -29,18 +29,23 @@
 
 								</header> <!-- end article header -->
 
-								<section class="entry-content clearfix">
+								<div class="entry-content clearfix">
 
-									<div class="twocol first">
-                                        <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
-                                            <?php the_post_thumbnail(); ?>
-                                        </a>
-                                    </div>
-                                    <div class="ninecol last">
+                                    <?php if ( has_post_thumbnail() ) { ?>
+                                        <div class="twocol first">
+                                            <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
+                                                <?php the_post_thumbnail(); ?>
+                                            </a>
+                                        </div>
+
+                                        <div class="ninecol last">
+                                            <?php the_excerpt(); ?>
+                                        </div>
+                                    <?php } else { ?>
                                         <?php the_excerpt(); ?>
-                                    </div>
+                                    } ?>
 
-								</section> <!-- end article section -->
+								</div> <!-- end article section -->
 
 								<footer class="article-footer">
 
