@@ -31,7 +31,7 @@
 
 								<div class="entry-content clearfix">
 
-                                    <?php if ( has_post_thumbnail() ) { ?>
+                                    <?php if (has_post_thumbnail()) { ?>
                                         <div class="twocol first">
                                             <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
                                                 <?php the_post_thumbnail(); ?>
@@ -41,8 +41,8 @@
                                         <div class="ninecol last">
                                             <?php the_excerpt(); ?>
                                         </div>
-                                    <?php } else { ?>
-                                        <?php the_excerpt(); ?>
+                                    <?php } else {
+                                        the_excerpt();
                                     } ?>
 
 								</div> <!-- end article section -->
