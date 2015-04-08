@@ -33,7 +33,7 @@
 
                                             }
 
-                                            the_title();
+                                            the_title(); ?>
                                         </a>
                                     </h2>
 
