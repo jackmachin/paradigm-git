@@ -25,12 +25,6 @@
 
 								<header class="article-header">
 
-									<h3 class="h2"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
-
-								</header> <!-- end article header -->
-
-								<div class="entry-content clearfix">
-
                                     <?php if (has_post_thumbnail()) { ?>
 
                                         <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
@@ -38,6 +32,12 @@
                                         </a>
 
                                     <?php } ?>
+
+									<h3 class="h2"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
+
+								</header> <!-- end article header -->
+
+								<div class="entry-content clearfix">
 
                                     <?php the_excerpt(); ?>
 
