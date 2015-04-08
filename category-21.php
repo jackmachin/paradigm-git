@@ -31,9 +31,7 @@
 
                                                 the_post_thumbnail( 'thumbnail', array( 'class' => 'alignleft' ) );
 
-                                            }
-
-                                            the_title(); ?>
+                                            } the_title(); ?>
                                         </a>
                                     </h2>
 
@@ -45,24 +43,20 @@
 
 								</div> <!-- end article section -->
 
-								<footer class="article-footer">
-
-								</footer> <!-- end article footer -->
-
 							</article> <!-- end article -->
 
 							<?php endwhile; ?>
 
-									<?php if ( function_exists( 'bones_page_navi' ) ) { ?>
-										<?php bones_page_navi(); ?>
-									<?php } else { ?>
-										<nav class="wp-prev-next">
-											<ul class="clearfix">
-												<li class="prev-link"><?php next_posts_link( __( '&laquo; Older Entries', 'bonestheme' )) ?></li>
-												<li class="next-link"><?php previous_posts_link( __( 'Newer Entries &raquo;', 'bonestheme' )) ?></li>
-											</ul>
-										</nav>
-									<?php } ?>
+                                <?php if ( function_exists( 'bones_page_navi' ) ) { ?>
+                                    <?php bones_page_navi(); ?>
+                                <?php } else { ?>
+                                    <nav class="wp-prev-next">
+                                        <ul class="clearfix">
+                                            <li class="prev-link"><?php next_posts_link( __( '&laquo; Older Entries', 'bonestheme' )) ?></li>
+                                            <li class="next-link"><?php previous_posts_link( __( 'Newer Entries &raquo;', 'bonestheme' )) ?></li>
+                                        </ul>
+                                    </nav>
+                                <?php } ?>
 
 							<?php else : ?>
 
@@ -74,16 +68,16 @@
 											<p><?php _e( 'Uh Oh. Something is missing. Try double checking things.', 'bonestheme' ); ?></p>
 										</section>
 										<footer class="article-footer">
-												<p><?php _e( 'This is the error message in the archive.php template.', 'bonestheme' ); ?></p>
+                                            <p><?php _e( 'This is the error message in the archive.php template.', 'bonestheme' ); ?></p>
 										</footer>
 									</article>
 
 							<?php endif; ?>
             </div>
-            <div class="threecol  last twitter-widget"><a class="twitter-timeline" href="https://twitter.com/ParadigmPtns" data-widget-id="448783394185306112">Tweets by @ParadigmPtns</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-</div>
+            <div class="threecol last twitter-widget">
+                <a class="twitter-timeline" href="https://twitter.com/ParadigmPtns" data-widget-id="448783394185306112">Tweets by @ParadigmPtns</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </div>
 						</div> <!-- end #main -->
 
 								</div> <!-- end #inner-content -->
