@@ -31,7 +31,14 @@
 
 								<section class="entry-content clearfix">
 
-									<div class="twocol"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail(); ?></a></div><div class="ninecol"><?php the_excerpt(); ?></div>
+									<div class="twocol first">
+                                        <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
+                                            <?php the_post_thumbnail(); ?>
+                                        </a>
+                                    </div>
+                                    <div class="ninecol last">
+                                        <?php the_excerpt(); ?>
+                                    </div>
 
 								</section> <!-- end article section -->
 
