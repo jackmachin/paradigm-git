@@ -1771,7 +1771,8 @@ h1.partnership-title {
     color: #fff; }
 
 ul.member-list {
-  list-style: none !important; }
+  list-style: none !important;
+  margin: 0; }
   ul.member-list li {
     color: #fff;
     line-height: 26px;

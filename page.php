@@ -14,9 +14,9 @@
 
 								<header class="article-header">
 
-								</header> <!-- end article header -->
+								</header><!-- end article header -->
 
-								<dib class="entry-content clearfix" itemprop="articleBody">
+								<div class="entry-content clearfix" itemprop="articleBody">
 									<?php the_content(); ?>
                                 </div> <!-- end article section -->
 
