@@ -57,53 +57,51 @@
 
                                 </article> <!-- end article -->
 
-												<?php endwhile; ?>
+                            <?php endwhile; ?>
 
-												<?php else : ?>
+                            <?php else : ?>
 
-														<article id="post-not-found" class="hentry clearfix">
-															<header class="article-header">
-																<h1><?php _e( 'Oops, Post Not Found!', 'bonestheme' ); ?></h1>
-															</header>
-															<section class="entry-content">
-																<p><?php _e( 'Uh Oh. Something is missing. Try double checking things.', 'bonestheme' ); ?></p>
-															</section>
-															<footer class="article-footer">
-																	<p><?php _e( 'This is the error message in the target archive template.', 'bonestheme' ); ?></p>
-															</footer>
-														</article>
+                                <article id="post-not-found" class="hentry clearfix">
+                                    <header class="article-header">
+                                        <h1><?php _e( 'Oops, Post Not Found!', 'bonestheme' ); ?></h1>
+                                    </header>
+                                    <section class="entry-content">
+                                        <p><?php _e( 'Uh Oh. Something is missing. Try double checking things.', 'bonestheme' ); ?></p>
+                                    </section>
+                                    <footer class="article-footer">
+                                            <p><?php _e( 'This is the error message in the target archive template.', 'bonestheme' ); ?></p>
+                                    </footer>
+                                </article>
 
-												<?php endif; ?>
-                    </div>
-                      <div class="threecol targetcontents entry-content last">
+                            <?php endif; ?>
+                        </div>
+                        <div class="threecol targetcontents entry-content last">
                           <h2>Contents</h2>
                             <ul>
                               <?php foreach($posts as $post) { setup_postdata($post);  ?>
                                 <li><a href="<?php get_category_link( $category_id ); ?> #post-<?php the_id ();?>"><?php echo the_title();?></a></li>
                               <?php } ?>
                             </ul>
-                      </div>
-<div class="twelvecol">
-										<p><b>Back issues of Target are posted here for reference purposes but please note that guidance contained in older editions may not be the most current.  We recommend that any search for information begins with the most recent edition.</b></p>
-</div>
-									</div>
-
-
-								<?php } else { ?>
-
-										<?php get_sidebar( 'technical' ); ?>
-
-										<div id="main" class="ninecol clearfix" role="main">
-
-                    <div class="breadcrumbs">
-                      <span xmlns:v="http://rdf.data-vocabulary.org/#">
-                        <span typeof="v:Breadcrumb"><a href="http://paradigmgroup.eu" rel="v:url" property="v:title">Home</a></span> » <span typeof="v:Breadcrumb"><a href="http://paradigmgroup.eu/members-area/" rel="v:url" property="v:title">Members Area</a></span> » <span typeof="v:Breadcrumb"><a href="http://paradigmgroup.eu/members-area/safeguard/" rel="v:url" property="v:title">Safeguard</a></span> » <span typeof="v:Breadcrumb"><a href="http://paradigmgroup.eu/members-area/safeguard/technical-services/" rel="v:url" property="v:title">Technical Services</a></span> » <span typeof="v:Breadcrumb"><span class="breadcrumb_last" property="v:title"><a href="http://paradigmgroup.eu/members-area/safeguard/technical-services/target/" rel="v:url" property="v:title">Target</a></span></span> » <?php single_cat_title(); ?>
-                      </span>
+                        </div>
+                        <div class="twelvecol">
+                            <p><b>Back issues of Target are posted here for reference purposes but please note that guidance contained in older editions may not be the most current. We recommend that any search for information begins with the most recent edition.</b></p>
+                        </div>
                     </div>
+                <?php } else { ?>
 
-											<h1><?php single_cat_title(); ?> Target Archive</h1>
+                    <?php get_sidebar( 'technical' ); ?>
 
-												<p><b>Back issues of Target are posted here for reference purposes but please note that guidance contained in older editions may not be the most current.  We recommend that any search for information begins with the most recent edition.</b></p>
+                        <div id="main" class="ninecol clearfix" role="main">
+
+                            <div class="breadcrumbs">
+                                <span xmlns:v="http://rdf.data-vocabulary.org/#">
+                                <span typeof="v:Breadcrumb"><a href="http://paradigmgroup.eu" rel="v:url" property="v:title">Home</a></span> » <span typeof="v:Breadcrumb"><a href="http://paradigmgroup.eu/members-area/" rel="v:url" property="v:title">Members Area</a></span> » <span typeof="v:Breadcrumb"><a href="http://paradigmgroup.eu/members-area/safeguard/" rel="v:url" property="v:title">Safeguard</a></span> » <span typeof="v:Breadcrumb"><a href="http://paradigmgroup.eu/members-area/safeguard/technical-services/" rel="v:url" property="v:title">Technical Services</a></span> » <span typeof="v:Breadcrumb"><span class="breadcrumb_last" property="v:title"><a href="http://paradigmgroup.eu/members-area/safeguard/technical-services/target/" rel="v:url" property="v:title">Target</a></span></span> » <?php single_cat_title(); ?>
+                              </span>
+                            </div>
+
+                            <h1><?php single_cat_title(); ?> Target Archive</h1>
+
+                                <p><b>Back issues of Target are posted here for reference purposes but please note that guidance contained in older editions may not be the most current.  We recommend that any search for information begins with the most recent edition.</b></p>
 
 												<section class="entry-content clearfix">
 
