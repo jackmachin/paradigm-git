@@ -51,11 +51,11 @@
 
                                     </div> <!-- end article section -->
 
-														<footer class="article-footer">
-                                                            <p><a href="#top"> Back to top… </a></p>
-														</footer> <!-- end article footer -->
+                                    <footer class="article-footer">
+                                        <p><a href="#top">Back to top&hellip;</a></p>
+                                    </footer> <!-- end article footer -->
 
-													</article> <!-- end article -->
+                                </article> <!-- end article -->
 
 												<?php endwhile; ?>
 
