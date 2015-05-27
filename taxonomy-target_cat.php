@@ -45,11 +45,11 @@
 
                                     </header> <!-- end article header -->
 
-														<section class="entry-content clearfix">
+                                    <div class="entry-content clearfix">
 
-															<?php the_content(); ?>
+                                        <?php the_content(); ?>
 
-														</section> <!-- end article section -->
+                                    </div> <!-- end article section -->
 
 														<footer class="article-footer">
                                                             <p><a href="#top"> Back to top… </a></p>
