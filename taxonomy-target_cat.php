@@ -50,7 +50,7 @@
 														</section> <!-- end article section -->
 
 														<footer class="article-footer">
-                              <a href="#Top"> Back to top… </a>
+                                                            <p><a href="#top"> Back to top… </a></p>
 														</footer> <!-- end article footer -->
 
 													</article> <!-- end article -->
