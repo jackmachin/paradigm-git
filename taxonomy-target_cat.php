@@ -1,47 +1,49 @@
 <?php get_header(); ?>
 
-			<div id="content">
+    <div id="content">
 
-				<div id="inner-content" class="wrap clearfix">
+        <div id="inner-content" class="wrap clearfix">
 
-					<?php
+            <?php
 
-								$term = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'taxonomy' ) );
-								$parent = get_term($term->parent, get_query_var('taxonomy') );
+                $term = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'taxonomy' ) );
+                $parent = get_term($term->parent, get_query_var('taxonomy') );
 
-								if($term->parent > 0)  {  ?>
+                if($term->parent > 0)  {
+            ?>
 
-									<div id="main" class="twelvecol first clearfix" role="main">
-                    <div class="ninecol  entry-content first">
-                      <h1>Welcome to Target</h1>
+            <div id="main" class="twelvecol first clearfix" role="main">
+                <div class="ninecol  entry-content first">
+                    <h1>Welcome to Target</h1>
 
-											<?php echo category_description( $category_id ); ?>
+                        <?php echo category_description( $category_id ); ?>
 
-											<p>If you have any queries regarding Target, please contact: <a href="mailto:helpdesk@paradigmgroup.eu">helpdesk@paradigmgroup.eu</a></p>
-											<p>You can also follow us on Twitter for information updates <a href="http://www.twitter.com/@Paradigmtechnic">@ParadigmTechnic</a></p>
-											<?php
+                        <p>If you have any queries regarding Target, please contact: <a href="mailto:helpdesk@paradigmgroup.eu">helpdesk@paradigmgroup.eu</a></p>
+                        <p>You can also follow us on Twitter for information updates <a href="http://www.twitter.com/@Paradigmtechnic">@ParadigmTechnic</a></p>
 
-													global $wp_query;
+                        <?php
 
-													$term_id = $wp_query->queried_object_id;
-													$term_meta = get_option( "taxonomy_$term_id" );
-													$pdfurl = $term_meta['tax_pdf'];
-													$wordurl = $term_meta ['tax_word'];
+                            global $wp_query;
 
-											?>
+                            $term_id = $wp_query->queried_object_id;
+                            $term_meta = get_option( "taxonomy_$term_id" );
+                            $pdfurl = $term_meta['tax_pdf'];
+                            $wordurl = $term_meta ['tax_word'];
 
-											<?php if( ! empty( $term_meta['tax_pdf'] ) ) { ?><p><a href="<?php echo $pdfurl; ?>">PDF Version</a></p><?php } else {} ?>
-											<?php if( ! empty( $term_meta['tax_word'] ) ) { ?><p><a href="<?php echo $wordurl; ?>">Word Version</a></p><?php } else {} ?>
+                        ?>
 
-												<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+                        <?php if( ! empty( $term_meta['tax_pdf'] ) ) { ?><p><a href="<?php echo $pdfurl; ?>">PDF Version</a></p><?php } else {} ?>
+                        <?php if( ! empty( $term_meta['tax_word'] ) ) { ?><p><a href="<?php echo $wordurl; ?>">Word Version</a></p><?php } else {} ?>
 
-													<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article">
+                            <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-														<header class="article-header">
+                                <article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article">
 
-															<h1 class="h2"><?php the_title(); ?></h1>
+                                    <header class="article-header">
 
-														</header> <!-- end article header -->
+                                        <h1 class="h2"><?php the_title(); ?></h1>
+
+                                    </header> <!-- end article header -->
 
 														<section class="entry-content clearfix">
 
