@@ -487,13 +487,4 @@ function my_login_form_shortcode() {
 	return wp_login_form( array( 'echo' => false ) );
 }
 
-add_filter( 'manage_edit-cake_sortable_columns', 'my_sortable_cake_column' );
-function my_sortable_cake_column( $columns ) {
-    $columns['3wp_activity_monitor'] = 'slice';
-
-    //To make a column 'un-sortable' remove it from the array
-    //unset($columns['date']);
-
-    return $columns;
-}
 ?>
