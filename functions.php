@@ -488,7 +488,7 @@ function my_login_form_shortcode() {
 }
 
 
-add_filter( 'manage_edit-users_sortable_columns', 'my_website_manage_sortable_columns' );
+add_filter( 'manage_edit-user_sortable_columns', 'my_website_manage_sortable_columns' );
 function my_website_manage_sortable_columns( $sortable_columns ) {
 
    /**
