@@ -487,4 +487,22 @@ function my_login_form_shortcode() {
 	return wp_login_form( array( 'echo' => false ) );
 }
 
+
+add_filter( 'manage_edit-movies_sortable_columns', 'my_website_manage_sortable_columns' );
+function my_website_manage_sortable_columns( $sortable_columns ) {
+
+   /**
+    * In this scenario, I already have a column with an
+    * ID (or index) of 'release_date_column'. Both column
+    * indexes MUST match.
+    *
+    * The value of the array item (after the =) is the
+    * identifier of the column data. For example, my
+    * column data, 'release_date', is a custom field
+    * with a meta key of 'release_date' so my
+    * identifier is 'release_date'.
+    */
+   $sortable_columns[ '3wp_activity_monitor' ] = 'Login statistics';
+
+}
 ?>
