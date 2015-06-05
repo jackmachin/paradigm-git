@@ -502,7 +502,7 @@ function my_website_manage_sortable_columns( $sortable_columns ) {
     * with a meta key of 'release_date' so my
     * identifier is 'release_date'.
     */
-   $sortable_columns[ '3wp_activity_monitor' ] = 'Login statistics';
+   $sortable_columns[ '3wp_activity_monitor' ] = 'login statistics';
 
 }
 ?>
