@@ -99,7 +99,7 @@
 					<?php }
 
 					elseif ( 'learning' == get_post_type() ) {?>
-						<a href="<?php bloginfo( 'url' ); ?>/members-area/develop/paradigm-learning" title="Back To Members Area">
+						<a href="<?php bloginfo( 'url' ); ?>/members-area/safeguard/paradigm-learning" title="Back To Members Area">
 							<h2><img src="/wordpress/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Learning</h2>
 						</a>
 					<?php }
