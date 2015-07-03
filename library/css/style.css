@@ -1543,6 +1543,38 @@ FOOTER STYLES
 .page-id-238 h2, .page-id-238 h3, .page-id-238 h4, .page-id-238 h5, .category-cater-allen-private-bank h2, .category-cater-allen-private-bank h3, .category-cater-allen-private-bank h4, .category-cater-allen-private-bank h5, .tag-cater-allen h2, .tag-cater-allen h3, .tag-cater-allen h4, .tag-cater-allen h5 {
   color: #047; }
 
+/* Defaqto
+-------------------------------------------------------------- */
+.page-id-19456 a,
+.page-id-19456 a:visited,
+.tag-defaqto a,
+.tag-defaqto a:visited {
+  color: #005493; }
+  .page-id-19456 a:hover,
+  .page-id-19456 a:focus,
+  .page-id-19456 a:visited:hover,
+  .page-id-19456 a:visited:focus,
+  .tag-defaqto a:hover,
+  .tag-defaqto a:focus,
+  .tag-defaqto a:visited:hover,
+  .tag-defaqto a:visited:focus {
+    color: #003a65; }
+
+.page-id-19456 h1,
+.tag-defaqto h1 {
+  color: #fff;
+  background-color: #005493;
+  border-radius: 1em;
+  text-align: center; }
+
+.page-id-19456 h2,
+.page-id-19456 h3,
+.page-id-19456 h4,
+.tag-defaqto h2,
+.tag-defaqto h3,
+.tag-defaqto h4 {
+  color: #005493; }
+
 /* Fidelity
 -------------------------------------------------------------- */
 .page-id-239 a, .page-id-239 a:visited, .category-fidelity a, .category-fidelity a:visited, .category-target-fidelity a, .category-target-fidelity a:visited, .tag-fidelity a, .tag-fidelity a:visited {
