@@ -1783,6 +1783,38 @@ FOOTER STYLES
 .page-id-249 h2, .page-id-249 h3, .page-id-249 h4, .category-octopus h2, .category-octopus h3, .category-octopus h4, .tag-octopus h2, .tag-octopus h3, .tag-octopus h4 {
   color: #336699; }
 
+/* Para-Sols
+-------------------------------------------------------------- */
+.page-id-19474 a,
+.page-id-19474 a:visited,
+.tag-parasols a,
+.tag-parasols a:visited {
+  color: #005A84; }
+  .page-id-19474 a:hover,
+  .page-id-19474 a:focus,
+  .page-id-19474 a:visited:hover,
+  .page-id-19474 a:visited:focus,
+  .tag-parasols a:hover,
+  .tag-parasols a:focus,
+  .tag-parasols a:visited:hover,
+  .tag-parasols a:visited:focus {
+    color: #003b56; }
+
+.page-id-19474 h1,
+.tag-parasols h1 {
+  color: #fff;
+  background-color: #003045;
+  border-radius: 1em;
+  text-align: center; }
+
+.page-id-19474 h2,
+.page-id-19474 h3,
+.page-id-19474 h4,
+.tag-parasols h2,
+.tag-parasols h3,
+.tag-parasols h4 {
+  color: #003045; }
+
 /* Partnership
 -------------------------------------------------------------- */
 .page-id-250 a,

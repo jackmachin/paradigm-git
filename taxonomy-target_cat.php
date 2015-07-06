@@ -151,9 +151,7 @@
 													<?php } ?>
 												</section>
 										</div>
-									<?php }
-
-					?>
+									<?php } ?>
 
 				</div> <!-- end #inner-content -->
 

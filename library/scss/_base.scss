@@ -1279,6 +1279,34 @@ FOOTER STYLES
 	h2, h3, h4 {color: #336699;}
 	}
 
+/* Para-Sols
+-------------------------------------------------------------- */
+
+.page-id-19474,
+.tag-parasols{
+	a,
+    a:visited {
+        color: #005A84;
+
+        &:hover,
+        &:focus {
+            color: darken(#005A84, 9%);
+        }
+    }
+
+    h1 {
+        color: #fff;
+        background-color:#003045;
+        border-radius:1em;
+        text-align:center;}
+
+    h2,
+    h3,
+    h4 {
+        color: #003045;
+    }
+}
+
 /* Partnership
 -------------------------------------------------------------- */
 
