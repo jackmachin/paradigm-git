@@ -1392,6 +1392,33 @@ h1.partnership-title {
 	h2, h3, h4 {color:#079DB8;}
 	}
 
+
+/* Red
+-------------- */
+
+.tag-red {
+	a,
+    a:visited {
+        color: #cd2027;
+
+        &:hover,
+        &:focus {
+            color: darken(#cd2027, 9%);
+        }
+    }
+
+    h1 {
+        color: #fff;
+        text-align:center;
+        background-color: #cd2027;
+    }
+
+    h2,
+    h3,
+    h4 {
+        color: #cd2027;
+    }
+}
 /* Santander
 -------------------------------------------------------------- */
 

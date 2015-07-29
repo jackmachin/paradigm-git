@@ -1936,6 +1936,27 @@ h1.partnership-title {
 .page-id-252 h2, .page-id-252 h3, .page-id-252 h4, .category-quilter h2, .category-quilter h3, .category-quilter h4, .tag-quilter h2, .tag-quilter h3, .tag-quilter h4 {
   color: #079DB8; }
 
+/* Red
+-------------- */
+.tag-red a,
+.tag-red a:visited {
+  color: #cd2027; }
+  .tag-red a:hover,
+  .tag-red a:focus,
+  .tag-red a:visited:hover,
+  .tag-red a:visited:focus {
+    color: #a51a1f; }
+
+.tag-red h1 {
+  color: #fff;
+  text-align: center;
+  background-color: #cd2027; }
+
+.tag-red h2,
+.tag-red h3,
+.tag-red h4 {
+  color: #cd2027; }
+
 /* Santander
 -------------------------------------------------------------- */
 .page-id-11209 a, .page-id-11209 a:visited, .category-santander a, .category-santander a:visited, .category-target-santander a, .category-target-santander a:visited, .tag-santander a, .tag-santander a:visited {
