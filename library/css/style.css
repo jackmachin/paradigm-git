@@ -1959,16 +1959,52 @@ h1.partnership-title {
 
 /* Santander
 -------------------------------------------------------------- */
-.page-id-11209 a, .page-id-11209 a:visited, .category-santander a, .category-santander a:visited, .category-target-santander a, .category-target-santander a:visited, .tag-santander a, .tag-santander a:visited {
+.page-id-11209 a,
+.page-id-11209 a:visited,
+.category-santander a,
+.category-santander a:visited,
+.category-target-santander a,
+.category-target-santander a:visited,
+.tag-santander a,
+.tag-santander a:visited {
   color: #ff0000; }
-  .page-id-11209 a:hover, .page-id-11209 a:focus, .page-id-11209 a:visited:hover, .page-id-11209 a:visited:focus, .category-santander a:hover, .category-santander a:focus, .category-santander a:visited:hover, .category-santander a:visited:focus, .category-target-santander a:hover, .category-target-santander a:focus, .category-target-santander a:visited:hover, .category-target-santander a:visited:focus, .tag-santander a:hover, .tag-santander a:focus, .tag-santander a:visited:hover, .tag-santander a:visited:focus {
+  .page-id-11209 a:hover,
+  .page-id-11209 a:focus,
+  .page-id-11209 a:visited:hover,
+  .page-id-11209 a:visited:focus,
+  .category-santander a:hover,
+  .category-santander a:focus,
+  .category-santander a:visited:hover,
+  .category-santander a:visited:focus,
+  .category-target-santander a:hover,
+  .category-target-santander a:focus,
+  .category-target-santander a:visited:hover,
+  .category-target-santander a:visited:focus,
+  .tag-santander a:hover,
+  .tag-santander a:focus,
+  .tag-santander a:visited:hover,
+  .tag-santander a:visited:focus {
     color: #d10000; }
 
-.page-id-11209 h1, .category-santander h1, .category-target-santander h1, .tag-santander h1 {
+.page-id-11209 h1,
+.category-santander h1,
+.category-target-santander h1,
+.tag-santander h1 {
   color: #ff0000;
   text-align: center; }
 
-.page-id-11209 h2, .page-id-11209 h3, .page-id-11209 h4, .category-santander h2, .category-santander h3, .category-santander h4, .category-target-santander h2, .category-target-santander h3, .category-target-santander h4, .tag-santander h2, .tag-santander h3, .tag-santander h4 {
+.page-id-11209 h2,
+.page-id-11209 h3,
+.page-id-11209 h4,
+.category-santander h2,
+.category-santander h3,
+.category-santander h4,
+.category-target-santander h2,
+.category-target-santander h3,
+.category-target-santander h4,
+.tag-santander h2,
+.tag-santander h3,
+.tag-santander h4 {
   color: #ff0000; }
 
 /* Schroders

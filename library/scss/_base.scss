@@ -1422,11 +1422,32 @@ h1.partnership-title {
 /* Santander
 -------------------------------------------------------------- */
 
-.page-id-11209, .category-santander, .category-target-santander, .tag-santander {
-	a, a:visited {color: #ff0000; &:hover, &:focus {color: darken(#ff0000, 9%);} }
-	h1 {color: #ff0000; text-align:center;}
-	h2, h3, h4 {color: #ff0000;}
-	}
+.page-id-11209,
+.category-santander,
+.category-target-santander,
+.tag-santander {
+
+    a,
+    a:visited {
+        color: #ff0000;
+
+        &:hover,
+        &:focus {
+            color: darken(#ff0000, 9%);
+        }
+    }
+
+    h1 {
+        color: #ff0000;
+        text-align:center;
+    }
+
+    h2,
+    h3,
+    h4 {
+        color: #ff0000;
+    }
+}
 
 /* Schroders
 -------------------------------------------------------------- */
