@@ -87,13 +87,13 @@
 
 					<?php if (is_page_template ('page-members.php') ) { ?>
 						<a href="<?php bloginfo( 'url' ); ?>/members-area/" title="Back To Members Area">
-							<h2><img src="/wordpress/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Member's Area</h2>
+							<h2><img src="/wordpress/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Members' Area</h2>
 						</a>
 					<?php }
 
            elseif (is_page_template ('page-partner.php') ) { ?>
 						<a href="<?php bloginfo( 'url' ); ?>/members-area/" title="Back To Members Area">
-							<h2><img src="/wordpress/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Member's Area</h2>
+							<h2><img src="/wordpress/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Members' Area</h2>
 						</a>
 
           <?php }
@@ -154,21 +154,10 @@
 							<h2><img src="/wordpress/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Technical Services</h2>
 						</a>
 					<?php }
-						elseif ( is_page_template('page-mortgages.php') )
+
+                        elseif ( is_page_template('page-profile.php') )
 					{ ?>
-						<a href="<?php bloginfo( 'url' ); ?>/mortgages" title="Back To Mortgages">
-							<h2><img src="/wordpress/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Mortgages</h2>
-						</a>
-					<?php }
-						elseif ( is_page_template('page-savings.php') )
-					{ ?>
-						<a href="<?php bloginfo( 'url' ); ?>/savings" title="Back To Savings">
-							<h2><img src="/wordpress/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Savings</h2>
-						</a>
-					<?php }
-							elseif ( is_page_template('page-profile.php') )
-					{ ?>
-							<h2><img src="/wordpress/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Members Area</h2>
+							<h2><img src="/wordpress/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Members' Area</h2>
 
 					<?php }
 
