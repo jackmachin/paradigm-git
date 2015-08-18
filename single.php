@@ -26,7 +26,7 @@
 
                     <header class="article-header">
 
-                        <h1 class="entry-title single-title h2" itemprop="headline"><?php the_title(); ?></h1>
+                        <h1 class="entry-title single-title" itemprop="headline"><?php the_title(); ?></h1>
 
                     </header> <!-- end article header -->
 

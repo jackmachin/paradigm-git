@@ -148,7 +148,7 @@
 						</a>
 
 					<?php }
-						elseif (in_category ('Regulatory Updates'  ))
+						elseif (in_category ('Regulatory Updates'))
 					{ ?>
 						<a href="<?php bloginfo( 'url' ); ?>/members-area/safeguard/technical-services" title="Back To Technical Services">
 							<h2><img src="/wordpress/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Technical Services</h2>
