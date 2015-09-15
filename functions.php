@@ -466,11 +466,11 @@ if (!current_user_can('administrator') && !is_admin()) {
 }
 
 function bones_fonts() {
-  wp_register_style('google-fonts', 'http://fonts.googleapis.com/css?family=Lato|PT+Sans|PT+Serif|Open+Sans');
-  wp_enqueue_style( 'google-fonts');
+    //wp_register_style('google-fonts', 'http://fonts.googleapis.com/css?family=Lato|PT+Sans|PT+Serif|Open+Sans');
+    //wp_enqueue_style( 'google-fonts');
 }
 
-add_action('wp_print_styles', 'bones_fonts');
+//add_action('wp_print_styles', 'bones_fonts');
 
 add_action( 'init', 'my_add_shortcodes' );
 
