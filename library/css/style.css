@@ -2283,7 +2283,7 @@ h1.partnership-title {
 /* Member */
 .tile {
   background-color: #bc1739;
-  background: url(/wordpress/wp-content/themes/paradigm/library/images/tile.png) no-repeat;
+  background: url(/wp-content/themes/paradigm/library/images/tile.png) no-repeat;
   min-height: 260px;
   margin-bottom: 1em;
   color: #fff; }
