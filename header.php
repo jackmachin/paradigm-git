@@ -87,38 +87,38 @@
 
 					<?php if (is_page_template ('page-members.php') ) { ?>
 						<a href="<?php bloginfo( 'url' ); ?>/members-area/" title="Back To Members Area">
-							<h2><img src="/wordpress/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Members' Area</h2>
+							<h2><img src="/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Members' Area</h2>
 						</a>
 					<?php }
 
            elseif (is_page_template ('page-partner.php') ) { ?>
 						<a href="<?php bloginfo( 'url' ); ?>/members-area/" title="Back To Members Area">
-							<h2><img src="/wordpress/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Members' Area</h2>
+							<h2><img src="/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Members' Area</h2>
 						</a>
 
           <?php }
 
 					elseif (is_category ('129')) { ?>
 						<a class="logo" href="<?php bloginfo( 'url' ); ?>" title="Back To Homepage">
-							<h2><img src="/wordpress/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">The Advisers' Adviser</h2>
+							<h2><img src="/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">The Advisers' Adviser</h2>
 						</a>
 					<?php }
 
 					elseif ( 'learning' == get_post_type() ) {?>
 						<a href="<?php bloginfo( 'url' ); ?>/members-area/safeguard/paradigm-learning" title="Back To Members Area">
-							<h2><img src="/wordpress/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Learning</h2>
+							<h2><img src="/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Learning</h2>
 						</a>
 					<?php }
 
 					elseif (is_page_template ('page-learning.php') ) { ?>
 						<a href="<?php bloginfo( 'url' ); ?>/members-area/develop/paradigm-learning/" title="Back To Paradigm Learning">
-							<h2><img src="/wordpress/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Learning</h2>
+							<h2><img src="/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Learning</h2>
 						</a>
 					<?php }
 
 					elseif (is_tax ('custom_cat') ) { ?>
 						<a href="<?php bloginfo( 'url' ); ?>/members-area/develop/paradigm-learning/" title="Back To Paradigm Learning">
-							<h2><img src="/wordpress/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Learning</h2>
+							<h2><img src="/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Learning</h2>
 						</a>
 					<?php }
 
@@ -144,30 +144,29 @@
 						elseif ( is_category (array('Regulatory Updates' , 'File Review Updates' , 'Technical Updates' , 'Compliance Updates') ))
 					{ ?>
 						<a href="<?php bloginfo( 'url' ); ?>/members-area/safeguard/technical-services" title="Back To Technical Services">
-							<h2><img src="/wordpress/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Technical Services</h2>
+							<h2><img src="/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Technical Services</h2>
 						</a>
 
 					<?php }
 						elseif (in_category ('Regulatory Updates'))
 					{ ?>
 						<a href="<?php bloginfo( 'url' ); ?>/members-area/safeguard/technical-services" title="Back To Technical Services">
-							<h2><img src="/wordpress/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Technical Services</h2>
+							<h2><img src="/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Technical Services</h2>
 						</a>
 					<?php }
 
                         elseif ( is_page_template('page-profile.php') )
 					{ ?>
-							<h2><img src="/wordpress/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Members' Area</h2>
+							<h2><img src="/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Members' Area</h2>
 
 					<?php }
 
 						elseif (is_category (array(29, 35, 36, 37, 52, 53, 72, 122))) {  ?>
 
-							<img style="padding-top:35px;" src="/wordpress/wp-content/themes/paradigm/library/images/logo-target.png" class="logo" alt="Paradigm - Target Newsletter">
+							<img style="padding-top:35px;" src="/wp-content/themes/paradigm/library/images/logo-target.png" class="logo" alt="Paradigm - Target Newsletter">
 
 							<div id="targetbar">
-
-							<?php $category = get_the_category(); echo $category[0]->cat_name;?>
+                                <?php $category = get_the_category(); echo $category[0]->cat_name;?>
 							</div>
 					<?php }
 
@@ -176,7 +175,7 @@
 							if (is_tax ('target_cat',  array( '2007' , '2008' , '2009' , '2010' , '2011' , '2012' , '2013' , '2014', '2015' , 'Special Editions' )) ) {  ?>
 
 								<a href="<?php bloginfo( 'url' ); ?>/members-area/safeguard/technical-services" title="Back To Technical Services">
-									<h2><img src="/wordpress/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Technical Services</h2>
+									<h2><img src="/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Technical Services</h2>
 								</a>
 
 								<?php } else { ?>
@@ -199,25 +198,27 @@
 
 						elseif (is_category ( array (55, 209, 264, 289))) { ?>
 
-							<img style="padding-top:35px;" src="http://paradigmgroup.eu/wordpress/wp-content/files/2013/12/partnership-newsletter-header.jpg" alt="Paradigm" >
+							<img style="padding-top:35px;" src="/wp-content/files/2013/12/partnership-newsletter-header.jpg" alt="Paradigm" >
 							<div id="targetbar"></div>
 					<?php }
 
 						elseif (is_category (73)) { ?>
 
-							<img style="padding-top:35px;" src="http://paradigmgroup.eu/wordpress/wp-content/files/2013/12/winter-newsletter-header.jpg" alt="Paradigm" >
-							<div id="targetbar"><?php $category = get_the_category(); echo $category[0]->cat_name;?></div>
+							<img style="padding-top:35px;" src="/wp-content/files/2013/12/winter-newsletter-header.jpg" alt="Paradigm" >
+                            <div id="targetbar">
+                                <?php $category = get_the_category(); echo $category[0]->cat_name;?>
+                            </div>
 					<?php }
 
 						elseif (is_category ( array (306, 328))) { ?>
 
-							<img style="padding-top:35px;" src="http://paradigmgroup.eu/wordpress/wp-content/files/2014/12/partnership-header.jpg" alt="Paradigm" >
+							<img style="padding-top:35px;" src="/wp-content/files/2014/12/partnership-header.jpg" alt="Paradigm" >
 							<div id="targetbar"><?php $category = get_the_category(); echo $category[0]->cat_name;?></div>
 					<?php }
 
 					else { ?>
 						<a class="logo" href="<?php bloginfo( 'url' ); ?>" title="Back To Homepage">
-							<h2><img src="/wordpress/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">The Advisers' Adviser</h2>
+							<h2><img src="/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">The Advisers' Adviser</h2>
 						</a>
 					<?php } ?>
 				</div> <!-- end #inner-header -->
