@@ -124,21 +124,21 @@
 
 						elseif (in_category (array ('Breaking News', 'Scottish Widows') )) { ?>
 						<a href="<?php bloginfo( 'url' ); ?>/members-area/" title="Back To Members Area">
-							<h2><img src="/wordpress/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Members Area</h2>
+							<h2><img src="/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Members Area</h2>
 						</a>
 					<?php }
 
 					elseif ( is_page_template('page-technical.php') )
 					{ ?>
 						<a href="<?php bloginfo( 'url' ); ?>/members-area/safeguard/technical-services" title="Back To Technical Services">
-							<h2><img src="/wordpress/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Technical Services</h2>
+							<h2><img src="/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Technical Services</h2>
 						</a>
 					<?php }
 
 					elseif ( is_page_template('page-target.php') )
 					{ ?>
 						<a href="<?php bloginfo( 'url' ); ?>/members-area/safeguard/technical-services" title="Back To Technical Services">
-							<h2><img src="/wordpress/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Technical Services</h2>
+							<h2><img src="/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Technical Services</h2>
 						</a>
 					<?php }
 						elseif ( is_category (array('Regulatory Updates' , 'File Review Updates' , 'Technical Updates' , 'Compliance Updates') ))
@@ -180,7 +180,7 @@
 
 								<?php } else { ?>
 <a name="Top"></a>
-							<img style="padding-top:35px;" src="/wordpress/wp-content/themes/paradigm/library/images/logo-target.png" class="logo" alt="Paradigm - Target Newsletter">
+							<img style="padding-top:35px;" src="/wp-content/themes/paradigm/library/images/logo-target.png" class="logo" alt="Paradigm - Target Newsletter">
 
 							<div id="targetbar">
 
