@@ -2791,7 +2791,7 @@ SIDEBARS & ASIDES
 *********************/
   .sidebar {
     margin-top: 0.2em;
-    background: url("/wordpress/wp-content/themes/paradigm/library/images/nav-default.png") no-repeat; }
+    background: url("/wp-content/themes/paradigm/library/images/nav-default.png") no-repeat; }
   .widgettitle {
     border-bottom: 2px solid #9F9F9F;
     margin-bottom: 0; }
