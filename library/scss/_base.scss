@@ -1161,6 +1161,35 @@ FOOTER STYLES
 	h2, h3, h4 {color: #137AC1;}
 	}
 
+/* Goldman Sachs
+-------------------------------------------------------------- */
+
+.page-id-20608,
+.tag-goldman-sachs  {
+	a,
+    a:visited {
+        color: #7399C6;
+
+        &:hover,
+        &:focus {
+            color: darken(#7399C6, 9%);
+        }
+    }
+
+    h1 {
+        color: #fff;
+        background-color:#7399C6;
+        border-radius:1em;
+        text-align:center;
+    }
+
+    h2,
+    h3,
+    h4 {
+        color: #7399C6;
+    }
+}
+
 /* Henderson Global Investors Page
 -------------------------------------------------------------- */
 

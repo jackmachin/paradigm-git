@@ -1607,6 +1607,38 @@ FOOTER STYLES
 .page-id-240 h2, .page-id-240 h3, .page-id-240 h4, .category-friendslife h2, .category-friendslife h3, .category-friendslife h4, .tag-friends-life h2, .tag-friends-life h3, .tag-friends-life h4 {
   color: #137AC1; }
 
+/* Goldman Sachs
+-------------------------------------------------------------- */
+.page-id-20608 a,
+.page-id-20608 a:visited,
+.tag-goldman-sachs a,
+.tag-goldman-sachs a:visited {
+  color: #7399C6; }
+  .page-id-20608 a:hover,
+  .page-id-20608 a:focus,
+  .page-id-20608 a:visited:hover,
+  .page-id-20608 a:visited:focus,
+  .tag-goldman-sachs a:hover,
+  .tag-goldman-sachs a:focus,
+  .tag-goldman-sachs a:visited:hover,
+  .tag-goldman-sachs a:visited:focus {
+    color: #5281b9; }
+
+.page-id-20608 h1,
+.tag-goldman-sachs h1 {
+  color: #fff;
+  background-color: #7399C6;
+  border-radius: 1em;
+  text-align: center; }
+
+.page-id-20608 h2,
+.page-id-20608 h3,
+.page-id-20608 h4,
+.tag-goldman-sachs h2,
+.tag-goldman-sachs h3,
+.tag-goldman-sachs h4 {
+  color: #7399C6; }
+
 /* Henderson Global Investors Page
 -------------------------------------------------------------- */
 .page-id-241 a, .page-id-241 a:visited, .category-henderson a, .category-henderson a:visited, .tag-henderson a, .tag-henderson a:visited {
