@@ -94,7 +94,7 @@
                         <?php } elseif (in_category (16)) { ?>
 
                             <h4>Visit the <a href="/members-area/strategic-partners/legal-general/">Legal &amp; General Strategic Partner page</a></h4>
-                        <?php } elseif (has_tag ('Legal & General')) { ?>
+                        <?php } elseif (has_tag ('legal-general')) { ?>
 
                             <h4>Visit the <a href="/members-area/strategic-partners/legal-general/">Legal &amp; General Strategic Partner page</a></h4>
                         <?php } elseif (in_category ('Legal & General Investments')) { ?>
