@@ -39,6 +39,10 @@
 
                             <h4>Visit the <a href="/members-area/strategic-partners/aviva/">Aviva Strategic Partner page</a></h4>
 
+                        <?php } elseif (has_tag ('Aviva')) { ?>
+
+                            <h4>Visit the <a href="/members-area/strategic-partners/aviva/">Aviva Strategic Partner page</a></h4>
+
                         <?php } elseif (in_category ('Aegon')) { ?>
 
                             <h4>Visit the <a href="/members-area/strategic-partners/aegon/">Aegon Strategic Partner page</a></h4>
