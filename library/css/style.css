@@ -1701,18 +1701,54 @@ FOOTER STYLES
 
 /* Legal & General
 -------------------------------------------------------------- */
-.page-id-244 a, .page-id-244 a:visited, .category-legal-general a, .category-legal-general a:visited, .category-target-legal-general a, .category-target-legal-general a:visited, tag-legal-general a, tag-legal-general a:visited {
+.page-id-244 a,
+.page-id-244 a:visited,
+.category-legal-general a,
+.category-legal-general a:visited,
+.category-target-legal-general a,
+.category-target-legal-general a:visited,
+.tag-legal-general a,
+.tag-legal-general a:visited {
   color: #006688; }
-  .page-id-244 a:hover, .page-id-244 a:focus, .page-id-244 a:visited:hover, .page-id-244 a:visited:focus, .category-legal-general a:hover, .category-legal-general a:focus, .category-legal-general a:visited:hover, .category-legal-general a:visited:focus, .category-target-legal-general a:hover, .category-target-legal-general a:focus, .category-target-legal-general a:visited:hover, .category-target-legal-general a:visited:focus, tag-legal-general a:hover, tag-legal-general a:focus, tag-legal-general a:visited:hover, tag-legal-general a:visited:focus {
+  .page-id-244 a:hover,
+  .page-id-244 a:focus,
+  .page-id-244 a:visited:hover,
+  .page-id-244 a:visited:focus,
+  .category-legal-general a:hover,
+  .category-legal-general a:focus,
+  .category-legal-general a:visited:hover,
+  .category-legal-general a:visited:focus,
+  .category-target-legal-general a:hover,
+  .category-target-legal-general a:focus,
+  .category-target-legal-general a:visited:hover,
+  .category-target-legal-general a:visited:focus,
+  .tag-legal-general a:hover,
+  .tag-legal-general a:focus,
+  .tag-legal-general a:visited:hover,
+  .tag-legal-general a:visited:focus {
     color: #00445a; }
 
-.page-id-244 h1, .category-legal-general h1, .category-target-legal-general h1, tag-legal-general h1 {
+.page-id-244 h1,
+.category-legal-general h1,
+.category-target-legal-general h1,
+.tag-legal-general h1 {
   color: #fff;
   background-color: #006688;
   border-radius: 1em;
   text-align: center; }
 
-.page-id-244 h2, .page-id-244 h3, .page-id-244 h4, .category-legal-general h2, .category-legal-general h3, .category-legal-general h4, .category-target-legal-general h2, .category-target-legal-general h3, .category-target-legal-general h4, tag-legal-general h2, tag-legal-general h3, tag-legal-general h4 {
+.page-id-244 h2,
+.page-id-244 h3,
+.page-id-244 h4,
+.category-legal-general h2,
+.category-legal-general h3,
+.category-legal-general h4,
+.category-target-legal-general h2,
+.category-target-legal-general h3,
+.category-target-legal-general h4,
+.tag-legal-general h2,
+.tag-legal-general h3,
+.tag-legal-general h4 {
   color: #006688; }
 
 /* Legal & General Investments

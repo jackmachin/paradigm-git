@@ -1228,11 +1228,32 @@ FOOTER STYLES
 /* Legal & General
 -------------------------------------------------------------- */
 
-.page-id-244, .category-legal-general, .category-target-legal-general, tag-legal-general {
-	a, a:visited {color: #006688; &:hover, &:focus {color: darken(#006688, 9%);} }
-	h1 {color: #fff; background-color:#006688; border-radius:1em; text-align:center;}
-	h2, h3, h4 {color: #006688;}
-	}
+.page-id-244,
+.category-legal-general,
+.category-target-legal-general,
+.tag-legal-general {
+	a,
+    a:visited {
+        color: #006688;
+
+        &:hover,
+        &:focus {
+            color: darken(#006688, 9%);
+        }
+    }
+
+    h1 {
+        color: #fff;
+        background-color:#006688;
+        border-radius:1em;
+        text-align:center;}
+	h2,
+    h3,
+    h4 {
+        color: #006688;
+    }
+
+}
 
 /* Legal & General Investments
 -------------------------------------------------------------- */
