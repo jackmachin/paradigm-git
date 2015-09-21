@@ -1193,11 +1193,32 @@ FOOTER STYLES
 /* Henderson Global Investors Page
 -------------------------------------------------------------- */
 
-.page-id-241, .category-henderson, .tag-henderson {
-	a, a:visited {color:#951a26; &:hover, &:focus {color: darken(#951a26, 9%);} }
-	h1 {color: #fff; background-color:#778892; border-radius:1em; text-align:center;}
-	h2, h3, h4 {color: #951a26;}
-	}
+.page-id-241,
+.category-henderson,
+.tag-henderson {
+
+    a,
+    a:visited {
+        color:#951a26;
+
+        &:hover,
+        &:focus {
+            color: darken(#951a26, 9%);
+        }
+    }
+	h1 {
+        color: #fff;
+        background-color:#778892;
+        border-radius:1em;
+        text-align:center;
+    }
+
+    h2,
+    h3,
+    h4 {
+        color: #951a26;
+    }
+}
 
 /* Ingenious Investments
 -------------------------------------------------------------- */

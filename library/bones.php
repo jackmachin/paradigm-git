@@ -217,8 +217,8 @@ function bones_theme_support() {
 			'mortgages-nav' => __ ( 'Mortgages Menu' ), // technical services nav
 			'savings-nav' => __ ( 'Savings Menu' ), // technical services nav
 			'learning-nav' => ('Learning Menu' ), //Learning menu nav
-      'footer-nav' => __( 'Footer Menu'),   // nav in footer
-      'members-footer-nav' => __ ( 'Members Footer Menu')   // members nav in footer
+            'footer-nav' => __( 'Footer Menu'),   // nav in footer
+            'members-footer-nav' => __ ( 'Members Footer Menu')   // members nav in footer
 		)
 	);
 } /* end bones theme support */
@@ -245,12 +245,12 @@ function bones_main_nav() {
     	'menu_class' => 'nav main top-nav clearfix',         // adding custom nav class
     	'theme_location' => 'main-nav',                 // where it's located in the theme
     	'before' => '',                                 // before the menu
-      'after' => '',                                  // after the menu
-      'link_before' => '',                            // before each link
-      'link_after' => '',                             // after each link
-      'depth' => 0,                                   // limit the depth of the nav
+        'after' => '',                                  // after the menu
+        'link_before' => '',                            // before each link
+        'link_after' => '',                             // after each link
+        'depth' => 0,                                   // limit the depth of the nav
     	'fallback_cb' => 'bones_main_nav_fallback',      // fallback function
-      'walker'        => new UL_Submenu_Walker
+        'walker'        => new UL_Submenu_Walker
 	));
 } /* end bones main nav */
 
@@ -263,12 +263,12 @@ function bones_member_nav() {
     	'menu_class' => 'nav top-nav clearfix',         // adding custom nav class
     	'theme_location' => 'members-nav',                 // where it's located in the theme
     	'before' => '',                                 // before the menu
-      'after' => '',                                  // after the menu
-      'link_before' => '',                            // before each link
-      'link_after' => '',                             // after each link
-      'depth' => 0,                                   // limit the depth of the nav
+        'after' => '',                                  // after the menu
+        'link_before' => '',                            // before each link
+        'link_after' => '',                             // after each link
+        'depth' => 0,                                   // limit the depth of the nav
     	'fallback_cb' => 'bones_main_nav_fallback',      // fallback function
-      'walker'        => new UL_Submenu_Walker
+        'walker'        => new UL_Submenu_Walker
 	));
 }
 

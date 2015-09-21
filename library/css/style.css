@@ -1641,18 +1641,44 @@ FOOTER STYLES
 
 /* Henderson Global Investors Page
 -------------------------------------------------------------- */
-.page-id-241 a, .page-id-241 a:visited, .category-henderson a, .category-henderson a:visited, .tag-henderson a, .tag-henderson a:visited {
+.page-id-241 a,
+.page-id-241 a:visited,
+.category-henderson a,
+.category-henderson a:visited,
+.tag-henderson a,
+.tag-henderson a:visited {
   color: #951a26; }
-  .page-id-241 a:hover, .page-id-241 a:focus, .page-id-241 a:visited:hover, .page-id-241 a:visited:focus, .category-henderson a:hover, .category-henderson a:focus, .category-henderson a:visited:hover, .category-henderson a:visited:focus, .tag-henderson a:hover, .tag-henderson a:focus, .tag-henderson a:visited:hover, .tag-henderson a:visited:focus {
+  .page-id-241 a:hover,
+  .page-id-241 a:focus,
+  .page-id-241 a:visited:hover,
+  .page-id-241 a:visited:focus,
+  .category-henderson a:hover,
+  .category-henderson a:focus,
+  .category-henderson a:visited:hover,
+  .category-henderson a:visited:focus,
+  .tag-henderson a:hover,
+  .tag-henderson a:focus,
+  .tag-henderson a:visited:hover,
+  .tag-henderson a:visited:focus {
     color: #6e131c; }
 
-.page-id-241 h1, .category-henderson h1, .tag-henderson h1 {
+.page-id-241 h1,
+.category-henderson h1,
+.tag-henderson h1 {
   color: #fff;
   background-color: #778892;
   border-radius: 1em;
   text-align: center; }
 
-.page-id-241 h2, .page-id-241 h3, .page-id-241 h4, .category-henderson h2, .category-henderson h3, .category-henderson h4, .tag-henderson h2, .tag-henderson h3, .tag-henderson h4 {
+.page-id-241 h2,
+.page-id-241 h3,
+.page-id-241 h4,
+.category-henderson h2,
+.category-henderson h3,
+.category-henderson h4,
+.tag-henderson h2,
+.tag-henderson h3,
+.tag-henderson h4 {
   color: #951a26; }
 
 /* Ingenious Investments
