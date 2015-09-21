@@ -31,7 +31,7 @@
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
 		<!-- wordpress head functions -->
-		<?php wp_head(); ?>
+            <?php wp_head(); ?>
 		<!-- end of wordpress head -->
 
 		<!-- drop Google Analytics Here -->
