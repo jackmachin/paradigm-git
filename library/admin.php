@@ -197,7 +197,9 @@ add_action( 'manage_event_posts_custom_column', 'bs_event_table_content', 10, 2 
 function bs_event_table_content( $column_name, $post_id ) {
     if ($column_name == 'members-cp') {
     $status = get_post_meta( $post_id, '_members_access_role', true );
-    echo $status;
+        foreach($status as $status) {
+	       echo $status;
+        }
     }
 }
 
