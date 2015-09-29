@@ -186,4 +186,10 @@ function bones_custom_admin_footer() {
 // adding it to the admin area
 add_filter( 'admin_footer_text', 'bones_custom_admin_footer' );
 
+add_filter('manage_post_posts_columns', 'bs_event_table_head');
+function bs_event_table_head( $defaults ) {
+    $defaults['members-cp']  = 'Content Permissions';
+    return $defaults;
+}
+
 ?>
