@@ -180,7 +180,7 @@ you like.
 
 // Custom Backend Footer
 function bones_custom_admin_footer() {
-	_e( '<span id="footer-thankyou">Developed by <a href="http://jackmach.in" target="_blank">Jack Machin</a></span>. Built using <a href="http://themble.com/bones" target="_blank">Bones</a>.', 'bonestheme' );
+	_e( '<span id="footer-thankyou">Developed by <a href="http://jackmach.in" target="_blank">Jack Machin</a></span>.' );
 }
 
 // adding it to the admin area
