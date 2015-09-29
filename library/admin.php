@@ -198,7 +198,7 @@ function bs_event_table_content( $column_name, $post_id ) {
     if ($column_name == 'members-cp') {
     $permissions = get_post_meta( $post_id, '_members_access_role', false );
         foreach ($permissions as $permission) {
-            echo $permission;
+            echo ''.$permission. ', ';
         }
     }
 }
