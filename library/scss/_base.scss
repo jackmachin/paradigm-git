@@ -2057,9 +2057,6 @@ a.box:focus {
         color: #bc1739;
     }
 
-gallery-columns-8 .gallery-item {
-    width: 12.5%;
-}
 .gallery .gallery-item {
     float: left;
     margin: 0;
@@ -2068,4 +2065,8 @@ gallery-columns-8 .gallery-item {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+gallery-columns-8 .gallery-item {
+    width: 12.5%;
 }
