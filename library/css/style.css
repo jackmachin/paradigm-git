@@ -2622,6 +2622,18 @@ a.box:focus {
 .ui-widget-content a.map-link {
   color: #bc1739; }
 
+gallery-columns-8 .gallery-item {
+  width: 12.5%; }
+
+.gallery .gallery-item {
+  float: left;
+  margin: 0;
+  text-align: center;
+  padding: 6px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 /*
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
