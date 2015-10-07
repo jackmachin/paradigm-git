@@ -2631,7 +2631,7 @@ a.box:focus {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-gallery-columns-8 .gallery-item {
+.gallery-columns-8 .gallery-item {
   width: 12.5%; }
 
 /*
