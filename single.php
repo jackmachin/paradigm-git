@@ -124,6 +124,10 @@
 				        <?php } elseif (has_tag ('Partnership')) { ?>
 
                             <h4>Visit the <a href="/members-area/strategic-partners/partnership/">Partnership Strategic Partner page</a></h4>
+                        <?php } elseif (has_tag ('Parasols')) { ?>
+
+                            <h4>Visit the <a href="/members-area/strategic-partners/para-sols/">Para-Sols Strategic Partner page</a></h4>
+
                         <?php } elseif (in_category ('Prudential')) { ?>
 
                             <h4>Visit the <a href="/members-area/strategic-partners/prudential/">Prudential Strategic Partner page</a></h4>
