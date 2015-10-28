@@ -72,7 +72,17 @@
 
         <?php if (is_page (246)) { ?>
 
-            <script>(function(d,config){var script=d.createElement("script");script.setAttribute("async",true);var data=JSON.stringify(config);script.src="//js.buto.tv/video/"+data;var s=d.getElementsByTagName("script")[0];s.parentNode.insertBefore(script,s)})(document,{"object_id":"KBnk2"})</script>
+            <script>
+                (function(d,config){
+                    var script=d.createElement("script");
+                    script.setAttribute("async",true);
+                    var data=JSON.stringify(config);
+                    script.src="//js.buto.tv/video/"+data;var s=d.getElementsByTagName("script")[0];
+                    s.parentNode.insertBefore(script,s)
+                })
+
+                (document,{"object_id":"KBnk2"})
+            </script>
 
         <?php } ?>
 	</head>
