@@ -12,7 +12,7 @@
 
                 get_sidebar('technical');
 
-            } elseif (has_tag ('Member')) {
+            } elseif (has_tag ('member')) {
 
                 get_sidebar('members');
 
