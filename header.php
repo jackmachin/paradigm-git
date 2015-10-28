@@ -128,6 +128,12 @@
 						</a>
 					<?php }
 
+                        elseif (has_tag ('member') ) { ?>
+						<a href="<?php bloginfo( 'url' ); ?>/members-area/" title="Back To Members Area">
+							<h2><img src="/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">Members Area</h2>
+						</a>
+					<?php }
+
 					elseif ( is_page_template('page-technical.php') )
 					{ ?>
 						<a href="<?php bloginfo( 'url' ); ?>/members-area/safeguard/technical-services" title="Back To Technical Services">

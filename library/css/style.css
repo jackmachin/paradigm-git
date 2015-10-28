@@ -354,7 +354,8 @@ input {
  *    Known issue: inner spacing remains in IE6.
  */
 button,
-html input[type="button"], input[type="reset"],
+html input[type="button"],
+input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
@@ -883,8 +884,7 @@ and more scalable.
 			the style.scss file where it's relevant. We want to
 			keep this file as small as possible!
 			*/ }
-      .nav li a:hover,
-      .nav li a:focus {
+      .nav li a:hover, .nav li a:focus {
         color: #93122d !important; }
     .nav li ul.sub-menu,
     .nav li ul.children {
@@ -1127,8 +1127,7 @@ COMMENT STYLES
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 0.9em; }
-    .commentlist .comment-reply-link:hover,
-    .commentlist .comment-reply-link:focus {
+    .commentlist .comment-reply-link:hover, .commentlist .comment-reply-link:focus {
       opacity: 1; }
 
 /* end .commentlist */
@@ -1249,8 +1248,7 @@ FOOTER STYLES
 .tag-aegon a,
 .tag-aegon a:visited {
   color: #0077C8; }
-  .page-id-168 a:hover,
-  .page-id-168 a:focus,
+  .page-id-168 a:hover, .page-id-168 a:focus,
   .page-id-168 a:visited:hover,
   .page-id-168 a:visited:focus,
   .category-aegon a:hover,
@@ -1308,8 +1306,7 @@ FOOTER STYLES
 .tag-aviva a,
 .tag-aviva a:visited {
   color: #004fb6; }
-  .page-id-234 a:hover,
-  .page-id-234 a:focus,
+  .page-id-234 a:hover, .page-id-234 a:focus,
   .page-id-234 a:visited:hover,
   .page-id-234 a:visited:focus,
   .category-aviva a:hover,
@@ -1336,13 +1333,13 @@ FOOTER STYLES
   color: #004fb6;
   text-align: center; }
 
-.page-id-234 h2,
-.page-id-234 h3,
-.page-id-234 h4,
+.page-id-234 h2, .page-id-234 h3, .page-id-234 h4,
 .category-aviva h2,
 .category-aviva h3,
 .category-aviva h4,
-.tag-aviva h2, .tag-aviva h3, .tag-aviva h4 {
+.tag-aviva h2,
+.tag-aviva h3,
+.tag-aviva h4 {
   color: #004fb6; }
 
 /* AXA (Wealth & Life Invest)
@@ -1358,8 +1355,7 @@ FOOTER STYLES
 .tag-axa a,
 .tag-axa a:visited {
   color: #0b3881; }
-  .page-id-235 a:hover,
-  .page-id-235 a:focus,
+  .page-id-235 a:hover, .page-id-235 a:focus,
   .page-id-235 a:visited:hover,
   .page-id-235 a:visited:focus,
   .page-id-11095 a:hover,
@@ -1417,21 +1413,21 @@ FOOTER STYLES
 
 /* Blackrock
 -------------------------------------------------------------- */
-.page-id-236 a,
-.page-id-236 a:visited,
+.page-id-236 a, .page-id-236 a:visited,
 .category-blackrock a,
 .category-blackrock a:visited,
-.tag-blackrock-2 a, .tag-blackrock-2 a:visited {
+.tag-blackrock-2 a,
+.tag-blackrock-2 a:visited {
   color: #424B54; }
-  .page-id-236 a:hover,
-  .page-id-236 a:focus,
-  .page-id-236 a:visited:hover,
-  .page-id-236 a:visited:focus,
+  .page-id-236 a:hover, .page-id-236 a:focus, .page-id-236 a:visited:hover, .page-id-236 a:visited:focus,
   .category-blackrock a:hover,
   .category-blackrock a:focus,
   .category-blackrock a:visited:hover,
   .category-blackrock a:visited:focus,
-  .tag-blackrock-2 a:hover, .tag-blackrock-2 a:focus, .tag-blackrock-2 a:visited:hover, .tag-blackrock-2 a:visited:focus {
+  .tag-blackrock-2 a:hover,
+  .tag-blackrock-2 a:focus,
+  .tag-blackrock-2 a:visited:hover,
+  .tag-blackrock-2 a:visited:focus {
     color: #c03; }
 
 .page-id-236 h1,
@@ -1442,13 +1438,13 @@ FOOTER STYLES
   border-radius: 1em;
   text-align: center; }
 
-.page-id-236 h2,
-.page-id-236 h3,
-.page-id-236 h4,
+.page-id-236 h2, .page-id-236 h3, .page-id-236 h4,
 .category-blackrock h2,
 .category-blackrock h3,
 .category-blackrock h4,
-.tag-blackrock-2 h2, .tag-blackrock-2 h3, .tag-blackrock-2 h4 {
+.tag-blackrock-2 h2,
+.tag-blackrock-2 h3,
+.tag-blackrock-2 h4 {
   color: #000; }
 
 /* Blackfinch
@@ -1494,8 +1490,7 @@ FOOTER STYLES
 .tag-brand-ft a,
 .tag-brand-ft a:visited {
   color: #2262ac; }
-  .tag-brand-ft a:hover,
-  .tag-brand-ft a:focus,
+  .tag-brand-ft a:hover, .tag-brand-ft a:focus,
   .tag-brand-ft a:visited:hover,
   .tag-brand-ft a:visited:focus {
     color: #1a4c86; }
@@ -1550,8 +1545,7 @@ FOOTER STYLES
 .tag-defaqto a,
 .tag-defaqto a:visited {
   color: #005493; }
-  .page-id-19456 a:hover,
-  .page-id-19456 a:focus,
+  .page-id-19456 a:hover, .page-id-19456 a:focus,
   .page-id-19456 a:visited:hover,
   .page-id-19456 a:visited:focus,
   .tag-defaqto a:hover,
@@ -1614,8 +1608,7 @@ FOOTER STYLES
 .tag-goldman-sachs a,
 .tag-goldman-sachs a:visited {
   color: #7399C6; }
-  .page-id-20608 a:hover,
-  .page-id-20608 a:focus,
+  .page-id-20608 a:hover, .page-id-20608 a:focus,
   .page-id-20608 a:visited:hover,
   .page-id-20608 a:visited:focus,
   .tag-goldman-sachs a:hover,
@@ -1648,8 +1641,7 @@ FOOTER STYLES
 .tag-henderson a,
 .tag-henderson a:visited {
   color: #951a26; }
-  .page-id-241 a:hover,
-  .page-id-241 a:focus,
+  .page-id-241 a:hover, .page-id-241 a:focus,
   .page-id-241 a:visited:hover,
   .page-id-241 a:visited:focus,
   .category-henderson a:hover,
@@ -1703,11 +1695,9 @@ FOOTER STYLES
 .page-id-18313 a:visited, .tag-intelliflo a,
 .tag-intelliflo a:visited {
   color: #496394; }
-  .page-id-18313 a:hover,
-  .page-id-18313 a:focus,
+  .page-id-18313 a:hover, .page-id-18313 a:focus,
   .page-id-18313 a:visited:hover,
-  .page-id-18313 a:visited:focus, .tag-intelliflo a:hover,
-  .tag-intelliflo a:focus,
+  .page-id-18313 a:visited:focus, .tag-intelliflo a:hover, .tag-intelliflo a:focus,
   .tag-intelliflo a:visited:hover,
   .tag-intelliflo a:visited:focus {
     color: #3a4e75; }
@@ -1768,8 +1758,7 @@ FOOTER STYLES
 .tag-legal-general a,
 .tag-legal-general a:visited {
   color: #006688; }
-  .page-id-244 a:hover,
-  .page-id-244 a:focus,
+  .page-id-244 a:hover, .page-id-244 a:focus,
   .page-id-244 a:visited:hover,
   .page-id-244 a:visited:focus,
   .category-legal-general a:hover,
@@ -1884,8 +1873,7 @@ FOOTER STYLES
 .tag-parasols a,
 .tag-parasols a:visited {
   color: #005A84; }
-  .page-id-19474 a:hover,
-  .page-id-19474 a:focus,
+  .page-id-19474 a:hover, .page-id-19474 a:focus,
   .page-id-19474 a:visited:hover,
   .page-id-19474 a:visited:focus,
   .tag-parasols a:hover,
@@ -1919,9 +1907,7 @@ FOOTER STYLES
 .category-partnership-december-14 a,
 .category-328 a {
   color: #6eb43f; }
-  .page-id-250 a:hover,
-  .page-id-250 a:focus,
-  .page-id-250 a:visited,
+  .page-id-250 a:hover, .page-id-250 a:focus, .page-id-250 a:visited,
   .category-partnership a:hover,
   .category-partnership a:focus,
   .category-partnership a:visited,
@@ -1990,9 +1976,7 @@ h1.partnership-title {
     margin-left: 2em; }
   .partnershipcontents a {
     color: #fff; }
-    .partnershipcontents a:hover,
-    .partnershipcontents a:focus,
-    .partnershipcontents a:visited {
+    .partnershipcontents a:hover, .partnershipcontents a:focus, .partnershipcontents a:visited {
       color: #e8e8e8 !important; }
   .partnershipcontents h2,
   .partnershipcontents h3 {
@@ -2035,8 +2019,7 @@ h1.partnership-title {
 .tag-red a,
 .tag-red a:visited {
   color: #cd2027; }
-  .tag-red a:hover,
-  .tag-red a:focus,
+  .tag-red a:hover, .tag-red a:focus,
   .tag-red a:visited:hover,
   .tag-red a:visited:focus {
     color: #a51a1f; }
@@ -2062,8 +2045,7 @@ h1.partnership-title {
 .tag-santander a,
 .tag-santander a:visited {
   color: #ff0000; }
-  .page-id-11209 a:hover,
-  .page-id-11209 a:focus,
+  .page-id-11209 a:hover, .page-id-11209 a:focus,
   .page-id-11209 a:visited:hover,
   .page-id-11209 a:visited:focus,
   .category-santander a:hover,
@@ -2172,8 +2154,7 @@ h1.partnership-title {
 .tag-selectapension a,
 .tag-selectapension a:visited {
   color: #529FC5; }
-  .page-id-260 a:hover,
-  .page-id-260 a:focus,
+  .page-id-260 a:hover, .page-id-260 a:focus,
   .page-id-260 a:visited:hover,
   .page-id-260 a:visited:focus,
   .tag-selectapension a:hover,
@@ -2206,8 +2187,7 @@ h1.partnership-title {
 .tag-skandia a,
 .tag-skandia a:visited {
   color: #008066; }
-  .page-id-261 a:hover,
-  .page-id-261 a:focus,
+  .page-id-261 a:hover, .page-id-261 a:focus,
   .page-id-261 a:visited:hover,
   .page-id-261 a:visited:focus,
   .category-skandia a:hover,
@@ -2291,8 +2271,7 @@ h1.partnership-title {
 .tag-threadneedle a,
 .tag-threadneedle a:visited {
   color: #003D6D; }
-  .page-id-264 a:hover,
-  .page-id-264 a:focus,
+  .page-id-264 a:hover, .page-id-264 a:focus,
   .page-id-264 a:visited:hover,
   .page-id-264 a:visited:focus,
   .category-threadneedle a:hover,
@@ -2377,9 +2356,10 @@ h1.partnership-title {
 /* Member */
 .tile {
   background-color: #bc1739;
-  background: url(/wp-content/themes/paradigm/library/images/tile.png) no-repeat;
+  background: url(/wp-content/themes/paradigm/library/images/tile.png) no-repeat #bc1739;
   min-height: 260px;
   margin-bottom: 1em;
+  border-radius: .75em;
   color: #fff; }
   .tile p {
     margin: 1em; }
@@ -2407,8 +2387,7 @@ ul.manual-list {
     color: #fff;
     line-height: 24px;
     font-size: 12px; }
-    ul.manual-list li a:hover,
-    ul.manual-list li a:focus {
+    ul.manual-list li a:hover, ul.manual-list li a:focus {
       color: #e8e8e8; }
 
 .a-2 {
@@ -2610,8 +2589,7 @@ a.box:focus {
   .feature-box a,
   .feature-box a:visited {
     color: #fff; }
-    .feature-box a:hover,
-    .feature-box a:focus,
+    .feature-box a:hover, .feature-box a:focus,
     .feature-box a:visited:hover,
     .feature-box a:visited:focus {
       color: #e8e8e8; }
