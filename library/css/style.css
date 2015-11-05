@@ -2363,9 +2363,11 @@ h1.partnership-title {
   color: #fff; }
   .tile p {
     margin: 1em; }
-  .tile h2 {
+  .tile .tile-title {
     text-align: center;
-    color: #fff; }
+    margin: 10px 0 0 0; }
+    .tile .tile-title a {
+      color: #fff; }
 
 ul.member-list {
   list-style: none !important;

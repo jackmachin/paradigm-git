@@ -1754,9 +1754,13 @@ h1.partnership-title {
         margin:1em;
     }
 
-    h2 {
+    .tile-title {
         text-align:center;
-        color:#fff;
+        margin: 10px 0 0 0;
+
+        a {
+            color:#fff;
+        }
     }
 }
 
