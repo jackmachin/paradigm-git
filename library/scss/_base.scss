@@ -1764,7 +1764,7 @@ h1.partnership-title {
     }
 }
 
-ul.member-list {
+.member-list {
 	list-style:none !important;
     margin: 0;
 
@@ -1772,17 +1772,19 @@ ul.member-list {
 		color: #fff;
 		line-height: 26px;
 		font-size: 18px;
-			a {
-				color:#fff;
-				line-height: 26px;
-				font-size: 18px;
 
-				&:hover, &:focus {
+        a {
+            color:#fff;
+            line-height: 26px;
+            font-size: 18px;
+
+            &:hover,
+            &:focus {
 				color: darken(#fff, 9%);
-				}
+            }
 		}
-		}
-	}
+    }
+}
 
 ul.manual-list {
     list-style:none !important;

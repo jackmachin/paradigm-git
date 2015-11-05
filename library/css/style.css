@@ -2369,18 +2369,18 @@ h1.partnership-title {
     .tile .tile-title a {
       color: #fff; }
 
-ul.member-list {
+.member-list {
   list-style: none !important;
   margin: 0; }
-  ul.member-list li {
+  .member-list li {
     color: #fff;
     line-height: 26px;
     font-size: 18px; }
-    ul.member-list li a {
+    .member-list li a {
       color: #fff;
       line-height: 26px;
       font-size: 18px; }
-      ul.member-list li a:hover, ul.member-list li a:focus {
+      .member-list li a:hover, .member-list li a:focus {
         color: #e8e8e8; }
 
 ul.manual-list {
