@@ -2365,7 +2365,8 @@ h1.partnership-title {
     margin: 1em; }
   .tile .tile-title {
     text-align: center;
-    margin: 10px 0 0 0; }
+    margin: 10px 0 0 0;
+    color: #fff; }
     .tile .tile-title a {
       color: #fff; }
 
