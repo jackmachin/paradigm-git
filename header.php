@@ -226,7 +226,7 @@
                             </div>
 					<?php }
 
-						elseif (is_category ( array (306, 328))) { ?>
+						elseif (is_category ( array (306, 328, 365))) { ?>
 
 							<img style="padding-top:35px;" src="/wp-content/files/2014/12/partnership-header.jpg" alt="Paradigm" >
 							<div id="targetbar"><?php $category = get_the_category(); echo $category[0]->cat_name;?></div>
