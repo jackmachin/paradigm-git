@@ -18,7 +18,7 @@
 							</div>
 						<div id="main" class="twelvecol clearfix first" role="main">
 
-                            <img src="http://paradigmgroup.eu/wp-content/uploads/2015/11/PART0095-Leroy-210x297mm-Paradigm-Lady-FAW.jpg">
+                            <img src="http://paradigmgroup.eu/wp-content/uploads/2015/11/PART0095-Leroy-210x297mm-Paradigm-Lady-FAW.jpg" style="max-width:100%; height:auto;">
 
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
