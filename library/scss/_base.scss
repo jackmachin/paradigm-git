@@ -1155,7 +1155,9 @@ FOOTER STYLES
 /* FriendsLife
 -------------------------------------------------------------- */
 
-.page-id-240, .category-friendslife, .tag-friends-life  {
+.page-id-240,
+.category-friendslife,
+.tag-friends-life  {
 	a, a:visited {color: #137AC1; &:hover, &:focus {color: darken(#137AC1, 9%);} }
 	h1 {color: #fff; background-color:#137AC1; border-radius:1em; text-align:center;}
 	h2, h3, h4 {color: #137AC1;}
