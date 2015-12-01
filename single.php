@@ -83,8 +83,6 @@
                         <?php } elseif (in_category ('Friends Life')) { ?>
 
                             <h4>Visit the <a href="/members-area/strategic-partners/friends-life/">Friends Life Strategic Partner page</a></h4>
-                        <?php }
-
                         <?php } elseif (in_category ('Goldman Sachs')) { ?>
 
                             <h4>Visit the <a href="/members-area/strategic-partners/goldman-sachs/">Goldman Sachs Strategic Partner page</a></h4>
