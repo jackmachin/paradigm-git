@@ -490,6 +490,6 @@ function my_login_form_shortcode() {
 
 add_filter( 'gform_duplicate_message_24', 'change_message', 10, 2 );
 function change_message( $message, $form ) {
-  return 'Congratulations! Our records indicate you have already registered for this event';
+  return 'Congratulations! Our records indicate you have already registered for this event.';
 }
 ?>
