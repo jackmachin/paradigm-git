@@ -8,9 +8,7 @@
 
 						<div id="main" class="ninecol clearfix" role="main">
 
-             <?php echo category_description( $category_id ); ?>
-
-             <iframe width="560" height="315" src="//www.youtube.com/embed/aHXUvieNsDU?rel=0" frameborder="0" allowfullscreen></iframe>
+                            <?php echo category_description( $category_id ); ?>
 
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
