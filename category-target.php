@@ -7,7 +7,7 @@
 					<div class="intro twelvecol">
 						<div class="description eightcol">
 
-                            <?php if (is_category('368')) { ?>
+                            <?php if (is_tax( 'issue', '368' )) { ?>
    <h1>Welcome to the 100<sup>th</sup> Edition of Target</h1>
 
 <?php } else { ?>
