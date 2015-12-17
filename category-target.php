@@ -7,7 +7,7 @@
 					<div class="intro twelvecol">
 						<div class="description eightcol">
 
-                            <?php if (has_term ( '100-dec' )) { ?>
+                            <?php if (has_term ( '368' )) { ?>
    <h1>Welcome to the 100<sup>th</sup> Edition of Target</h1>
 
 <?php } else { ?>
