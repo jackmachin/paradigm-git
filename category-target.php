@@ -6,7 +6,15 @@
 
 					<div class="intro twelvecol">
 						<div class="description eightcol">
-							<h1>Welcome To Target…</h1>
+
+                            <?php if (is_category('100-dec')) { ?>
+   <h1>Welcome to the 100<sup>th</sup> Edition of Target</h1>
+
+<?php } else { ?>
+
+            	<h1>Welcome To Target…</h1>
+<?php } ?>
+
 								<?php echo category_description( $category_id ); ?>
 						</div>
 					<div class="targetcontents threecol">
