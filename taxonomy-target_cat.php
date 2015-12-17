@@ -15,14 +15,8 @@
             <div id="main" class="twelvecol first clearfix" role="main">
                 <div class="ninecol  entry-content first">
 
-                    <?php if(is_tax ('issue', '100-dec')) { ?>
-
-                      <h1>Welcome to the 100th Edition of Target</h1>
-
-                    <?php } else { ?>
-
                     <h1>Welcome to Target</h1>
-                    <?php } ?>
+
 
                         <?php echo category_description( $category_id ); ?>
 
