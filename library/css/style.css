@@ -1587,18 +1587,38 @@ FOOTER STYLES
 
 /* FriendsLife
 -------------------------------------------------------------- */
-.page-id-240 a, .page-id-240 a:visited, .category-friendslife a, .category-friendslife a:visited, .tag-friends-life a, .tag-friends-life a:visited {
+.page-id-240 a, .page-id-240 a:visited,
+.category-friendslife a,
+.category-friendslife a:visited,
+.tag-friends-life a,
+.tag-friends-life a:visited {
   color: #137AC1; }
-  .page-id-240 a:hover, .page-id-240 a:focus, .page-id-240 a:visited:hover, .page-id-240 a:visited:focus, .category-friendslife a:hover, .category-friendslife a:focus, .category-friendslife a:visited:hover, .category-friendslife a:visited:focus, .tag-friends-life a:hover, .tag-friends-life a:focus, .tag-friends-life a:visited:hover, .tag-friends-life a:visited:focus {
+  .page-id-240 a:hover, .page-id-240 a:focus, .page-id-240 a:visited:hover, .page-id-240 a:visited:focus,
+  .category-friendslife a:hover,
+  .category-friendslife a:focus,
+  .category-friendslife a:visited:hover,
+  .category-friendslife a:visited:focus,
+  .tag-friends-life a:hover,
+  .tag-friends-life a:focus,
+  .tag-friends-life a:visited:hover,
+  .tag-friends-life a:visited:focus {
     color: #0f6097; }
 
-.page-id-240 h1, .category-friendslife h1, .tag-friends-life h1 {
+.page-id-240 h1,
+.category-friendslife h1,
+.tag-friends-life h1 {
   color: #fff;
   background-color: #137AC1;
   border-radius: 1em;
   text-align: center; }
 
-.page-id-240 h2, .page-id-240 h3, .page-id-240 h4, .category-friendslife h2, .category-friendslife h3, .category-friendslife h4, .tag-friends-life h2, .tag-friends-life h3, .tag-friends-life h4 {
+.page-id-240 h2, .page-id-240 h3, .page-id-240 h4,
+.category-friendslife h2,
+.category-friendslife h3,
+.category-friendslife h4,
+.tag-friends-life h2,
+.tag-friends-life h3,
+.tag-friends-life h4 {
   color: #137AC1; }
 
 /* Goldman Sachs
