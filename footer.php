@@ -37,7 +37,7 @@
 							?>
 					</nav>
 
-					<p class="source-org copyright">Paradigm Partners LTD | Registered in England and Wales. Company No.: OC323405 | Paradigm Partners LTD, Paradigm House, Brooke Court, Wilmslow, Cheshire, SK9 3ND |</p>
+					<p class="source-org copyright">Paradigm Partners Ltd | Registered in England and Wales. Company No.: OC323405 | Paradigm Partners Ltd, Paradigm House, Brooke Court, Wilmslow, Cheshire, SK9 3ND |</p>
 
 				</div> <!-- end #inner-footer -->
 
