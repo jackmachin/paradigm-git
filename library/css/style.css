@@ -2435,6 +2435,9 @@ ul.manual-list {
   background-color: #68B64F;
   padding: 1em;
   color: #fff;
+  width: 48%;
+  float: left;
+  margin-left: 1%;
   border-radius: 1em;
   margin-bottom: 1em; }
   .good h3 {
@@ -2444,7 +2447,10 @@ ul.manual-list {
   background-color: #cc5959;
   padding: 1em;
   color: #fff;
-  border-radius: 1em; }
+  border-radius: 1em;
+  width: 48%;
+  float: left;
+  margin-left: 1%; }
   .bad h3 {
     color: #fff; }
 
