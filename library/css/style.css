@@ -3031,4 +3031,19 @@ though, go for it.
   .wp-prev-next,
   .respond-form,
   nav {
-    display: none; } }
+    display: none; }
+  .good {
+    background-color: #68B64F;
+    padding: 1em;
+    color: #fff;
+    border-radius: 1em;
+    margin-bottom: 1em; }
+    .good h3 {
+      color: #fff; }
+  .bad {
+    background-color: #cc5959;
+    padding: 1em;
+    color: #fff;
+    border-radius: 1em; }
+    .bad h3 {
+      color: #fff; } }

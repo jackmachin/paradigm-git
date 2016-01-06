@@ -80,3 +80,22 @@ though, go for it.
     nav {
       display: none;
     }
+
+.good {
+	background-color: #68B64F;
+	padding: 1em;
+	color: #fff;
+	h3 {color: #fff;}
+	border-radius: 1em;
+	margin-bottom: 1em;
+}
+.bad {
+	background-color: #cc5959;
+	padding: 1em;
+	color: #fff;
+	border-radius: 1em;
+
+	h3 {
+        color: #fff;
+    }
+}
