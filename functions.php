@@ -493,7 +493,7 @@ function change_message( $message, $form ) {
   return 'Congratulations! Our records indicate you have already registered for this event.';
 }
 
-add_filter( 'gform_duplicate_message_13', 'change_message', 10, 2 );
+add_filter( 'gform_duplicate_message_13', 'change_message_2', 10, 2 );
 function change_message( $message, $form ) {
   return 'Our records indicate you have already registered for this event.';
 }
