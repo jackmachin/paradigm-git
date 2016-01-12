@@ -494,7 +494,7 @@ function change_message( $message, $form ) {
 }
 
 add_filter( 'gform_duplicate_message_13', 'change_message_2', 10, 2 );
-function change_message( $message, $form ) {
+function change_message_2 ( $message, $form ) {
   return 'Our records indicate you have already registered for this event.';
 }
 ?>
