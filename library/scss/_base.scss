@@ -1450,11 +1450,34 @@ h1.partnership-title {
 /* Prudential
 -------------------------------------------------------------- */
 
-.page-id-251, .category-prudential, .category-target-prudential , .tag-prudential {
-	a, a:visited {color: #CC0000; &:hover, &:focus {color: darken(#CC0000, 9%);} }
-	h1 {color: #fff; background-color:#CC0000; border-radius:1em; text-align:center;}
-	h2, h3, h4 {color:#CC0000;}
-	}
+.page-id-251,
+.category-prudential,
+.category-target-prudential ,
+.tag-prudential {
+
+    a,
+    a:visited {
+        color: #CC0000;
+
+        &:hover,
+        &:focus {
+            color: darken(#CC0000, 9%);
+        }
+    }
+
+    h1 {
+        color: #fff;
+        background-color:#CC0000;
+        border-radius:1em;
+        text-align:center;
+    }
+	h2,
+    h3,
+    h4,
+    h5 {
+        color:#CC0000;
+    }
+}
 
 /* Quilter
 -------------------------------------------------------------- */
