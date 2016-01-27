@@ -166,6 +166,9 @@
                         <?php } elseif (has_tag ('Threadneedle')) { ?>
 
                             <h4>Visit the <a href="/members-area/strategic-partners/threadneedle/">Threadneedle Strategic Partner page</a></h4>
+                        <?php } elseif (has_tag ('Time')) { ?>
+
+                            <h4>Visit the <a href="/members-area/strategic-partners/time/">TIME Strategic Partner page</a></h4>
                         <?php } elseif (has_tag ('Zurich')) { ?>
 
                             <h4>Visit the <a href="/members-area/strategic-partners/zurich/">Zurich Strategic Partner page</a></h4>
