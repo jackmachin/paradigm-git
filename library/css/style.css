@@ -2362,6 +2362,39 @@ h1.partnership-title {
 .tag-threadneedle h4 {
   color: #003D6D; }
 
+/* TIME
+-------------------------------------------------------------- */
+.page-id-21909 a,
+.page-id-21909 a:visited,
+.tag-time a,
+.tag-time a:visited {
+  color: #005581; }
+  .page-id-21909 a:hover, .page-id-21909 a:focus,
+  .page-id-21909 a:visited:hover,
+  .page-id-21909 a:visited:focus,
+  .tag-time a:hover,
+  .tag-time a:focus,
+  .tag-time a:visited:hover,
+  .tag-time a:visited:focus {
+    color: #003753; }
+
+.page-id-21909 h1,
+.tag-time h1 {
+  color: #fff;
+  background-color: #005581;
+  border-radius: 1em;
+  text-align: center; }
+
+.page-id-21909 h2,
+.page-id-21909 h3,
+.page-id-21909 h4,
+.page-id-21909 h5,
+.tag-time h2,
+.tag-time h3,
+.tag-time h4,
+.tag-time h5 {
+  color: #005581; }
+
 /* Zurich
 -------------------------------------------------------------- */
 .page-id-265 a, .page-id-265 a:visited, .category-zurich a, .category-zurich a:visited, .post-4607 a, .post-4607 a:visited, .category-target-zurich a, .category-target-zurich a:visited, .tag-zurich a, .tag-zurich a:visited {
