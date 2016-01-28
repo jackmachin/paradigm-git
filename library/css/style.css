@@ -2867,38 +2867,6 @@ come into play. Have fun!
 GENERAL STYLES
 *********************/
   /*.page-template-page-technical-php, .page-template-page-target-php, .archive.category-regulatory-updates, .archive.category-compliance-updates, .archive.category-file-review-updates, .archive.category-technical-updates {background:url('/wordpress/wp-content/themes/paradigm/library/images/bg-technical.jpg') center top no-repeat, url(/wordpress/wp-content/themes/paradigm/library/images/main_bg.jpg) left top repeat-x;}*/
-  .page-id-99 {
-    background: url("/wp-content/themes/paradigm/library/images/bg-compliance.jpg") center top no-repeat, url(/wp-content/themes/paradigm/library/images/main_bg.jpg) left top repeat-x; }
-  .page-id-49,
-  .parent-pageid-49 {
-    background: url("/wp-content/themes/paradigm/library/images/bg-academy.jpg") center top no-repeat, url(/wp-content/themes/paradigm/library/images/main_bg.jpg) left top repeat-x; }
-  .page-id-90 {
-    background: url("/wp-content/themes/paradigm/library/images/bg-safeguard.jpg") center top no-repeat, url(/wp-content/themes/paradigm/library/images/main_bg.jpg) left top repeat-x; }
-  .page-id-92 {
-    background: url("/wp-content/themes/paradigm/library/images/bg-develop.jpg") center top no-repeat, url(/wp-content/themes/paradigm/library/images/main_bg.jpg) left top repeat-x; }
-  .page-id-117 {
-    background: url("/wp-content/themes/paradigm/library/images/bg-research.jpg") center top no-repeat, url(/wp-content/themes/paradigm/library/images/main_bg.jpg) left top repeat-x; }
-  .page-id-132 {
-    background: url("/wp-content/themes/paradigm/library/images/bg-pi.jpg") center top no-repeat, url(/wp-content/themes/paradigm/library/images/main_bg.jpg) left top repeat-x; }
-  .page-id-134 {
-    background: url("/wp-content/themes/paradigm/library/images/bg-hr.jpg") center top no-repeat, url(/wp-content/themes/paradigm/library/images/main_bg.jpg) left top repeat-x; }
-  .page-id-138,
-  .parent-pageid-138 {
-    background: url("/wp-content/themes/paradigm/library/images/bg-ind.jpg") center top no-repeat, url(/wp-content/themes/paradigm/library/images/main_bg.jpg) left top repeat-x; }
-  .page-id-140,
-  .parent-pageid-140 {
-    background: url("/wp-content/themes/paradigm/library/images/bg-con.jpg") center top no-repeat, url(/wp-content/themes/paradigm/library/images/main_bg.jpg) left top repeat-x; }
-  .page-id-142 {
-    background: url("/wp-content/themes/paradigm/library/images/bg-jfb.jpg") center top no-repeat, url(/wp-content/themes/paradigm/library/images/main_bg.jpg) left top repeat-x; }
-  .page-id-144,
-  .parent-pageid-144 {
-    background: url("/wp-content/themes/paradigm/library/images/bg-platform.jpg") center top no-repeat, url(/wp-content/themes/paradigm/library/images/main_bg.jpg) left top repeat-x; }
-  .page-id-146 {
-    background: url("/wp-content/themes/paradigm/library/images/bg-back.jpg") center top no-repeat, url(/wp-content/themes/paradigm/library/images/main_bg.jpg) left top repeat-x; }
-  .page-template-page-learning-php,
-  .tax-custom_cat,
-  .single-learning {
-    background: url("/wp-content/themes/paradigm/library/images/bg-learning.jpg") center top no-repeat, url(/wp-content/themes/paradigm/library/images/main_bg.jpg) left top repeat-x; }
   /*********************
 LAYOUT & GRID STYLES
 *********************/
