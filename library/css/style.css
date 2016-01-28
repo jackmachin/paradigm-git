@@ -924,16 +924,16 @@ POSTS & CONTENT STYLES
 			but it's up to you. Feel free to change it up.
 			*/ }
   .entry-content p {
-    font-size: 14px;
+    font-size: 0.875em;
     line-height: 1.4em;
     margin-bottom: 20px; }
   .entry-content .small-print {
-    font-size: 9px; }
+    font-size: 0.5625em; }
   .entry-content ul, .entry-content ol {
     margin-bottom: 20px;
     padding-left: 20px;
     line-height: 1.3em;
-    font-size: 14px; }
+    font-size: 0.875em; }
   .entry-content ul {
     list-style: disc; }
   .entry-content ol {
