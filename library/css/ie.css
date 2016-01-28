@@ -438,7 +438,7 @@ NAVIGATION STYLES
 		*/
     /* showing sub-menus */ }
     .nav li a {
-      font-size: 14px;
+      font-size: .875em;
       line-height: 14px;
       font-weight: normal;
       color: #bc1739;
