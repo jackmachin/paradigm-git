@@ -162,7 +162,7 @@ probably best not to use it. I mean, were you going to anyway? */
 BUTTONS
 *********************/
 .button, .button:visited {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Source Sans Pro", Arial, "Helvetica Neue", Helvetica, sans-serif;
   border: 1px solid #811027;
   border-top-color: #9c132f;
   border-left-color: #9c132f;
