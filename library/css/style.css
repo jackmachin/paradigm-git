@@ -2093,6 +2093,36 @@ h1.partnership-title {
 .tag-red h4 {
   color: #cd2027; }
 
+/* Red
+-------------- */
+.page-id-21955 a,
+.page-id-21955 a:visited,
+.tag-retirement-advantage a,
+.tag-retirement-advantage a:visited {
+  color: #00ab8e; }
+  .page-id-21955 a:hover, .page-id-21955 a:focus,
+  .page-id-21955 a:visited:hover,
+  .page-id-21955 a:visited:focus,
+  .tag-retirement-advantage a:hover,
+  .tag-retirement-advantage a:focus,
+  .tag-retirement-advantage a:visited:hover,
+  .tag-retirement-advantage a:visited:focus {
+    color: #007d68; }
+
+.page-id-21955 h1,
+.tag-retirement-advantage h1 {
+  color: #fff;
+  text-align: center;
+  background-color: #00ab8e; }
+
+.page-id-21955 h2,
+.page-id-21955 h3,
+.page-id-21955 h4,
+.tag-retirement-advantage h2,
+.tag-retirement-advantage h3,
+.tag-retirement-advantage h4 {
+  color: #00ab8e; }
+
 /* Santander
 -------------------------------------------------------------- */
 .page-id-11209 a,
