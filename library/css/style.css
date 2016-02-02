@@ -2481,7 +2481,8 @@ h1.partnership-title {
   min-height: 274px;
   margin-bottom: 1em;
   border-radius: .75em;
-  color: #fff; }
+  color: #fff;
+  border: .25em solid #000; }
   .tile p {
     margin: 1em; }
   .tile .tile-title {
