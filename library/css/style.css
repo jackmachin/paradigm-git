@@ -690,6 +690,9 @@ BUTTONS
 .callout {
   text-align: center; }
 
+input {
+  font-family: "Source Sans Pro", Arial, "Helvetica Neue", Helvetica, sans-serif; }
+
 /*
 BASE (MOBILE) SIZE
 This are the mobile styles. It's what people see on their phones. If
