@@ -1192,11 +1192,13 @@ FOOTER STYLES
     }
 
     .wp-video {
-       // max-width:360px;
+        max-width:360px;
+        height:auto;
     }
 
     .wp-video-shortcode {
-     //   width:360px!important;
+        width:360px!important;
+        height:auto;
     }
 }
 
