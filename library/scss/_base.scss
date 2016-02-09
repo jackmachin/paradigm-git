@@ -1192,7 +1192,11 @@ FOOTER STYLES
     }
 
     .wp-video {
-        max-width:50%;
+        max-width:360px;
+    }
+
+    .wp-video-shortcode {
+        width:360px!important;
     }
 }
 
