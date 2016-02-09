@@ -1655,6 +1655,10 @@ FOOTER STYLES
 .tag-goldman-sachs h4 {
   color: #7399C6; }
 
+.page-id-20608 .wp-video,
+.tag-goldman-sachs .wp-video {
+  max-width: 50%; }
+
 /* Henderson Global Investors Page
 -------------------------------------------------------------- */
 .page-id-241 a,
