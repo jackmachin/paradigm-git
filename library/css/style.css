@@ -1663,7 +1663,7 @@ FOOTER STYLES
 .page-id-20608 .wp-video-shortcode,
 .tag-goldman-sachs .wp-video-shortcode {
   width: 360px !important;
-  height: auto; }
+  height: auto !important; }
 
 /* Henderson Global Investors Page
 -------------------------------------------------------------- */
