@@ -497,4 +497,8 @@ add_filter( 'gform_duplicate_message_13', 'change_message_2', 10, 2 );
 function change_message_2 ( $message, $form ) {
   return 'Our records indicate you have already registered for this event.';
 }
+
+@ini_set( 'upload_max_size' , '256M' );
+@ini_set( 'post_max_size', '256M' );
+@ini_set( 'max_execution_time', '600' );
 ?>
