@@ -143,7 +143,7 @@
 
                             <h4>Visit the <a href="/members-area/strategic-partners/prudential/">Prudential Strategic Partner page</a></h4>
 
-                        <?php } elseif (has_tag ('Retirement-Advantage')) { ?>
+                        <?php } elseif (has_tag ('Retirement Advantage')) { ?>
 
                             <h4>Visit the <a href="/members-area/strategic-partners/retirement-advantage/">Retirement Advantage Strategic Partner page</a></h4>
 
