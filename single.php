@@ -120,6 +120,10 @@
 
                             <h4>Visit the <a href="/members-area/strategic-partners/metlife/">Metlife Strategic Partner page</a></h4>
 
+                        <?php } elseif (has_tag ('Metlife')) { ?>
+
+                            <h4>Visit the <a href="/members-area/strategic-partners/metlife/">Metlife Strategic Partner page</a></h4>
+
                         <?php } elseif (in_category ('Octopus')) { ?>
 
                             <h4>Visit the <a href="/members-area/strategic-partners/octopus/">Octopus Strategic Partner page</a></h4>
