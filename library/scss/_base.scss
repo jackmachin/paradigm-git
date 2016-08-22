@@ -323,9 +323,10 @@ POSTS & CONTENT STYLES
 
 		/* entry content */
 		.entry-content {
+            font-size: 0.875em;
+
 
 			p {
-				font-size: 0.875em;
 				line-height: 1.4em;
 				margin-bottom: 20px;
 			}
@@ -340,13 +341,13 @@ POSTS & CONTENT STYLES
 				margin-bottom: 20px;
 				padding-left: 20px;
 				line-height: 1.3em;
-				font-size: 0.875em;
 
 				li {}
 
 			}
 
-			ul { list-style: disc;
+			ul {
+                list-style: disc;
 
 				li {}
 
