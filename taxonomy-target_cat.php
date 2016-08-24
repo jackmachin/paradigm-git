@@ -13,7 +13,8 @@
             ?>
 
             <div id="main" class="twelvecol first clearfix" role="main">
-                <div class="ninecol  entry-content first">
+                <div class="ninecol first">
+                    <div class="entry-content intro">
 
                     <h1>Welcome to Target</h1>
 
@@ -36,6 +37,8 @@
 
                         <?php if( ! empty( $term_meta['tax_pdf'] ) ) { ?><p><a href="<?php echo $pdfurl; ?>">PDF Version</a></p><?php } else {} ?>
                         <?php if( ! empty( $term_meta['tax_word'] ) ) { ?><p><a href="<?php echo $wordurl; ?>">Word Version</a></p><?php } else {} ?>
+
+                        </div>
 
                             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
