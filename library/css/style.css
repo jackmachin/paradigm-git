@@ -1769,6 +1769,36 @@ FOOTER STYLES
 .page-id-4174 h2, .page-id-4174 h3, .page-id-4174 h4, .category-just-retirement h2, .category-just-retirement h3, .category-just-retirement h4, .category-target-just-retirement h2, .category-target-just-retirement h3, .category-target-just-retirement h4, .tag-just-retirement h2, .tag-just-retirement h3, .tag-just-retirement h4 {
   color: #273188; }
 
+/* London & Colonial
+-------------------------------------------------------------- */
+.page-id-24547 a,
+.page-id-24547 a:visited,
+.tag-london-colonial a,
+.tag-london-colonial a:visited {
+  color: #000; }
+  .page-id-24547 a:hover, .page-id-24547 a:focus,
+  .page-id-24547 a:visited:hover,
+  .page-id-24547 a:visited:focus,
+  .tag-london-colonial a:hover,
+  .tag-london-colonial a:focus,
+  .tag-london-colonial a:visited:hover,
+  .tag-london-colonial a:visited:focus {
+    color: #1d2464; }
+
+.page-id-24547 h1,
+.tag-london-colonial h1 {
+  color: #fff;
+  background-color: #000;
+  text-align: center; }
+
+.page-id-24547 h2,
+.page-id-24547 h3,
+.page-id-24547 h4,
+.tag-london-colonial h2,
+.tag-london-colonial h3,
+.tag-london-colonial h4 {
+  color: #273188; }
+
 /* Legal & General
 -------------------------------------------------------------- */
 .page-id-244 a,
