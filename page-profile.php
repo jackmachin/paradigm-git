@@ -24,8 +24,8 @@ Template Name: Profile Template
                             <?php the_content(); ?>
 
                             <?php
-if ( current_user_can( 'see_menu' ) ) {
-    echo 'The current user can see menus';
+if ( current_user_can( 'see_providers' ) ) {
+    echo 'The current user can see providers';
 }
                             else { echo "this doesn't work";}
                             ?>
