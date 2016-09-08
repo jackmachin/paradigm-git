@@ -24,8 +24,8 @@ Template Name: Profile Template
                             <?php the_content(); ?>
 
                             <?php
-if ( current_user_can( 'see_providers' ) ) {
-    echo 'The current user can see Provider pages';
+if ( current_user_can( 'manage_venues' ) ) {
+    echo 'The current user can manage venues';
 } ?>
                         </section> <!-- end article section -->
 
