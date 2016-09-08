@@ -58,7 +58,7 @@ Template Name: Strategic Partner Template
                         <div class="members-access-error">
                             <p class="restricted">The content you are trying to access is only available to members. Sorry.</p>
                             <p class="restricted">Please login or register to continue:</p>
-                            <?php wp_login_form( array( 'echo' => false ) ); ?>
+                            <?php wp_login_form(); ?>
 
                             <a class="button" href="http://paradigmgroup.eu/wp-login.php?action=register">Register</a>
                             <p class="restricted">If you have any trouble logging in, please do not hesitate to contact <a href="mailto:jack.machin@paradigmgroup.eu">Jack Machin</a> with your query.</p>
