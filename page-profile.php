@@ -22,6 +22,11 @@ Template Name: Profile Template
 
                         <section class="entry-content clearfix" itemprop="articleBody">
                             <?php the_content(); ?>
+
+                            <?php
+if ( current_user_can( 'see_providers' ) ) {
+    echo 'The current user can see Provider pages';
+}
                         </section> <!-- end article section -->
 
                     </article> <!-- end article -->
