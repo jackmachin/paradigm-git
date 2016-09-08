@@ -26,7 +26,9 @@ Template Name: Profile Template
                             <?php
 if ( current_user_can( 'delete_tribe_venues' ) ) {
     echo 'The current user can delete tribe venues';
-} ?>
+}
+                            else { echo "this doesn't work";}
+                            ?>
                         </section> <!-- end article section -->
 
                     </article> <!-- end article -->
