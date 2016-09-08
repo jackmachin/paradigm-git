@@ -14,9 +14,9 @@ Template Name: Strategic Partner Template
 
             <div id="main" class="ninecol clearfix" role="main">
 
-                              <?php if ( current_user_can( 'see_providers' ) ) {
-    echo 'The current user can see providers';
-}
+                              <?php if ( current_user_can( 'see_providers' ) ) { ?>
+    The current user can see providers
+<?php }
                             else { echo "this doesn't work";}
                             ?>
 
