@@ -14,9 +14,8 @@ Template Name: Strategic Partner Template
 
             <div id="main" class="ninecol clearfix" role="main">
 
-                <?php if (have_posts()) : while (have_posts()) : the_post();  ?>
-
-                	<?php if ( current_user_can( 'see_providers' ) ) { ?>
+                <?php if ( current_user_can( 'see_providers' ) ) { ?>
+                    <?php if (have_posts()) : while (have_posts()) : the_post();  ?>
 
                         <article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -54,20 +53,20 @@ Template Name: Strategic Partner Template
 
                         </article> <!-- end article -->
 
-                    <?php } else { ?>
-                        <div class="members-access-error">
-                            <p class="restricted">The content you are trying to access is only available to members. Sorry.</p>
-                            <p class="restricted">Please login or register to continue:</p>
-                            <?php wp_login_form(); ?>
+                    <?php endwhile; else : ?>
 
-                            <a class="button" href="http://paradigmgroup.eu/wp-login.php?action=register">Register</a>
-                            <p class="restricted">If you have any trouble logging in, please do not hesitate to contact <a href="mailto:jack.machin@paradigmgroup.eu">Jack Machin</a> with your query.</p>
-                        </div>
-                    <?php } ?>
-                <?php endwhile; else : ?>
+                    <?php endif; ?>
 
-                <?php endif; ?>
+                <?php } else { ?>
+                    <div class="members-access-error">
+                        <p class="restricted">The content you are trying to access is only available to members. Sorry.</p>
+                        <p class="restricted">Please login or register to continue:</p>
+                        <?php wp_login_form(); ?>
 
+                        <a class="button" href="http://paradigmgroup.eu/wp-login.php?action=register">Register</a>
+                        <p class="restricted">If you have any trouble logging in, please do not hesitate to contact <a href="mailto:jack.machin@paradigmgroup.eu">Jack Machin</a> with your query.</p>
+                    </div>
+                <?php } ?>
             </div> <!-- end #main -->
 
         </div> <!-- end #inner-content -->
