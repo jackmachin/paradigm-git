@@ -16,8 +16,6 @@ Template Name: Strategic Partner Template
 
                 <?php if (have_posts()) : while (have_posts()) : the_post();  ?>
 
-                    <?php if ( current_user_can( 'see_provider' ) ) { ?>
-
                     <article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
                         <header class="article-header">
@@ -53,11 +51,6 @@ Template Name: Strategic Partner Template
                         </section> <!-- end article section -->
 
                     </article> <!-- end article -->
-
-                <?php } else {
-
-                    echo members_get_post_error_message( $post_id );
-} ?>
 
                 <?php endwhile; else : ?>
 
