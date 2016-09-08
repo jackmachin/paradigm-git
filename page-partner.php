@@ -14,13 +14,7 @@ Template Name: Strategic Partner Template
 
             <div id="main" class="ninecol clearfix" role="main">
 
-                              <?php if ( current_user_can( 'see_providers' ) ) { ?>
-    The current user can see providers
-<?php }
-                            else { ?>
-                This doesn't work
-                       <?php }     ?>
-
+              <?php if ( current_user_can( 'see_providers' ) ) { ?>
 
                     <?php if (have_posts()) : while (have_posts()) : the_post();  ?>
 
@@ -63,6 +57,10 @@ Template Name: Strategic Partner Template
                     <?php endwhile; else : ?>
 
                     <?php endif; ?>
+
+                <?php } else { ?>
+                    This doesn't work
+                <?php }     ?>
 
                 <?php // } else { ?>
                     <!-- div class="members-access-error">
