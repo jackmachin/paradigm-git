@@ -26,7 +26,7 @@ Template Name: Profile Template
                             <?php
 if ( current_user_can( 'see_providers' ) ) {
     echo 'The current user can see Provider pages';
-}
+} ?>
                         </section> <!-- end article section -->
 
                     </article> <!-- end article -->
