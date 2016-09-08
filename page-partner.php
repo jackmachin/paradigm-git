@@ -56,7 +56,7 @@ Template Name: Strategic Partner Template
 
                 <?php } else {
 
-                    members_get_post_error_message( $post_id );
+                    echo members_get_post_error_message( $post_id );
 } ?>
 
                 <?php endwhile; else : ?>
