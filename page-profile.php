@@ -24,8 +24,8 @@ Template Name: Profile Template
                             <?php the_content(); ?>
 
                             <?php
-if ( current_user_can( 'manage_venues' ) ) {
-    echo 'The current user can manage venues';
+if ( current_user_can( 'edit_users' ) ) {
+    echo 'The current user can edit_users';
 } ?>
                         </section> <!-- end article section -->
 
