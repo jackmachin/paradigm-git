@@ -16,42 +16,54 @@ Template Name: Strategic Partner Template
 
                 <?php if (have_posts()) : while (have_posts()) : the_post();  ?>
 
-                    <article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
+                	<?php if ( current_user_can( 'see_provier' ) ) { ?>
 
-                        <header class="article-header">
+                        <article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
-                            <?php if ( function_exists('yoast_breadcrumb') ) {
-                                yoast_breadcrumb('<p id="breadcrumbs">','</p>');
-                            } ?>
+                            <header class="article-header">
 
-                            <h1><?php the_title ();?></h1>
-                        </header> <!-- end article header -->
+                                <?php if ( function_exists('yoast_breadcrumb') ) {
+                                    yoast_breadcrumb('<p id="breadcrumbs">','</p>');
+                                } ?>
 
-                        <section class="entry-content clearfix" itemprop="articleBody">
-                            <img src="<?php the_field ('logo');?>" class="alignright clearfix">
+                                <h1><?php the_title ();?></h1>
+                            </header> <!-- end article header -->
 
-                            <?php the_field ('intro_text');?>
+                            <section class="entry-content clearfix" itemprop="articleBody">
+                                <img src="<?php the_field ('logo');?>" class="alignright clearfix">
 
-                            <?php if( have_rows('main_content') ): ?>
+                                <?php the_field ('intro_text');?>
 
-                                <?php while( have_rows('main_content') ): the_row();?>
+                                <?php if( have_rows('main_content') ): ?>
 
-                                    <h2><a class="aj-collapse" rel="<?php the_sub_field ('section_id') ;?>"><?php  the_sub_field ('section_title') ; ?></a></h2>
+                                    <?php while( have_rows('main_content') ): the_row();?>
 
-                                    <div class="aj-hidden clearfix" id="<?php  the_sub_field ('section_id') ;?>">
-                                        <?php  the_sub_field ('section_content') ; ?>
-                                    </div>
+                                        <h2><a class="aj-collapse" rel="<?php the_sub_field ('section_id') ;?>"><?php  the_sub_field ('section_title') ; ?></a></h2>
 
-                                <?php endwhile; ?>
+                                        <div class="aj-hidden clearfix" id="<?php  the_sub_field ('section_id') ;?>">
+                                            <?php  the_sub_field ('section_content') ; ?>
+                                        </div>
 
-                            <?php endif; ?>
+                                    <?php endwhile; ?>
 
-                            <?php the_field ('afterthoughts');?>
+                                <?php endif; ?>
 
-                        </section> <!-- end article section -->
+                                <?php the_field ('afterthoughts');?>
 
-                    </article> <!-- end article -->
+                            </section> <!-- end article section -->
 
+                        </article> <!-- end article -->
+
+                    <?php } else { ?>
+                        <div class="members-access-error">
+                            <p class="restricted">The content you are trying to access is only available to members. Sorry.</p>
+                            <p class="restricted">Please login or register to continue:</p>
+                            [my-login-form]
+
+                            <a class="button" href="http://paradigmgroup.eu/wp-login.php?action=register">Register</a>
+                            <p class="restricted">If you have any trouble logging in, please do not hesitate to contact <a href="mailto:jack.machin@paradigmgroup.eu">Jack Machin</a> with your query.</p>
+                        </div>
+                    <?php } ?>
                 <?php endwhile; else : ?>
 
                 <?php endif; ?>
