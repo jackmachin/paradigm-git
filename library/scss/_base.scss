@@ -1368,6 +1368,7 @@ FOOTER STYLES
     }
 }
 
+
 /* Octopus
 -------------------------------------------------------------- */
 
@@ -1376,6 +1377,34 @@ FOOTER STYLES
 	h1 {color: #fff; background-color:#336699; border-radius:1em; text-align:center;}
 	h2, h3, h4 {color: #336699;}
 	}
+
+/* Old Mutual
+-------------------------------------------------------------- */
+
+.page-id-24671,
+.tag-old-mutual {
+	a,
+    a:visited {
+        color: #006150;
+
+        &:hover,
+        &:focus {
+            color: darken(#006150, 9%);
+        }
+    }
+
+    h1 {
+        color: #fff;
+        background-color:#006150;
+        text-align:center;
+    }
+
+    h2,
+    h3,
+    h4 {
+        color: #006150;
+    }
+}
 
 /* Para-Sols
 -------------------------------------------------------------- */
