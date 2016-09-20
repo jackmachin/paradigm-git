@@ -1711,6 +1711,26 @@ FOOTER STYLES
 .page-id-242 h2, .page-id-242 h3, .page-id-242 h4, .category-ingenious h2, .category-ingenious h3, .category-ingenious h4, .category-target-ingenious h2, .category-target-ingenious h3, .category-target-ingenious h4, .tag-ingenious h2, .tag-ingenious h3, .tag-ingenious h4 {
   color: #004F71; }
 
+/* Investec
+-------------------------------------------------------------- */
+.tag-investec a,
+.tag-investec a:visited {
+  color: #000; }
+  .tag-investec a:hover, .tag-investec a:focus,
+  .tag-investec a:visited:hover,
+  .tag-investec a:visited:focus {
+    color: #000; }
+
+.tag-investec h1 {
+  color: #fff;
+  background-color: #000;
+  text-align: center; }
+
+.tag-investec h2,
+.tag-investec h3,
+.tag-investec h4 {
+  color: #000; }
+
 /* Intelliflo
 -------------------------------------------------------------- */
 .page-id-18313 a,

@@ -1232,6 +1232,33 @@ FOOTER STYLES
 	h2, h3, h4 {color: #004F71;}
 	}
 
+/* Investec
+-------------------------------------------------------------- */
+
+.tag-investec {
+	a,
+    a:visited {
+        color: #000;
+
+        &:hover,
+        &:focus {
+            color: #000;
+        }
+    }
+
+    h1 {
+        color: #fff;
+        background-color:#000;
+        text-align:center;
+    }
+
+    h2,
+    h3,
+    h4 {
+        color: #000;
+    }
+}
+
 /* Intelliflo
 -------------------------------------------------------------- */
 
