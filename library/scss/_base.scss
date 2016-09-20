@@ -1371,10 +1371,28 @@ FOOTER STYLES
 /* M&G
 -------------------------------------------------------------- */
 
-.page-id-246, .category-mg, .tag-mg, .tag-mg-2 {
-	a, a:visited {color: #a2ad00; &:hover, &:focus {color: darken(#a2ad00, 9%);} }
-	h1 {color: #fff; background-color:#a2ad00; border-radius:1em; text-align:center;}
-	h2, h3, h4 {color: #a2ad00;}
+.page-id-246,
+.category-mg,
+.tag-mg,
+.tag-mg-2 {
+	a,
+    a:visited {
+        color: #004F5C;
+
+        &:hover,
+        &:focus {
+            color: darken(#004F5C, 9%);
+        }
+    }
+	h1 {
+        color: #fff;
+        background-color:#004F5C;
+        text-align:center;
+    }
+
+    h2,
+    h3,
+    h4 {color: #004F5C;}
 	}
 
 /* Metlife
