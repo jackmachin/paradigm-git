@@ -1714,21 +1714,31 @@ FOOTER STYLES
 /* Investec
 -------------------------------------------------------------- */
 .tag-investec a,
-.tag-investec a:visited {
+.tag-investec a:visited,
+.page-id-24787 a,
+.page-id-24787 a:visited {
   color: #000; }
   .tag-investec a:hover, .tag-investec a:focus,
   .tag-investec a:visited:hover,
-  .tag-investec a:visited:focus {
+  .tag-investec a:visited:focus,
+  .page-id-24787 a:hover,
+  .page-id-24787 a:focus,
+  .page-id-24787 a:visited:hover,
+  .page-id-24787 a:visited:focus {
     color: #000; }
 
-.tag-investec h1 {
+.tag-investec h1,
+.page-id-24787 h1 {
   color: #fff;
   background-color: #000;
   text-align: center; }
 
 .tag-investec h2,
 .tag-investec h3,
-.tag-investec h4 {
+.tag-investec h4,
+.page-id-24787 h2,
+.page-id-24787 h3,
+.page-id-24787 h4 {
   color: #000; }
 
 /* Intelliflo
