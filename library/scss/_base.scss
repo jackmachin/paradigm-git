@@ -992,13 +992,19 @@ FOOTER STYLES
 // Aviva  Specialist
 .category-397 {
 
+    .aviva-bar {
+        background-color:#ffde00;
+        padding:1em;
+        color:#004fb6;
+        font-weight:bold;
+    }
+
     article {
         background-color:#eee;
         margin-top:1.5em;
     }
 
-    .article-header,
-    .aviva-bar{
+    .article-header{
         background-color:#ffde00;
     }
 

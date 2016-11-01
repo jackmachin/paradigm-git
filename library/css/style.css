@@ -1347,12 +1347,17 @@ FOOTER STYLES
 .tag-aviva h4 {
   color: #004fb6; }
 
+.category-397 .aviva-bar {
+  background-color: #ffde00;
+  padding: 1em;
+  color: #004fb6;
+  font-weight: bold; }
+
 .category-397 article {
   background-color: #eee;
   margin-top: 1.5em; }
 
-.category-397 .article-header,
-.category-397 .aviva-bar {
+.category-397 .article-header {
   background-color: #ffde00; }
 
 .category-397 h1 {
