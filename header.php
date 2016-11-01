@@ -235,7 +235,11 @@
 						elseif (is_category (397)) { ?>
 
 							<img style="padding-top:35px;" src="http://paradigmgroup.eu/wp-content/uploads/2016/11/aviva-header-v2.png" alt="Paradigm" >
-							<div class="aviva-bar"><?php $category = get_the_category(); echo $category[0]->cat_name;?></div>
+							<div class="aviva-bar">
+                                <h1>
+                                    <?php $category = get_the_category(); echo $category[0]->cat_name;?>
+                                </h1>
+                            </div>
 					<?php }
 
 					else { ?>
