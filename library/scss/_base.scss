@@ -998,8 +998,14 @@ FOOTER STYLES
     }
 
     .h1 {
-        color: #004fb6;
+        border-radius: initial;
         background: none;
+        margin-top: 0;
+        padding: .5em;
+    }
+
+    .entry-content {
+        padding: 1em;
     }
 }
 

@@ -1354,8 +1354,13 @@ FOOTER STYLES
   background-color: #ffde00; }
 
 .category-aviva-november-2016 .h1 {
-  color: #004fb6;
-  background: none; }
+  border-radius: initial;
+  background: none;
+  margin-top: 0;
+  padding: .5em; }
+
+.category-aviva-november-2016 .entry-content {
+  padding: 1em; }
 
 /* AXA (Wealth & Life Invest)
 -------------------------------------------------------------- */
