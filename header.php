@@ -232,6 +232,12 @@
 							<div id="targetbar"><?php $category = get_the_category(); echo $category[0]->cat_name;?></div>
 					<?php }
 
+						elseif (is_category (397)) { ?>
+
+							<img style="padding-top:35px;" src="/wp-content/files/2014/12/partnership-header.jpg" alt="Paradigm" >
+							<div id="targetbar"><?php $category = get_the_category(); echo $category[0]->cat_name;?></div>
+					<?php }
+
 					else { ?>
 						<a class="logo" href="<?php bloginfo( 'url' ); ?>" title="Back To Homepage">
 							<h2><img src="/wp-content/themes/paradigm/library/images/logo.png" alt="Paradigm - The Advisers Adviser">The Advisers' Adviser</h2>
