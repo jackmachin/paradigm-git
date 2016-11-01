@@ -1,12 +1,12 @@
 <?php get_header(); ?>
 
-    <div id="content">
+    <div class="content">
 
         <div id="inner-content" class="wrap clearfix">
 
             <div class="intro twelvecol first">
 
-                <div id="description" >
+                <div id="description" class="entry-content" >
                     <?php echo category_description( $category_id ); ?>
                 </div>
 
