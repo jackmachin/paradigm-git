@@ -1347,6 +1347,11 @@ FOOTER STYLES
 .tag-aviva h4 {
   color: #004fb6; }
 
+.category-aviva-november-2016 .aviva-bar {
+  background-color: #ffde00;
+  padding: 1em;
+  color: #004fb6; }
+
 .category-aviva-november-2016 article {
   background-color: #eee;
   margin-top: 1.5em; }
