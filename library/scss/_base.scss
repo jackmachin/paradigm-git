@@ -1168,6 +1168,29 @@ FOOTER STYLES
     h4 {color:#21b5e3;}
 }
 
+/* jargon Free
+-------------------------------------------------------------- */
+
+.tag-jargon-free{
+	a,
+    a:visited {
+        color:#43cde0;
+
+        &:hover,
+        &:focus {color: #43cde0;}
+    }
+
+    h1 {
+		background-color:#43cde0;
+		color:#fff;
+		text-align:center;
+	}
+
+    h2,
+    h3,
+    h4 {color:#43cde0;}
+}
+
 
 /* Blackfinch
 -------------------------------------------------------------- */

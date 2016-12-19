@@ -1554,6 +1554,26 @@ FOOTER STYLES
 .tag-adviser-cloud h4 {
   color: #21b5e3; }
 
+/* jargon Free
+-------------------------------------------------------------- */
+.tag-jargon-free a,
+.tag-jargon-free a:visited {
+  color: #43cde0; }
+  .tag-jargon-free a:hover, .tag-jargon-free a:focus,
+  .tag-jargon-free a:visited:hover,
+  .tag-jargon-free a:visited:focus {
+    color: #43cde0; }
+
+.tag-jargon-free h1 {
+  background-color: #43cde0;
+  color: #fff;
+  text-align: center; }
+
+.tag-jargon-free h2,
+.tag-jargon-free h3,
+.tag-jargon-free h4 {
+  color: #43cde0; }
+
 /* Blackfinch
 -------------------------------------------------------------- */
 .page-id-16598 a, .page-id-16598 a:visited, .tag-blackfinch a, .tag-blackfinch a:visited {
