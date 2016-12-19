@@ -1474,6 +1474,26 @@ FOOTER STYLES
 .tag-blackrock-2 h4 {
   color: #000; }
 
+/* Amber
+-------------------------------------------------------------- */
+.tag-amber a,
+.tag-amber a:visited {
+  color: #FAA61A; }
+  .tag-amber a:hover, .tag-amber a:focus,
+  .tag-amber a:visited:hover,
+  .tag-amber a:visited:focus {
+    color: #e18f05; }
+
+.tag-amber h1 {
+  background-color: #FAA61A;
+  color: #fff;
+  text-align: center; }
+
+.tag-amber h2,
+.tag-amber h3,
+.tag-amber h4 {
+  color: #FAA61A; }
+
 /* Blackfinch
 -------------------------------------------------------------- */
 .page-id-16598 a, .page-id-16598 a:visited, .tag-blackfinch a, .tag-blackfinch a:visited {

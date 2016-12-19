@@ -1076,6 +1076,29 @@ FOOTER STYLES
 	h2, h3, h4 {color:#000;}
 	}
 
+/* Amber
+-------------------------------------------------------------- */
+
+.tag-amber {
+	a,
+    a:visited {
+        color:#FAA61A;
+
+        &:hover,
+        &:focus {color: #e18f05;}
+    }
+
+    h1 {
+		background-color:#FAA61A;
+		color:#fff;
+		text-align:center;
+	}
+
+    h2,
+    h3,
+    h4 {color:#FAA61A;}
+}
+
 
 /* Blackfinch
 -------------------------------------------------------------- */
