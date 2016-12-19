@@ -1099,6 +1099,29 @@ FOOTER STYLES
     h4 {color:#FAA61A;}
 }
 
+/* Paradigm
+-------------------------------------------------------------- */
+
+.tag-amber {
+	a,
+    a:visited {
+        color:#bc1739;
+
+        &:hover,
+        &:focus {color: #93122d;}
+    }
+
+    h1 {
+		background-color:#bc1739;
+		color:#fff;
+		text-align:center;
+	}
+
+    h2,
+    h3,
+    h4 {color:#bc1739;}
+}
+
 
 /* Blackfinch
 -------------------------------------------------------------- */

@@ -1494,6 +1494,26 @@ FOOTER STYLES
 .tag-amber h4 {
   color: #FAA61A; }
 
+/* Paradigm
+-------------------------------------------------------------- */
+.tag-amber a,
+.tag-amber a:visited {
+  color: #bc1739; }
+  .tag-amber a:hover, .tag-amber a:focus,
+  .tag-amber a:visited:hover,
+  .tag-amber a:visited:focus {
+    color: #93122d; }
+
+.tag-amber h1 {
+  background-color: #bc1739;
+  color: #fff;
+  text-align: center; }
+
+.tag-amber h2,
+.tag-amber h3,
+.tag-amber h4 {
+  color: #bc1739; }
+
 /* Blackfinch
 -------------------------------------------------------------- */
 .page-id-16598 a, .page-id-16598 a:visited, .tag-blackfinch a, .tag-blackfinch a:visited {
