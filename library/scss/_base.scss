@@ -1102,7 +1102,7 @@ FOOTER STYLES
 /* Paradigm
 -------------------------------------------------------------- */
 
-.tag-amber {
+.tag-paradigm {
 	a,
     a:visited {
         color:#bc1739;
@@ -1122,6 +1122,28 @@ FOOTER STYLES
     h4 {color:#bc1739;}
 }
 
+/* Paradigm
+-------------------------------------------------------------- */
+
+.tag-tatton {
+	a,
+    a:visited {
+        color:#74a43f;
+
+        &:hover,
+        &:focus {color: #93122d;}
+    }
+
+    h1 {
+		background-color:#74a43f;
+		color:#fff;
+		text-align:center;
+	}
+
+    h2,
+    h3,
+    h4 {color:#74a43f;}
+}
 
 /* Blackfinch
 -------------------------------------------------------------- */

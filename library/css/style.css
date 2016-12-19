@@ -1496,23 +1496,43 @@ FOOTER STYLES
 
 /* Paradigm
 -------------------------------------------------------------- */
-.tag-amber a,
-.tag-amber a:visited {
+.tag-paradigm a,
+.tag-paradigm a:visited {
   color: #bc1739; }
-  .tag-amber a:hover, .tag-amber a:focus,
-  .tag-amber a:visited:hover,
-  .tag-amber a:visited:focus {
+  .tag-paradigm a:hover, .tag-paradigm a:focus,
+  .tag-paradigm a:visited:hover,
+  .tag-paradigm a:visited:focus {
     color: #93122d; }
 
-.tag-amber h1 {
+.tag-paradigm h1 {
   background-color: #bc1739;
   color: #fff;
   text-align: center; }
 
-.tag-amber h2,
-.tag-amber h3,
-.tag-amber h4 {
+.tag-paradigm h2,
+.tag-paradigm h3,
+.tag-paradigm h4 {
   color: #bc1739; }
+
+/* Paradigm
+-------------------------------------------------------------- */
+.tag-tatton a,
+.tag-tatton a:visited {
+  color: #74a43f; }
+  .tag-tatton a:hover, .tag-tatton a:focus,
+  .tag-tatton a:visited:hover,
+  .tag-tatton a:visited:focus {
+    color: #93122d; }
+
+.tag-tatton h1 {
+  background-color: #74a43f;
+  color: #fff;
+  text-align: center; }
+
+.tag-tatton h2,
+.tag-tatton h3,
+.tag-tatton h4 {
+  color: #74a43f; }
 
 /* Blackfinch
 -------------------------------------------------------------- */
