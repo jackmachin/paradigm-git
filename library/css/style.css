@@ -1556,22 +1556,22 @@ FOOTER STYLES
 
 /* Jargon Free
 -------------------------------------------------------------- */
-.tag-jargon-free a,
-.tag-jargon-free a:visited {
+.tag-jargonfree a,
+.tag-jargonfree a:visited {
   color: #43cde0; }
-  .tag-jargon-free a:hover, .tag-jargon-free a:focus,
-  .tag-jargon-free a:visited:hover,
-  .tag-jargon-free a:visited:focus {
+  .tag-jargonfree a:hover, .tag-jargonfree a:focus,
+  .tag-jargonfree a:visited:hover,
+  .tag-jargonfree a:visited:focus {
     color: #43cde0; }
 
-.tag-jargon-free h1 {
+.tag-jargonfree h1 {
   background-color: #43cde0;
   color: #fff;
   text-align: center; }
 
-.tag-jargon-free h2,
-.tag-jargon-free h3,
-.tag-jargon-free h4 {
+.tag-jargonfree h2,
+.tag-jargonfree h3,
+.tag-jargonfree h4 {
   color: #43cde0; }
 
 /* Blackfinch
