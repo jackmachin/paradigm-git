@@ -1122,7 +1122,7 @@ FOOTER STYLES
     h4 {color:#bc1739;}
 }
 
-/* Paradigm
+/* Tatton
 -------------------------------------------------------------- */
 
 .tag-tatton {
@@ -1144,6 +1144,30 @@ FOOTER STYLES
     h3,
     h4 {color:#74a43f;}
 }
+
+/* Adviser Cloud
+-------------------------------------------------------------- */
+
+.tag-adviser-cloud {
+	a,
+    a:visited {
+        color:#21b5e3;
+
+        &:hover,
+        &:focus {color: #93122d;}
+    }
+
+    h1 {
+		background-color:#1897be;
+		color:#fff;
+		text-align:center;
+	}
+
+    h2,
+    h3,
+    h4 {color:#21b5e3;}
+}
+
 
 /* Blackfinch
 -------------------------------------------------------------- */
