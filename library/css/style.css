@@ -1910,19 +1910,53 @@ FOOTER STYLES
 
 /* Just Retirement
 -------------------------------------------------------------- */
-.page-id-4174 a, .page-id-4174 a:visited, .category-just-retirement a, .category-just-retirement a:visited, .category-target-just-retirement a, .category-target-just-retirement a:visited, .tag-just-retirement a, .tag-just-retirement a:visited {
-  color: #273188; }
-  .page-id-4174 a:hover, .page-id-4174 a:focus, .page-id-4174 a:visited:hover, .page-id-4174 a:visited:focus, .category-just-retirement a:hover, .category-just-retirement a:focus, .category-just-retirement a:visited:hover, .category-just-retirement a:visited:focus, .category-target-just-retirement a:hover, .category-target-just-retirement a:focus, .category-target-just-retirement a:visited:hover, .category-target-just-retirement a:visited:focus, .tag-just-retirement a:hover, .tag-just-retirement a:focus, .tag-just-retirement a:visited:hover, .tag-just-retirement a:visited:focus {
-    color: #1d2464; }
+.page-id-4174 a,
+.page-id-4174 a:visited,
+.category-just-retirement a,
+.category-just-retirement a:visited,
+.category-target-just-retirement a,
+.category-target-just-retirement a:visited,
+.tag-just-retirement a,
+.tag-just-retirement a:visited {
+  color: #ff7d7d; }
+  .page-id-4174 a:hover, .page-id-4174 a:focus,
+  .page-id-4174 a:visited:hover,
+  .page-id-4174 a:visited:focus,
+  .category-just-retirement a:hover,
+  .category-just-retirement a:focus,
+  .category-just-retirement a:visited:hover,
+  .category-just-retirement a:visited:focus,
+  .category-target-just-retirement a:hover,
+  .category-target-just-retirement a:focus,
+  .category-target-just-retirement a:visited:hover,
+  .category-target-just-retirement a:visited:focus,
+  .tag-just-retirement a:hover,
+  .tag-just-retirement a:focus,
+  .tag-just-retirement a:visited:hover,
+  .tag-just-retirement a:visited:focus {
+    color: #ff4f4f; }
 
-.page-id-4174 h1, .category-just-retirement h1, .category-target-just-retirement h1, .tag-just-retirement h1 {
-  color: #a49400;
-  background-color: #273188;
-  border-radius: 1em;
+.page-id-4174 h1,
+.category-just-retirement h1,
+.category-target-just-retirement h1,
+.tag-just-retirement h1 {
+  color: #000;
+  background-color: #ff7d7d;
   text-align: center; }
 
-.page-id-4174 h2, .page-id-4174 h3, .page-id-4174 h4, .category-just-retirement h2, .category-just-retirement h3, .category-just-retirement h4, .category-target-just-retirement h2, .category-target-just-retirement h3, .category-target-just-retirement h4, .tag-just-retirement h2, .tag-just-retirement h3, .tag-just-retirement h4 {
-  color: #273188; }
+.page-id-4174 h2,
+.page-id-4174 h3,
+.page-id-4174 h4,
+.category-just-retirement h2,
+.category-just-retirement h3,
+.category-just-retirement h4,
+.category-target-just-retirement h2,
+.category-target-just-retirement h3,
+.category-target-just-retirement h4,
+.tag-just-retirement h2,
+.tag-just-retirement h3,
+.tag-just-retirement h4 {
+  color: #ff7d7d; }
 
 /* London & Colonial
 -------------------------------------------------------------- */

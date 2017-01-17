@@ -1454,11 +1454,33 @@ FOOTER STYLES
 /* Just Retirement
 -------------------------------------------------------------- */
 
-.page-id-4174, .category-just-retirement, .category-target-just-retirement, .tag-just-retirement {
-	a, a:visited {color: #273188; &:hover, &:focus {color: darken(#273188, 9%);} }
-	h1 {color: #a49400; background-color:#273188; border-radius:1em; text-align:center}
-	h2, h3, h4 {color: #273188;}
-	}
+.page-id-4174,
+.category-just-retirement,
+.category-target-just-retirement,
+.tag-just-retirement {
+
+    a,
+    a:visited {
+        color: #ff7d7d;
+
+        &:hover,
+        &:focus {
+            color: darken(#ff7d7d, 9%);
+        }
+    }
+
+    h1 {
+        color: #000;
+        background-color:#ff7d7d;
+        text-align:center;
+    }
+
+    h2,
+    h3,
+    h4 {
+        color: #ff7d7d;
+    }
+}
 
 /* London & Colonial
 -------------------------------------------------------------- */
