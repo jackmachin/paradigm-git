@@ -1327,14 +1327,7 @@ FOOTER STYLES
 .page-id-234 h1,
 .category-aviva h1,
 .tag-aviva h1 {
-  border-radius: 1em;
-  background-image: linear-gradient(to right, #FFE866, #FFD900);
-  background-image: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#FFE866), to(#FFD900));
-  background-image: -webkit-linear-gradient(left, #FFE866, #FFD900);
-  background-image: -moz-linear-gradient(left, #FFE866, #FFD900);
-  background-image: -ms-linear-gradient(left, #FFE866, #FFD900);
-  background-image: -o-linear-gradient(left, #FFE866, #FFD900);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFE866', EndColorStr='#FFD900',GradientType=1);
+  background-color: #ffde00;
   color: #004fb6;
   text-align: center; }
 
@@ -2117,17 +2110,42 @@ FOOTER STYLES
 
 /* Metlife
 -------------------------------------------------------------- */
-.page-id-247 a, .page-id-247 a:visited, .category-metlife a, .category-metlife a:visited, .tag-metlife-2 a, .tag-metlife-2 a:visited {
+.page-id-247 a,
+.page-id-247 a:visited,
+.category-metlife a,
+.category-metlife a:visited,
+.tag-metlife-2 a,
+.tag-metlife-2 a:visited {
   color: #007cc2; }
-  .page-id-247 a:hover, .page-id-247 a:focus, .page-id-247 a:visited:hover, .page-id-247 a:visited:focus, .category-metlife a:hover, .category-metlife a:focus, .category-metlife a:visited:hover, .category-metlife a:visited:focus, .tag-metlife-2 a:hover, .tag-metlife-2 a:focus, .tag-metlife-2 a:visited:hover, .tag-metlife-2 a:visited:focus {
+  .page-id-247 a:hover, .page-id-247 a:focus,
+  .page-id-247 a:visited:hover,
+  .page-id-247 a:visited:focus,
+  .category-metlife a:hover,
+  .category-metlife a:focus,
+  .category-metlife a:visited:hover,
+  .category-metlife a:visited:focus,
+  .tag-metlife-2 a:hover,
+  .tag-metlife-2 a:focus,
+  .tag-metlife-2 a:visited:hover,
+  .tag-metlife-2 a:visited:focus {
     color: #005f94; }
 
-.page-id-247 h1, .category-metlife h1, .tag-metlife-2 h1 {
-  color: #007cc2;
-  border-radius: 1em;
+.page-id-247 h1,
+.category-metlife h1,
+.tag-metlife-2 h1 {
+  background-color: #007cc2;
+  color: #fff;
   text-align: center; }
 
-.page-id-247 h2, .page-id-247 h3, .page-id-247 h4, .category-metlife h2, .category-metlife h3, .category-metlife h4, .tag-metlife-2 h2, .tag-metlife-2 h3, .tag-metlife-2 h4 {
+.page-id-247 h2,
+.page-id-247 h3,
+.page-id-247 h4,
+.category-metlife h2,
+.category-metlife h3,
+.category-metlife h4,
+.tag-metlife-2 h2,
+.tag-metlife-2 h3,
+.tag-metlife-2 h4 {
   color: #007cc2; }
 
 /* OBSR
@@ -2331,7 +2349,6 @@ h1.partnership-title {
 .tag-prudential h1 {
   color: #fff;
   background-color: #CC0000;
-  border-radius: 1em;
   text-align: center; }
 
 .page-id-251 h2,
@@ -2493,7 +2510,6 @@ h1.partnership-title {
 .page-id-11297 h1, .tag-scottish-life h1, .tag-royal-london h1 {
   color: #fff;
   background-color: #421853;
-  border-radius: 1em;
   text-align: center; }
 
 .page-id-11297 h2, .page-id-11297 h3, .page-id-11297 h4, .tag-scottish-life h2, .tag-scottish-life h3, .tag-scottish-life h4, .tag-royal-london h2, .tag-royal-london h3, .tag-royal-london h4 {
