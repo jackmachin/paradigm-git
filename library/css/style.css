@@ -1210,6 +1210,9 @@ SIDEBARS & ASIDES
 .widget ul li {
   /* deep nesting */ }
 
+#wpbs_slider {
+  display: none; }
+
 /*********************
 FOOTER STYLES
 *********************/
