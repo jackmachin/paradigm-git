@@ -1213,8 +1213,7 @@ SIDEBARS & ASIDES
 #wpbs_slider {
   display: none; }
 
-.page-id-18563 #wpbs_slider,
-.parent-pageid-18563 #wpbs_slider {
+.page-template-default #wpbs_slider {
   display: block; }
 
 /*********************
