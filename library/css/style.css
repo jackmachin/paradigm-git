@@ -3313,7 +3313,7 @@ SIDEBARS & ASIDES
     margin: 0; }
   /* text widget */
   .gform_wrapper textarea.large {
-    height: 150px; }
+    height: 150px !important; }
   /*********************
 RSS Widget
 *********************/
