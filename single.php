@@ -92,6 +92,11 @@
                         <?php } elseif (in_category ('Ingenious')) { ?>
 
                             <h4>Visit the <a href="/members-area/strategic-partners/ingenious-investments/">Ingenious Strategic Partner page</a></h4>
+
+                        <?php } elseif (has_tag ('Just')) { ?>
+
+                            <h4>Visit the <a href="/members-area/strategic-partners/just/">Just Strategic Partner page</a></h4>
+
                         <?php } elseif (has_tag ('Just Retirement')) { ?>
 
                             <h4>Visit the <a href="/members-area/strategic-partners/just-retirement/">Just Retirement Strategic Partner page</a></h4>
