@@ -1923,6 +1923,19 @@ FOOTER STYLES
 .tag-it-governance h3,
 .tag-it-governance h4 {
   color: #000; }
+  .page-id-26966 h2 a,
+  .page-id-26966 h2 a:visited,
+  .page-id-26966 h3 a,
+  .page-id-26966 h3 a:visited,
+  .page-id-26966 h4 a,
+  .page-id-26966 h4 a:visited,
+  .tag-it-governance h2 a,
+  .tag-it-governance h2 a:visited,
+  .tag-it-governance h3 a,
+  .tag-it-governance h3 a:visited,
+  .tag-it-governance h4 a,
+  .tag-it-governance h4 a:visited {
+    color: #000; }
 
 /* J.P. Morgan
 -------------------------------------------------------------- */

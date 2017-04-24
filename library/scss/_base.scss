@@ -1473,7 +1473,14 @@ FOOTER STYLES
     h3,
     h4 {
         color: #000;
+
+        a,
+        a:visited {
+            color:#000;
+        }
     }
+
+
 }
 
 /* J.P. Morgan
