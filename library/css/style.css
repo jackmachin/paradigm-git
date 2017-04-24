@@ -1891,6 +1891,39 @@ FOOTER STYLES
 .tag-intelliflo h4 {
   color: #496394; }
 
+/* IT Governance
+-------------------------------------------------------------- */
+.page-id-26966 a,
+.page-id-26966 a:visited,
+.tag-it-governance a,
+.tag-it-governance a:visited {
+  color: #c1d82f; }
+  .page-id-26966 a:hover, .page-id-26966 a:focus,
+  .page-id-26966 a:visited:hover,
+  .page-id-26966 a:visited:focus,
+  .tag-it-governance a:hover,
+  .tag-it-governance a:focus,
+  .tag-it-governance a:visited:hover,
+  .tag-it-governance a:visited:focus {
+    color: #a3b722; }
+
+.page-id-26966 h1,
+.tag-it-governance h1 {
+  text-align: center;
+  background-color: #000;
+  color: #c1d82f; }
+  .page-id-26966 h1 span,
+  .tag-it-governance h1 span {
+    color: #fff; }
+
+.page-id-26966 h2,
+.page-id-26966 h3,
+.page-id-26966 h4,
+.tag-it-governance h2,
+.tag-it-governance h3,
+.tag-it-governance h4 {
+  color: #000; }
+
 /* J.P. Morgan
 -------------------------------------------------------------- */
 .page-id-243 a, .page-id-243 a:visited, .category-j-p-morgan a, .category-j-p-morgan a:visited, .tag-jp-morgan a, .tag-jp-morgan a:visited {

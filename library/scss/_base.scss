@@ -1443,6 +1443,39 @@ FOOTER STYLES
     }
 }
 
+/* IT Governance
+-------------------------------------------------------------- */
+
+.page-id-26966,
+.tag-it-governance {
+
+    a,
+    a:visited {
+        color: #c1d82f;
+
+        &:hover,
+        &:focus {
+            color: darken(#c1d82f, 9%);
+        }
+    }
+
+    h1 {
+        text-align:center;
+        background-color:#000;
+        color: #c1d82f;
+
+        span {
+            color:#fff;
+        }
+    }
+
+    h2,
+    h3,
+    h4 {
+        color: #000;
+    }
+}
+
 /* J.P. Morgan
 -------------------------------------------------------------- */
 
