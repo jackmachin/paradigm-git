@@ -1925,11 +1925,36 @@ h1.partnership-title {
 /* Scottish Life (ROYAL LONDON)
 -------------------------------------------------------------- */
 
-.page-id-11297, .tag-scottish-life, .tag-royal-london {
-	a, a:visited {color: #421853; &:hover, &:focus {color: darken(#421853, 9%);} }
-	h1 {color: #fff; background-color:#421853; text-align:center;}
-	h2, h3, h4 {color:#421853;}
-	}
+.page-id-11297,
+.tag-scottish-life,
+.tag-royal-london {
+
+    a,
+    a:visited {
+        color: #421853;
+
+        &:hover,
+        &:focus {
+            color: darken(#421853, 9%);
+        }
+    }
+
+    h1 {
+        color: #fff;
+        background-color:#421853;
+        text-align:center;
+    }
+
+    h2,
+    h3,
+    h4 {
+        color:#421853;
+    }
+
+    blockquote {
+        border-left: 3px solid #421853;
+    }
+}
 
 /* Scottish Provident
 -------------------------------------------------------------- */

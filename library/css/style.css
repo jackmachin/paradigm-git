@@ -2554,18 +2554,48 @@ h1.partnership-title {
 
 /* Scottish Life (ROYAL LONDON)
 -------------------------------------------------------------- */
-.page-id-11297 a, .page-id-11297 a:visited, .tag-scottish-life a, .tag-scottish-life a:visited, .tag-royal-london a, .tag-royal-london a:visited {
+.page-id-11297 a,
+.page-id-11297 a:visited,
+.tag-scottish-life a,
+.tag-scottish-life a:visited,
+.tag-royal-london a,
+.tag-royal-london a:visited {
   color: #421853; }
-  .page-id-11297 a:hover, .page-id-11297 a:focus, .page-id-11297 a:visited:hover, .page-id-11297 a:visited:focus, .tag-scottish-life a:hover, .tag-scottish-life a:focus, .tag-scottish-life a:visited:hover, .tag-scottish-life a:visited:focus, .tag-royal-london a:hover, .tag-royal-london a:focus, .tag-royal-london a:visited:hover, .tag-royal-london a:visited:focus {
+  .page-id-11297 a:hover, .page-id-11297 a:focus,
+  .page-id-11297 a:visited:hover,
+  .page-id-11297 a:visited:focus,
+  .tag-scottish-life a:hover,
+  .tag-scottish-life a:focus,
+  .tag-scottish-life a:visited:hover,
+  .tag-scottish-life a:visited:focus,
+  .tag-royal-london a:hover,
+  .tag-royal-london a:focus,
+  .tag-royal-london a:visited:hover,
+  .tag-royal-london a:visited:focus {
     color: #260e2f; }
 
-.page-id-11297 h1, .tag-scottish-life h1, .tag-royal-london h1 {
+.page-id-11297 h1,
+.tag-scottish-life h1,
+.tag-royal-london h1 {
   color: #fff;
   background-color: #421853;
   text-align: center; }
 
-.page-id-11297 h2, .page-id-11297 h3, .page-id-11297 h4, .tag-scottish-life h2, .tag-scottish-life h3, .tag-scottish-life h4, .tag-royal-london h2, .tag-royal-london h3, .tag-royal-london h4 {
+.page-id-11297 h2,
+.page-id-11297 h3,
+.page-id-11297 h4,
+.tag-scottish-life h2,
+.tag-scottish-life h3,
+.tag-scottish-life h4,
+.tag-royal-london h2,
+.tag-royal-london h3,
+.tag-royal-london h4 {
   color: #421853; }
+
+.page-id-11297 blockquote,
+.tag-scottish-life blockquote,
+.tag-royal-london blockquote {
+  border-left: 3px solid #421853; }
 
 /* Scottish Provident
 -------------------------------------------------------------- */
