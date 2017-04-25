@@ -41,7 +41,7 @@ Template Name: Target Template
                                 'orderby'       => 'name',
                                 'order'         => 'DESC',
                                 'hide_empty'    => true,
-                                'exclude'       => array('414'),
+                                'exclude'       => array(414),
                                 'exclude_tree'  => array(),
                                 'include'       => array(),
                                 'number'        => '',
