@@ -2421,6 +2421,12 @@ h1.partnership-title {
 .tag-prudential h5 {
   color: #CC0000; }
 
+.page-id-251 th,
+.category-prudential th,
+.category-target-prudential th,
+.tag-prudential th {
+  background-color: #CC0000; }
+
 /* Quilter
 -------------------------------------------------------------- */
 .page-id-252 a, .page-id-252 a:visited, .category-quilter a, .category-quilter a:visited, .tag-quilter a, .tag-quilter a:visited {

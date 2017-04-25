@@ -18,7 +18,6 @@
 
                     <h1>Welcome to Target</h1>
 
-
                         <?php echo category_description( $category_id ); ?>
 
                         <p>If you have any queries regarding Target, please contact: <a href="mailto:helpdesk@paradigmgroup.eu">helpdesk@paradigmgroup.eu</a></p>
@@ -89,7 +88,7 @@
                             </ul>
                         </div>
                         <div class="twelvecol">
-                            <p><b>Back issues of Target are posted here for reference purposes but please note that guidance contained in older editions may not be the most current. We recommend that any search for information begins with the most recent edition.</b></p>
+                            <p><strong>Back issues of Target are posted here for reference purposes but please note that guidance contained in older editions may not be the most current. We recommend that any search for information begins with the most recent edition.</strong></p>
                         </div>
                     </div>
                 <?php } else { ?>
