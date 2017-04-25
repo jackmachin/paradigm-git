@@ -107,55 +107,65 @@
 
                                 <p><strong>Back issues of Target are posted here for reference purposes but please note that guidance contained in older editions may not be the most current.  We recommend that any search for information begins with the most recent edition.</strong></p>
 
-												<section class="entry-content clearfix">
+                                    <section class="entry-content clearfix">
 
-													<?php
+                                        <?php
 
-														$categories2 = get_terms('target_cat',array('orderby' => 'slug', 'order' => 'DESC','parent' => $term->term_id , 'hide_empty'=> '1' ));
+                                            $categories2 = get_terms('target_cat',array('orderby' => 'slug', 'order' => 'DESC','parent' => $term->term_id , 'hide_empty'=> '1' ));
 
-															foreach ( $categories2 as $category ) {
+                                                foreach ( $categories2 as $category ) {
 
-																$term_id = $category->term_id;
-																$term_meta = get_option( "taxonomy_$term_id" );
-																$url = $term_meta['tax_image'];
-																$pdfurl = $term_meta['tax_pdf'];
-																$wordurl = $term_meta ['tax_word'];
+                                                    $term_id = $category->term_id;
+                                                    $term_meta = get_option( "taxonomy_$term_id" );
+                                                    $url = $term_meta['tax_image'];
+                                                    $pdfurl = $term_meta['tax_pdf'];
+                                                    $wordurl = $term_meta ['tax_word'];
 
-													?>
+                                        ?>
 
-														<h2><a href="http://paradigmgroup.eu/issue/<?php echo $category->slug; ?>"><?php echo $category->name;?></a></h2>
+                                            <h2><a href="http://paradigmgroup.eu/issue/<?php echo $category->slug; ?>"><?php echo $category->name;?></a></h2>
 
-														<div class="twelvecol">
+                                            <div class="twelvecol">
 
-															<div class="twocol">
+                                                <div class="twocol">
 
-																<a href="http://paradigmgroup.eu/issue/<?php echo $category->slug; ?>"><img  class="shadow" src="<?php echo $url; ?>"/></a>
+                                                    <a href="http://paradigmgroup.eu/issue/<?php echo $category->slug; ?>"><img  class="shadow" src="<?php echo $url; ?>"/></a>
 
-															</div>
+                                                </div>
 
-															<div class="ninecol">
+                                                <div class="ninecol">
 
-																<?php if( ! empty( $term_meta['tax_pdf'] ) ) { ?><a href="<?php echo $pdfurl; ?>">PDF</a><?php } else {} ?> <?php if( ! empty( $term_meta['tax_word'] ) ) { ?><a href="<?php echo $wordurl; ?>">Word</a><?php } else {} ?>
+                                                    <?php if( ! empty( $term_meta['tax_pdf'] ) ) { ?>
 
-																<?php $posts = get_posts( array( 'target_cat' => $category->slug, 'post_type' => 'target' ) );  ?>
+                                                        <a href="<?php echo $pdfurl; ?>">PDF</a>
 
-																	<ul>
+                                                    <?php } else {} ?>
 
-																		<?php foreach($posts as $post) { setup_postdata($post);  ?>
+                                                    <?php if( ! empty( $term_meta['tax_word'] ) ) { ?>
 
-																			<li><?php echo the_title();?></li>
+                                                        <a href="<?php echo $wordurl; ?>">Word</a>
 
-																		<?php } ?>
+                                                    <?php } else {} ?>
 
-																	</ul>
+                                                    <?php $posts = get_posts( array( 'target_cat' => $category->slug, 'post_type' => 'target' ) );  ?>
 
-															</div>
+                                                        <ul>
 
-														</div>
-													<?php } ?>
-												</section>
-										</div>
-									<?php } ?>
+                                                            <?php foreach($posts as $post) { setup_postdata($post);  ?>
+
+                                                                <li><?php echo the_title();?></li>
+
+                                                            <?php } ?>
+
+                                                        </ul>
+
+                                                </div>
+
+                                            </div>
+                                        <?php } ?>
+                                    </section>
+                                </div>
+                        <?php } ?>
 
 				</div> <!-- end #inner-content -->
 
