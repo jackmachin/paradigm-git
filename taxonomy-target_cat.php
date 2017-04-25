@@ -105,7 +105,7 @@
 
                             <h1><?php single_cat_title(); ?> Target Archive</h1>
 
-                                <p><b>Back issues of Target are posted here for reference purposes but please note that guidance contained in older editions may not be the most current.  We recommend that any search for information begins with the most recent edition.</b></p>
+                                <p><strong>Back issues of Target are posted here for reference purposes but please note that guidance contained in older editions may not be the most current.  We recommend that any search for information begins with the most recent edition.</strong></p>
 
 												<section class="entry-content clearfix">
 
