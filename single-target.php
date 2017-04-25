@@ -18,7 +18,12 @@
 
                                 <h1 class="entry-title single-title" itemprop="headline"><?php the_title(); ?></h1>
 
-                                <h2>Target Article from  <?php $terms = get_the_terms( $post->ID , 'target_cat' ); foreach ( $terms as $term ) {  echo $term->name; echo ', '; } ?></h2>
+                                <h2>Target Article from  <?php $primary_cat_id=get_post_meta($product->id,'_yoast_wpseo_primary_product_cat',true);
+if($primary_cat_id){
+   $product_cat = get_term($primary_cat_id, 'product_cat');
+   if(isset($product_cat->name))
+       echo $product_cat->name;
+}?></h2>
 
                             </header> <!-- end article header -->
 
