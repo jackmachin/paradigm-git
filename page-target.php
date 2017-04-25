@@ -41,7 +41,7 @@ Template Name: Target Template
                                 'orderby'       => 'name',
                                 'order'         => 'DESC',
                                 'hide_empty'    => true,
-                                'exclude'       => array(414),
+                                'exclude'       => array(),
                                 'exclude_tree'  => array(),
                                 'include'       => array(),
                                 'number'        => '',
@@ -83,7 +83,8 @@ Template Name: Target Template
                                         'hierarchical' => $hierarchical,
                                         'title_li'     => $title,
                                         'hide_empty'         => true,
-                                        'child_of' => $child
+                                        'child_of'      => $child,
+                                        'exclude'       => array (414)
                                     );
                                 ?>
 
