@@ -84,7 +84,7 @@ Template Name: Target Template
                                         'title_li'     => $title,
                                         'hide_empty'         => true,
                                         'child_of'      => $child,
-                                        'exclude'       => array (414)
+                                        //'exclude'       => array (414)
                                     );
                                 ?>
 
