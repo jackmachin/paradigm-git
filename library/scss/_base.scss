@@ -1299,6 +1299,35 @@ FOOTER STYLES
     }
 }
 
+/* Eldercare
+-------------------------------------------------------------- */
+
+.page-id-27645,
+.tag-eldercare{
+
+    a,
+    a:visited {
+        color: #458acb;
+
+        &:hover,
+        &:focus {
+            color: darken(#458acb, 9%);
+        }
+    }
+
+    h1 {
+        color: #fff;
+        background-color:#458acb;
+        text-align:center;
+    }
+
+    h2,
+    h3,
+    h4 {
+        color: #458acb;
+    }
+}
+
 /* Fidelity
 -------------------------------------------------------------- */
 
