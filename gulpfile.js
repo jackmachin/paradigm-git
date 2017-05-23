@@ -9,7 +9,7 @@ var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 var minifyCSS = require('gulp-minify-css');
-var imagemin = require('gulp-imagemin');
+
 
 // Lint Task
 gulp.task('lint', function () {
@@ -40,12 +40,6 @@ gulp.task('scripts', function () {
         .pipe(gulp.dest('library/js/min'));
 });
 
-gulp.task('images', function () {
-    "use strict";
-    return gulp.src('library/images/*')
-        .pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
-        .pipe(gulp.dest('library/images'));
-});
 
 gulp.task('watch', function () {
     "use strict";
