@@ -1695,6 +1695,36 @@ FOOTER STYLES
 .tag-defaqto h4 {
   color: #005493; }
 
+/* Eldercare
+-------------------------------------------------------------- */
+.page-id-27645 a,
+.page-id-27645 a:visited,
+.tag-eldercare a,
+.tag-eldercare a:visited {
+  color: #458acb; }
+  .page-id-27645 a:hover, .page-id-27645 a:focus,
+  .page-id-27645 a:visited:hover,
+  .page-id-27645 a:visited:focus,
+  .tag-eldercare a:hover,
+  .tag-eldercare a:focus,
+  .tag-eldercare a:visited:hover,
+  .tag-eldercare a:visited:focus {
+    color: #3173b1; }
+
+.page-id-27645 h1,
+.tag-eldercare h1 {
+  color: #fff;
+  background-color: #458acb;
+  text-align: center; }
+
+.page-id-27645 h2,
+.page-id-27645 h3,
+.page-id-27645 h4,
+.tag-eldercare h2,
+.tag-eldercare h3,
+.tag-eldercare h4 {
+  color: #458acb; }
+
 /* Fidelity
 -------------------------------------------------------------- */
 .page-id-239 a, .page-id-239 a:visited, .category-fidelity a, .category-fidelity a:visited, .category-target-fidelity a, .category-target-fidelity a:visited, .tag-fidelity a, .tag-fidelity a:visited {
