@@ -362,7 +362,7 @@ if(!function_exists('pippin_errors')) {
 	}
 }
 function custom_login_message() {
-$message = "Welcome to the new Paradigm website. You may have been redirected here from a bookmark on the old site. To access the members area simply enter your username and password below. These details should be the same as they were on the oldsite, but if you have having any trouble, please don't hesitate to contact  Paradigm's in-house web developer <a href='mailto:jack.machin@paradigmgroup.eu'>Jack Machin</a> ";
+$message = "Welcome to the new Paradigm website. You may have been redirected here from a bookmark on the old site. To access the members area simply enter your username and password below. These details should be the same as they were on the oldsite, but if you have having any trouble, please don't hesitate to contact <a href='mailto:enquiries@paradigmgroup.eu'>Paradigm Enquiries</a> ";
 return $message;
 }
 add_filter('login_message', 'custom_login_message');
