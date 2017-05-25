@@ -2045,6 +2045,13 @@ FOOTER STYLES
 .tag-just h4 {
   color: #ff7d7d; }
 
+.page-id-4174 th,
+.category-just-retirement th,
+.category-target-just-retirement th,
+.tag-just-retirement th,
+.tag-just th {
+  background-color: #ff7d7d; }
+
 /* London & Colonial
 -------------------------------------------------------------- */
 .page-id-24547 a,
